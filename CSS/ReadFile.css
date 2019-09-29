@@ -1,0 +1,37 @@
+/* Default CSS */
+/* This is my tyemplate for CSS pages */
+body { 
+background-color : #EAE7DC; 
+ } 
+a { 
+
+color : #8E8D8A; 
+} 
+a:visited { 
+
+color : #E98074; 
+} 
+a:hover { 
+
+color : #D8C3A5; 
+} 
+a:active { 
+
+color : #8E8D8A; 
+} 
+body { 
+
+ font-family:Arial, Sans Serif;font-size: 100%; color: "#4772FF";font-style: normal; 
+ }
+h1 {
+  font-size: 2.5em;
+}
+
+h2 {
+  font-size: 1.875em;
+}
+
+p {
+  font-size: 0.875em;
+}
+

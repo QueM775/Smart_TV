@@ -1,0 +1,436 @@
+12:50:5 sFolderNameRoot   =C:\inetpub\wwwroot\Scripts\Smart_TV\
+12:50:5 sFolderNameCurrent=
+12:50:5 Len(sFolderNameCurrent)=0
+12:50:5 ---- FOLDERS ----
+12:50:5 ---- FOLDERS ----
+12:50:5 ==== FILES ====
+12:50:5 
+12:50:5 function fnMovieBox - - - - - - - - - - - - - - - -
+12:50:5 sRootFolder    =C:\inetpub\wwwroot\Scripts\Smart_TV\
+12:50:5 sWorkingFolder =
+12:50:5 sFileName      =019A.mp4
+12:50:5 sFileNamePoster=C:\inetpub\wwwroot\Scripts\Smart_TV\019A.jpg
+12:50:5 
+12:50:5 function fnMovieBox - - - - - - - - - - - - - - - -
+12:50:5 sRootFolder    =C:\inetpub\wwwroot\Scripts\Smart_TV\
+12:50:5 sWorkingFolder =
+12:50:5 sFileName      =Atlantic_bathroom.mp4
+12:50:5 sFileNamePoster=C:\inetpub\wwwroot\Scripts\Smart_TV\Atlantic_bathroom.jpg
+12:50:5 
+12:50:5 function fnMovieBox - - - - - - - - - - - - - - - -
+12:50:5 sRootFolder    =C:\inetpub\wwwroot\Scripts\Smart_TV\
+12:50:5 sWorkingFolder =
+12:50:5 sFileName      =Church_Thomas.mp4
+12:50:5 sFileNamePoster=C:\inetpub\wwwroot\Scripts\Smart_TV\Church_Thomas.jpg
+12:50:5 ==== FILES ====
+12:52:34 sFolderNameRoot   =C:\inetpub\wwwroot\Scripts\Smart_TV\
+12:52:34 sFolderNameCurrent=ASP\
+12:52:34 Len(sFolderNameCurrent)=4
+12:52:34 sFolderNameUpper=ASP
+12:52:34 InStr(sFolderNameUpper,'\')=0
+12:52:34 ---- FOLDERS ----
+12:52:34 ---- FOLDERS ----
+12:52:34 ==== FILES ====
+12:52:34 ==== FILES ====
+12:52:35 sFolderNameRoot   =C:\inetpub\wwwroot\Scripts\Smart_TV\
+12:52:35 sFolderNameCurrent=
+12:52:35 Len(sFolderNameCurrent)=0
+12:52:35 ---- FOLDERS ----
+12:52:35 ---- FOLDERS ----
+12:52:35 ==== FILES ====
+12:52:35 
+12:52:35 function fnMovieBox - - - - - - - - - - - - - - - -
+12:52:35 sRootFolder    =C:\inetpub\wwwroot\Scripts\Smart_TV\
+12:52:35 sWorkingFolder =
+12:52:35 sFileName      =019A.mp4
+12:52:35 sFileNamePoster=C:\inetpub\wwwroot\Scripts\Smart_TV\019A.jpg
+12:52:35 
+12:52:35 function fnMovieBox - - - - - - - - - - - - - - - -
+12:52:35 sRootFolder    =C:\inetpub\wwwroot\Scripts\Smart_TV\
+12:52:35 sWorkingFolder =
+12:52:35 sFileName      =Atlantic_bathroom.mp4
+12:52:35 sFileNamePoster=C:\inetpub\wwwroot\Scripts\Smart_TV\Atlantic_bathroom.jpg
+12:52:35 
+12:52:35 function fnMovieBox - - - - - - - - - - - - - - - -
+12:52:35 sRootFolder    =C:\inetpub\wwwroot\Scripts\Smart_TV\
+12:52:35 sWorkingFolder =
+12:52:35 sFileName      =Church_Thomas.mp4
+12:52:35 sFileNamePoster=C:\inetpub\wwwroot\Scripts\Smart_TV\Church_Thomas.jpg
+12:52:35 ==== FILES ====
+13:0:41 sFolderNameRoot   =C:\inetpub\wwwroot\Scripts\Smart_TV\
+13:0:41 sFolderNameCurrent=
+13:0:41 Len(sFolderNameCurrent)=0
+13:0:41 ---- FOLDERS ----
+13:0:41 ---- FOLDERS ----
+13:0:41 ==== FILES ====
+13:0:41 
+13:0:41 function fnMovieBox - - - - - - - - - - - - - - - -
+13:0:41 sRootFolder    =C:\inetpub\wwwroot\Scripts\Smart_TV\
+13:0:41 sWorkingFolder =
+13:0:41 sFileName      =019A.mp4
+13:0:41 sFileNamePoster=C:\inetpub\wwwroot\Scripts\Smart_TV\019A.jpg
+13:0:41 
+13:0:41 function fnMovieBox - - - - - - - - - - - - - - - -
+13:0:41 sRootFolder    =C:\inetpub\wwwroot\Scripts\Smart_TV\
+13:0:41 sWorkingFolder =
+13:0:41 sFileName      =Atlantic_bathroom.mp4
+13:0:41 sFileNamePoster=C:\inetpub\wwwroot\Scripts\Smart_TV\Atlantic_bathroom.jpg
+13:0:41 
+13:0:41 function fnMovieBox - - - - - - - - - - - - - - - -
+13:0:41 sRootFolder    =C:\inetpub\wwwroot\Scripts\Smart_TV\
+13:0:41 sWorkingFolder =
+13:0:41 sFileName      =Church_Thomas.mp4
+13:0:41 sFileNamePoster=C:\inetpub\wwwroot\Scripts\Smart_TV\Church_Thomas.jpg
+13:0:41 ==== FILES ====
+13:2:4 sFolderNameRoot   =C:\inetpub\wwwroot\Scripts\Smart_TV\
+13:2:4 sFolderNameCurrent=
+13:2:4 Len(sFolderNameCurrent)=0
+13:2:4 ---- FOLDERS ----
+13:2:4 ---- FOLDERS ----
+13:2:4 ==== FILES ====
+13:2:4 
+13:2:4 function fnMovieBox - - - - - - - - - - - - - - - -
+13:2:4 sRootFolder    =C:\inetpub\wwwroot\Scripts\Smart_TV\
+13:2:4 sWorkingFolder =
+13:2:4 sFileName      =019A.mp4
+13:2:4 sFileNamePoster=C:\inetpub\wwwroot\Scripts\Smart_TV\019A.jpg
+13:2:4 
+13:2:4 function fnMovieBox - - - - - - - - - - - - - - - -
+13:2:4 sRootFolder    =C:\inetpub\wwwroot\Scripts\Smart_TV\
+13:2:4 sWorkingFolder =
+13:2:4 sFileName      =Atlantic_bathroom.mp4
+13:2:4 sFileNamePoster=C:\inetpub\wwwroot\Scripts\Smart_TV\Atlantic_bathroom.jpg
+13:2:4 
+13:2:4 function fnMovieBox - - - - - - - - - - - - - - - -
+13:2:4 sRootFolder    =C:\inetpub\wwwroot\Scripts\Smart_TV\
+13:2:4 sWorkingFolder =
+13:2:4 sFileName      =Church_Thomas.mp4
+13:2:4 sFileNamePoster=C:\inetpub\wwwroot\Scripts\Smart_TV\Church_Thomas.jpg
+13:2:4 ==== FILES ====
+13:2:5 sFolderNameRoot   =C:\inetpub\wwwroot\Scripts\Smart_TV\
+13:2:5 sFolderNameCurrent=
+13:2:5 Len(sFolderNameCurrent)=0
+13:2:5 ---- FOLDERS ----
+13:2:5 ---- FOLDERS ----
+13:2:5 ==== FILES ====
+13:2:5 
+13:2:5 function fnMovieBox - - - - - - - - - - - - - - - -
+13:2:5 sRootFolder    =C:\inetpub\wwwroot\Scripts\Smart_TV\
+13:2:5 sWorkingFolder =
+13:2:5 sFileName      =019A.mp4
+13:2:5 sFileNamePoster=C:\inetpub\wwwroot\Scripts\Smart_TV\019A.jpg
+13:2:5 
+13:2:5 function fnMovieBox - - - - - - - - - - - - - - - -
+13:2:5 sRootFolder    =C:\inetpub\wwwroot\Scripts\Smart_TV\
+13:2:5 sWorkingFolder =
+13:2:5 sFileName      =Atlantic_bathroom.mp4
+13:2:5 sFileNamePoster=C:\inetpub\wwwroot\Scripts\Smart_TV\Atlantic_bathroom.jpg
+13:2:5 
+13:2:5 function fnMovieBox - - - - - - - - - - - - - - - -
+13:2:5 sRootFolder    =C:\inetpub\wwwroot\Scripts\Smart_TV\
+13:2:5 sWorkingFolder =
+13:2:5 sFileName      =Church_Thomas.mp4
+13:2:5 sFileNamePoster=C:\inetpub\wwwroot\Scripts\Smart_TV\Church_Thomas.jpg
+13:2:5 ==== FILES ====
+13:3:33 sFolderNameRoot   =C:\inetpub\wwwroot\Scripts\Smart_TV\
+13:3:33 sFolderNameCurrent=
+13:3:33 Len(sFolderNameCurrent)=0
+13:3:33 ---- FOLDERS ----
+13:3:33 ---- FOLDERS ----
+13:3:33 ==== FILES ====
+13:3:33 
+13:3:33 function fnMovieBox - - - - - - - - - - - - - - - -
+13:3:33 sRootFolder    =C:\inetpub\wwwroot\Scripts\Smart_TV\
+13:3:33 sWorkingFolder =
+13:3:33 sFileName      =019A.mp4
+13:3:33 sFileNamePoster=C:\inetpub\wwwroot\Scripts\Smart_TV\019A.jpg
+13:3:33 
+13:3:33 function fnMovieBox - - - - - - - - - - - - - - - -
+13:3:33 sRootFolder    =C:\inetpub\wwwroot\Scripts\Smart_TV\
+13:3:33 sWorkingFolder =
+13:3:33 sFileName      =Atlantic_bathroom.mp4
+13:3:33 sFileNamePoster=C:\inetpub\wwwroot\Scripts\Smart_TV\Atlantic_bathroom.jpg
+13:3:33 
+13:3:33 function fnMovieBox - - - - - - - - - - - - - - - -
+13:3:33 sRootFolder    =C:\inetpub\wwwroot\Scripts\Smart_TV\
+13:3:33 sWorkingFolder =
+13:3:33 sFileName      =Church_Thomas.mp4
+13:3:33 sFileNamePoster=C:\inetpub\wwwroot\Scripts\Smart_TV\Church_Thomas.jpg
+13:3:33 ==== FILES ====
+13:3:34 sFolderNameRoot   =C:\inetpub\wwwroot\Scripts\Smart_TV\
+13:3:34 sFolderNameCurrent=
+13:3:34 Len(sFolderNameCurrent)=0
+13:3:34 ---- FOLDERS ----
+13:3:34 ---- FOLDERS ----
+13:3:34 ==== FILES ====
+13:3:34 
+13:3:34 function fnMovieBox - - - - - - - - - - - - - - - -
+13:3:34 sRootFolder    =C:\inetpub\wwwroot\Scripts\Smart_TV\
+13:3:34 sWorkingFolder =
+13:3:34 sFileName      =019A.mp4
+13:3:34 sFileNamePoster=C:\inetpub\wwwroot\Scripts\Smart_TV\019A.jpg
+13:3:34 
+13:3:34 function fnMovieBox - - - - - - - - - - - - - - - -
+13:3:34 sRootFolder    =C:\inetpub\wwwroot\Scripts\Smart_TV\
+13:3:34 sWorkingFolder =
+13:3:34 sFileName      =Atlantic_bathroom.mp4
+13:3:34 sFileNamePoster=C:\inetpub\wwwroot\Scripts\Smart_TV\Atlantic_bathroom.jpg
+13:3:34 
+13:3:34 function fnMovieBox - - - - - - - - - - - - - - - -
+13:3:34 sRootFolder    =C:\inetpub\wwwroot\Scripts\Smart_TV\
+13:3:34 sWorkingFolder =
+13:3:34 sFileName      =Church_Thomas.mp4
+13:3:34 sFileNamePoster=C:\inetpub\wwwroot\Scripts\Smart_TV\Church_Thomas.jpg
+13:3:34 ==== FILES ====
+13:4:6 sFolderNameRoot   =C:\inetpub\wwwroot\Scripts\Smart_TV\
+13:4:6 sFolderNameCurrent=
+13:4:6 Len(sFolderNameCurrent)=0
+13:4:6 ---- FOLDERS ----
+13:4:6 ---- FOLDERS ----
+13:4:6 ==== FILES ====
+13:4:6 
+13:4:6 function fnMovieBox - - - - - - - - - - - - - - - -
+13:4:6 sRootFolder    =C:\inetpub\wwwroot\Scripts\Smart_TV\
+13:4:6 sWorkingFolder =
+13:4:6 sFileName      =019A.mp4
+13:4:6 sFileNamePoster=C:\inetpub\wwwroot\Scripts\Smart_TV\019A.jpg
+13:4:6 
+13:4:6 function fnMovieBox - - - - - - - - - - - - - - - -
+13:4:6 sRootFolder    =C:\inetpub\wwwroot\Scripts\Smart_TV\
+13:4:6 sWorkingFolder =
+13:4:6 sFileName      =Atlantic_bathroom.mp4
+13:4:6 sFileNamePoster=C:\inetpub\wwwroot\Scripts\Smart_TV\Atlantic_bathroom.jpg
+13:4:6 
+13:4:6 function fnMovieBox - - - - - - - - - - - - - - - -
+13:4:6 sRootFolder    =C:\inetpub\wwwroot\Scripts\Smart_TV\
+13:4:6 sWorkingFolder =
+13:4:6 sFileName      =Church_Thomas.mp4
+13:4:6 sFileNamePoster=C:\inetpub\wwwroot\Scripts\Smart_TV\Church_Thomas.jpg
+13:4:6 ==== FILES ====
+13:4:32 sFolderNameRoot   =C:\inetpub\wwwroot\Scripts\Smart_TV\
+13:4:32 sFolderNameCurrent=ASP\
+13:4:32 Len(sFolderNameCurrent)=4
+13:4:32 sFolderNameUpper=ASP
+13:4:32 InStr(sFolderNameUpper,'\')=0
+13:4:32 ---- FOLDERS ----
+13:4:32 ---- FOLDERS ----
+13:4:32 ==== FILES ====
+13:4:32 ==== FILES ====
+13:4:33 sFolderNameRoot   =C:\inetpub\wwwroot\Scripts\Smart_TV\
+13:4:33 sFolderNameCurrent=
+13:4:33 Len(sFolderNameCurrent)=0
+13:4:33 ---- FOLDERS ----
+13:4:33 ---- FOLDERS ----
+13:4:33 ==== FILES ====
+13:4:33 
+13:4:33 function fnMovieBox - - - - - - - - - - - - - - - -
+13:4:33 sRootFolder    =C:\inetpub\wwwroot\Scripts\Smart_TV\
+13:4:33 sWorkingFolder =
+13:4:33 sFileName      =019A.mp4
+13:4:33 sFileNamePoster=C:\inetpub\wwwroot\Scripts\Smart_TV\019A.jpg
+13:4:33 
+13:4:33 function fnMovieBox - - - - - - - - - - - - - - - -
+13:4:33 sRootFolder    =C:\inetpub\wwwroot\Scripts\Smart_TV\
+13:4:33 sWorkingFolder =
+13:4:33 sFileName      =Atlantic_bathroom.mp4
+13:4:33 sFileNamePoster=C:\inetpub\wwwroot\Scripts\Smart_TV\Atlantic_bathroom.jpg
+13:4:33 
+13:4:33 function fnMovieBox - - - - - - - - - - - - - - - -
+13:4:33 sRootFolder    =C:\inetpub\wwwroot\Scripts\Smart_TV\
+13:4:33 sWorkingFolder =
+13:4:33 sFileName      =Church_Thomas.mp4
+13:4:33 sFileNamePoster=C:\inetpub\wwwroot\Scripts\Smart_TV\Church_Thomas.jpg
+13:4:33 ==== FILES ====
+13:6:6 sFolderNameRoot   =C:\inetpub\wwwroot\Scripts\Smart_TV\
+13:6:6 sFolderNameCurrent=
+13:6:6 Len(sFolderNameCurrent)=0
+13:6:6 ---- FOLDERS ----
+13:6:6 ---- FOLDERS ----
+13:6:6 ==== FILES ====
+13:6:6 
+13:6:6 function fnMovieBox - - - - - - - - - - - - - - - -
+13:6:6 sRootFolder    =C:\inetpub\wwwroot\Scripts\Smart_TV\
+13:6:6 sWorkingFolder =
+13:6:6 sFileName      =019A.mp4
+13:6:6 sFileNamePoster=C:\inetpub\wwwroot\Scripts\Smart_TV\019A.jpg
+13:6:6 
+13:6:6 function fnMovieBox - - - - - - - - - - - - - - - -
+13:6:6 sRootFolder    =C:\inetpub\wwwroot\Scripts\Smart_TV\
+13:6:6 sWorkingFolder =
+13:6:6 sFileName      =Atlantic_bathroom.mp4
+13:6:6 sFileNamePoster=C:\inetpub\wwwroot\Scripts\Smart_TV\Atlantic_bathroom.jpg
+13:6:6 
+13:6:6 function fnMovieBox - - - - - - - - - - - - - - - -
+13:6:6 sRootFolder    =C:\inetpub\wwwroot\Scripts\Smart_TV\
+13:6:6 sWorkingFolder =
+13:6:6 sFileName      =Church_Thomas.mp4
+13:6:6 sFileNamePoster=C:\inetpub\wwwroot\Scripts\Smart_TV\Church_Thomas.jpg
+13:6:6 ==== FILES ====
+13:10:28 sFolderNameRoot   =C:\inetpub\wwwroot\Scripts\Smart_TV\
+13:10:28 sFolderNameCurrent=CSS\
+13:10:28 Len(sFolderNameCurrent)=4
+13:10:28 sFolderNameUpper=CSS
+13:10:28 InStr(sFolderNameUpper,'\')=0
+13:10:28 ---- FOLDERS ----
+13:10:28 ---- FOLDERS ----
+13:10:28 ==== FILES ====
+13:10:28 ==== FILES ====
+13:10:30 sFolderNameRoot   =C:\inetpub\wwwroot\Scripts\Smart_TV\
+13:10:30 sFolderNameCurrent=
+13:10:30 Len(sFolderNameCurrent)=0
+13:10:30 ---- FOLDERS ----
+13:10:30 ---- FOLDERS ----
+13:10:30 ==== FILES ====
+13:10:30 
+13:10:30 function fnMovieBox - - - - - - - - - - - - - - - -
+13:10:30 sRootFolder    =C:\inetpub\wwwroot\Scripts\Smart_TV\
+13:10:30 sWorkingFolder =
+13:10:30 sFileName      =019A.mp4
+13:10:30 sFileNamePoster=C:\inetpub\wwwroot\Scripts\Smart_TV\019A.jpg
+13:10:30 
+13:10:30 function fnMovieBox - - - - - - - - - - - - - - - -
+13:10:30 sRootFolder    =C:\inetpub\wwwroot\Scripts\Smart_TV\
+13:10:30 sWorkingFolder =
+13:10:30 sFileName      =Atlantic_bathroom.mp4
+13:10:30 sFileNamePoster=C:\inetpub\wwwroot\Scripts\Smart_TV\Atlantic_bathroom.jpg
+13:10:30 
+13:10:30 function fnMovieBox - - - - - - - - - - - - - - - -
+13:10:30 sRootFolder    =C:\inetpub\wwwroot\Scripts\Smart_TV\
+13:10:30 sWorkingFolder =
+13:10:30 sFileName      =Church_Thomas.mp4
+13:10:30 sFileNamePoster=C:\inetpub\wwwroot\Scripts\Smart_TV\Church_Thomas.jpg
+13:10:30 ==== FILES ====
+13:10:31 sFolderNameRoot   =C:\inetpub\wwwroot\Scripts\Smart_TV\
+13:10:31 sFolderNameCurrent=Data\
+13:10:31 Len(sFolderNameCurrent)=5
+13:10:31 sFolderNameUpper=Data
+13:10:31 InStr(sFolderNameUpper,'\')=0
+13:10:31 ---- FOLDERS ----
+13:10:31 ---- FOLDERS ----
+13:10:31 ==== FILES ====
+13:10:31 ==== FILES ====
+13:10:34 sFolderNameRoot   =C:\inetpub\wwwroot\Scripts\Smart_TV\
+13:10:34 sFolderNameCurrent=
+13:10:34 Len(sFolderNameCurrent)=0
+13:10:34 ---- FOLDERS ----
+13:10:34 ---- FOLDERS ----
+13:10:34 ==== FILES ====
+13:10:34 
+13:10:34 function fnMovieBox - - - - - - - - - - - - - - - -
+13:10:34 sRootFolder    =C:\inetpub\wwwroot\Scripts\Smart_TV\
+13:10:34 sWorkingFolder =
+13:10:34 sFileName      =019A.mp4
+13:10:34 sFileNamePoster=C:\inetpub\wwwroot\Scripts\Smart_TV\019A.jpg
+13:10:34 
+13:10:34 function fnMovieBox - - - - - - - - - - - - - - - -
+13:10:34 sRootFolder    =C:\inetpub\wwwroot\Scripts\Smart_TV\
+13:10:34 sWorkingFolder =
+13:10:34 sFileName      =Atlantic_bathroom.mp4
+13:10:34 sFileNamePoster=C:\inetpub\wwwroot\Scripts\Smart_TV\Atlantic_bathroom.jpg
+13:10:34 
+13:10:34 function fnMovieBox - - - - - - - - - - - - - - - -
+13:10:34 sRootFolder    =C:\inetpub\wwwroot\Scripts\Smart_TV\
+13:10:34 sWorkingFolder =
+13:10:34 sFileName      =Church_Thomas.mp4
+13:10:34 sFileNamePoster=C:\inetpub\wwwroot\Scripts\Smart_TV\Church_Thomas.jpg
+13:10:34 ==== FILES ====
+13:10:35 sFolderNameRoot   =C:\inetpub\wwwroot\Scripts\Smart_TV\
+13:10:35 sFolderNameCurrent=Images\
+13:10:35 Len(sFolderNameCurrent)=7
+13:10:35 sFolderNameUpper=Images
+13:10:35 InStr(sFolderNameUpper,'\')=0
+13:10:35 ---- FOLDERS ----
+13:10:35 ---- FOLDERS ----
+13:10:35 ==== FILES ====
+13:10:35 ==== FILES ====
+13:10:36 sFolderNameRoot   =C:\inetpub\wwwroot\Scripts\Smart_TV\
+13:10:36 sFolderNameCurrent=
+13:10:36 Len(sFolderNameCurrent)=0
+13:10:36 ---- FOLDERS ----
+13:10:36 ---- FOLDERS ----
+13:10:36 ==== FILES ====
+13:10:36 
+13:10:36 function fnMovieBox - - - - - - - - - - - - - - - -
+13:10:36 sRootFolder    =C:\inetpub\wwwroot\Scripts\Smart_TV\
+13:10:36 sWorkingFolder =
+13:10:36 sFileName      =019A.mp4
+13:10:36 sFileNamePoster=C:\inetpub\wwwroot\Scripts\Smart_TV\019A.jpg
+13:10:36 
+13:10:36 function fnMovieBox - - - - - - - - - - - - - - - -
+13:10:36 sRootFolder    =C:\inetpub\wwwroot\Scripts\Smart_TV\
+13:10:36 sWorkingFolder =
+13:10:36 sFileName      =Atlantic_bathroom.mp4
+13:10:36 sFileNamePoster=C:\inetpub\wwwroot\Scripts\Smart_TV\Atlantic_bathroom.jpg
+13:10:36 
+13:10:36 function fnMovieBox - - - - - - - - - - - - - - - -
+13:10:36 sRootFolder    =C:\inetpub\wwwroot\Scripts\Smart_TV\
+13:10:36 sWorkingFolder =
+13:10:36 sFileName      =Church_Thomas.mp4
+13:10:36 sFileNamePoster=C:\inetpub\wwwroot\Scripts\Smart_TV\Church_Thomas.jpg
+13:10:36 ==== FILES ====
+13:55:42 sFolderNameRoot   =C:\inetpub\wwwroot\Scripts\Smart_TV\
+13:55:42 sFolderNameCurrent=
+13:55:42 Len(sFolderNameCurrent)=0
+13:55:42 ---- FOLDERS ----
+13:55:42 ---- FOLDERS ----
+13:55:42 ==== FILES ====
+13:55:42 
+13:55:42 function fnMovieBox - - - - - - - - - - - - - - - -
+13:55:42 sRootFolder    =C:\inetpub\wwwroot\Scripts\Smart_TV\
+13:55:42 sWorkingFolder =
+13:55:42 sFileName      =019A.mp4
+13:55:42 sFileNamePoster=C:\inetpub\wwwroot\Scripts\Smart_TV\019A.jpg
+13:55:42 
+13:55:42 function fnMovieBox - - - - - - - - - - - - - - - -
+13:55:42 sRootFolder    =C:\inetpub\wwwroot\Scripts\Smart_TV\
+13:55:42 sWorkingFolder =
+13:55:42 sFileName      =Atlantic_bathroom.mp4
+13:55:42 sFileNamePoster=C:\inetpub\wwwroot\Scripts\Smart_TV\Atlantic_bathroom.jpg
+13:55:42 ==== FILES ====
+13:59:42 sFolderNameRoot   =C:\inetpub\wwwroot\Scripts\Smart_TV\
+13:59:42 sFolderNameCurrent=
+13:59:42 Len(sFolderNameCurrent)=0
+13:59:42 ---- FOLDERS ----
+13:59:42 ---- FOLDERS ----
+13:59:42 ==== FILES ====
+13:59:42 
+13:59:42 function fnMovieBox - - - - - - - - - - - - - - - -
+13:59:42 sRootFolder    =C:\inetpub\wwwroot\Scripts\Smart_TV\
+13:59:42 sWorkingFolder =
+13:59:42 sFileName      =019A.mp4
+13:59:42 sFileNamePoster=C:\inetpub\wwwroot\Scripts\Smart_TV\019A.jpg
+13:59:42 
+13:59:42 function fnMovieBox - - - - - - - - - - - - - - - -
+13:59:42 sRootFolder    =C:\inetpub\wwwroot\Scripts\Smart_TV\
+13:59:42 sWorkingFolder =
+13:59:42 sFileName      =Atlantic_bathroom.mp4
+13:59:42 sFileNamePoster=C:\inetpub\wwwroot\Scripts\Smart_TV\Atlantic_bathroom.jpg
+13:59:42 ==== FILES ====
+13:59:55 sFolderNameRoot   =C:\inetpub\wwwroot\Scripts\Smart_TV\
+13:59:55 sFolderNameCurrent=ASP\
+13:59:55 Len(sFolderNameCurrent)=4
+13:59:55 sFolderNameUpper=ASP
+13:59:55 InStr(sFolderNameUpper,'\')=0
+13:59:55 ---- FOLDERS ----
+13:59:55 ---- FOLDERS ----
+13:59:55 ==== FILES ====
+13:59:55 ==== FILES ====
+13:59:56 sFolderNameRoot   =C:\inetpub\wwwroot\Scripts\Smart_TV\
+13:59:56 sFolderNameCurrent=
+13:59:56 Len(sFolderNameCurrent)=0
+13:59:56 ---- FOLDERS ----
+13:59:56 ---- FOLDERS ----
+13:59:56 ==== FILES ====
+13:59:56 
+13:59:56 function fnMovieBox - - - - - - - - - - - - - - - -
+13:59:56 sRootFolder    =C:\inetpub\wwwroot\Scripts\Smart_TV\
+13:59:56 sWorkingFolder =
+13:59:56 sFileName      =019A.mp4
+13:59:56 sFileNamePoster=C:\inetpub\wwwroot\Scripts\Smart_TV\019A.jpg
+13:59:56 
+13:59:56 function fnMovieBox - - - - - - - - - - - - - - - -
+13:59:56 sRootFolder    =C:\inetpub\wwwroot\Scripts\Smart_TV\
+13:59:56 sWorkingFolder =
+13:59:56 sFileName      =Atlantic_bathroom.mp4
+13:59:56 sFileNamePoster=C:\inetpub\wwwroot\Scripts\Smart_TV\Atlantic_bathroom.jpg
+13:59:56 ==== FILES ====
