@@ -10,7 +10,7 @@
 </head>
 <body>
 <%
-sFolderNameRoot = Server.MapPath(".")
+sFolderNameRoot = Server.MapPath("./Data")
 sFolderNameCurrent = Request.QueryString("fld")
 ' remove leading '\' if user defined it
 if Left(sFolderNameCurrent,1) = "\" then
@@ -107,7 +107,7 @@ function fnSubfolder(sFolderNameCurrent, sSubfolderName)
   sFolderNameSubFolderLnkTemplate = sFolderNameSubFolderLnkTemplate & "<div id='idMovieContainer' class='clsFolderContainer'>" & vbCRLF
   sFolderNameSubFolderLnkTemplate = sFolderNameSubFolderLnkTemplate & "  <div id='idMoviePoster' class='clsMoviePosterBox'>" & vbCRLF
   sFolderNameSubFolderLnkTemplate = sFolderNameSubFolderLnkTemplate & "    <a href='?fld=@SubFolderLinks'>" & vbCRLF
-  sFolderNameSubFolderLnkTemplate = sFolderNameSubFolderLnkTemplate & "    <img src='./FolderIcon.png' class='clsMoviePosterPic' width='90'>" & vbCRLF
+  sFolderNameSubFolderLnkTemplate = sFolderNameSubFolderLnkTemplate & "    <img src='./Images/FolderIcon.png' class='clsMoviePosterPic' width='90'>" & vbCRLF
   sFolderNameSubFolderLnkTemplate = sFolderNameSubFolderLnkTemplate & "    </a>" & vbCRLF
   sFolderNameSubFolderLnkTemplate = sFolderNameSubFolderLnkTemplate & "  </div>" & vbCRLF
   sFolderNameSubFolderLnkTemplate = sFolderNameSubFolderLnkTemplate & "  <p class='clsMovieTitle'>" & vbCRLF
@@ -171,7 +171,7 @@ function fnMovieBox(sRootFolder, sWorkingFolder, sFileName)
   if (fs.FileExists(sRootFolder & sWorkingFolder & sFileNamePoster)) then
     sFileNamePoster = sWorkingFolder & sFileNamePoster
   else
-    sFileNamePoster = "EmptyPoster.jpg"
+    sFileNamePoster = "Images/EmptyPoster.jpg"
   end if 
   set fs=Nothing
   sMovieBoxCurrent = Replace(sMovieBoxTemplate, "@PicURL",        sFileNamePoster)
