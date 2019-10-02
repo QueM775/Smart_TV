@@ -34,4 +34,12 @@ Currently these modules are **NOT** fully independent they are sharing common ob
 
 I have finally managed to make git work for me. Mike you will see I added a Git cheatSheet to the ASP folder you will have gotten an email.
 I am currently looking at the music portion with focus on audio books and saving bookmarks when listening.
+
 ------------
+
+**feedback:** 
+
+Ho-ho-ho! It is some activities inside because it's nasty outside. :-)
+
+Did you download new code from GitHub into your testing environment, does it work?
+Are you going to update any modules?
