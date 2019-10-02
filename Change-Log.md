@@ -28,3 +28,10 @@ I created following sub-modules
 Currently these modules are **NOT** fully independent they are sharing common objects and variables with ```DEFAULT.ASP``` file, but the next few steps I will make them totally independent, so it will be possible to re-use them and test them independently.
 
 ------------
+**Author:** Erich
+
+**Date** 2019-10-02.
+
+I have finally managed to make git work for me. Mike you will see I added a Git cheatSheet to the ASP folder you will have gotten an email.
+I am currently looking at the music portion with focus on audio books and saving bookmarks when listening.
+------------
