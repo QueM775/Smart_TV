@@ -45,9 +45,24 @@ Did you download new code from GitHub into your testing environment, does it wor
 Are you going to update any modules?
 
 ------------
+
 **Author:** Erich
 
 **Date** 2019-10-04.
 
 Now I have done a pull on Friday night which is great. I see a lot of ASP module. I like you suugestion for a player only thing is I need to talk to you
 about playlist.
+
+------------
+
+**Author:** Mike
+
+**Date** 2019-10-05.
+
+Some other cool(?) solutions for MP4 and MP3 players
+
+http://jsfiddle.net/Barzi/Jzs6B/9/
+
+Open source, free to use J-player
+http://jplayer.org/latest/demos/ Sample 
+http://jplayer.org/latest/demo-02-video/
