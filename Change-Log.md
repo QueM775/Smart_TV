@@ -43,3 +43,11 @@ Ho-ho-ho! It is some activities inside because it's nasty outside. :-)
 
 Did you download new code from GitHub into your testing environment, does it work?
 Are you going to update any modules?
+
+------------
+**Author:** Erich
+
+**Date** 2019-10-04.
+
+Now I have done a pull on Friday night which is great. I see a lot of ASP module. I like you suugestion for a player only thing is I need to talk to you
+about playlist.
