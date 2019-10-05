@@ -90,14 +90,8 @@ LW("---- FOLDERS ----")
 '=====================================
 LW("==== MOVIE FILES ====")
 Response.write("<div id='idMovieContainer' class='clsAllMovies'>" & vbCRLF)
-for each objFolderCurrent in objFolderCurrent.files
-  'Print the name of all subfolders in the test folder
-  if Ucase(Right(objFolderCurrent.Name, 4)) = ".MP4" then
-    sHTML = fnMovieBox(sRootFolderDOS, sCurrentFldrDOS, objFolderCurrent.Name)
-    LW("sHTML=" & sHTML)
-    Response.write(sHTML)
-  end if
-next
+sHTML_code = fnMovieBox(sRootFolderDOS, sCurrentFldrDOS)
+Response.write(sHTML_code)
 Response.write("</div>" & vbCRLF)
 LW("==== MOVIE FILES ====")
 
