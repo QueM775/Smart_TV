@@ -74,6 +74,5 @@ http://jplayer.org/latest/demo-02-video/
 **Date** 2019-10-06.
 
 Audio player added to the project. If you will play with CSS properties for the AudioPlayer file.
-You can use (add/remove CSS classes, add/remove elements  leike <div>,<p>) the "fnAudioPlayer_template.html"
-template file, just temporary link "music.css" and "AudioPlayerA.js" file to the template file
-
+You can use (add/remove CSS classes, add/remove elements  like ```<div>```,```<p>```) to the ```"fnAudioPlayer_template.html"```
+template file, just temporary link ```"music.css"``` and ```"AudioPlayerA.js"``` files to the template file.
