@@ -9,20 +9,18 @@ function fnPdfBox(sRootFldrDOS, sWorkingFolder, sFileName)
   LW("sRootFldrDOS   =" & sRootFldrDOS)
   LW("sWorkingFolder =" & sWorkingFolder)
   LW("sFileName      =" & sFileName)
+  set fs=Server.CreateObject("Scripting.FileSystemObject")
   '
   ' Define template HTML code
   '
   sMovieBoxTemplate = ""
-  sMovieBoxTemplate = sMovieBoxTemplate & "<a data-fancybox data-width='1280' href='Data\@MovieLink'>" & vbCRLF
-  sMovieBoxTemplate = sMovieBoxTemplate & "  <div id='idMovieContainer' class='clsMovieContainer'>" & vbCRLF
-  sMovieBoxTemplate = sMovieBoxTemplate & "    <div id='idMoviePoster' class='clsMoviePosterBox'>" & vbCRLF
-  sMovieBoxTemplate = sMovieBoxTemplate & "      <img src='@PicURL' class='clsMoviePosterPic'>" & vbCRLF
-  sMovieBoxTemplate = sMovieBoxTemplate & "    </div>" & vbCRLF
-  sMovieBoxTemplate = sMovieBoxTemplate & "    <span class='clsMovieTitle'>" & vbCRLF
-  sMovieBoxTemplate = sMovieBoxTemplate & "    @MovieFileName" & vbCRLF
-  sMovieBoxTemplate = sMovieBoxTemplate & "    </span>" & vbCRLF
-  sMovieBoxTemplate = sMovieBoxTemplate & "  </div>" & vbCRLF
-  sMovieBoxTemplate = sMovieBoxTemplate & "</a>" & vbCRLF & vbCRLF
+  '
+  '   Read WHOLE template HTML file into memory
+  sTemplateFileName=sRootFldrDOS & "..\ASP\fnPdfBox_template.html"
+  set objTemplateFile=fs.OpenTextFile(sTemplateFileName,1,false)
+  sMovieBoxTemplate=objTemplateFile.ReadAll
+  objTemplateFile.close
+  LW ("sMovieBoxTemplate=" & sMovieBoxTemplate)
   
   '
   ' Translate template html code into actual html code 
@@ -37,7 +35,6 @@ function fnPdfBox(sRootFldrDOS, sWorkingFolder, sFileName)
   ' Check, does poster exist or not
   ' Poster file must have the same name as correspondent *.MP4 video file
   ' but with *.JPG extension (currently script does not support any other graphic file formats like *.GIF; *.PNG; *.BMP)
-  set fs=Server.CreateObject("Scripting.FileSystemObject")
   sFileNamePoster = Left(sFileName, Len(sFileName) - 4) & ".jpg"
   LW("sFileNamePoster=" & sRootFldrDOS & sWorkingFolder & sFileNamePoster)
   if (fs.FileExists(sRootFldrDOS & sWorkingFolder & sFileNamePoster)) then

@@ -1,8 +1,16 @@
 <%
-'======================================================================
-' This function creates HTML code for a single video file
-'======================================================================
 function fnMovieBox(sRootFldrDOS, sWorkingFolder)
+' This function creates HTML code for a single video file
+' base on fnMovieBox_template.html TEMPLATE 
+' and content of a current working folder "sWorkingFolder"
+'
+' Dependencies:
+'   fnMovieBox.asp 
+'   fnMovieBox_template.html 
+'   fnMovieBox_unit_test.asp
+'   default.asp (CSS and JS)
+'
+'
   dim fso ' file system object
   dim oFldCurrent ' 
   dim sHtmlResult
@@ -11,24 +19,17 @@ function fnMovieBox(sRootFldrDOS, sWorkingFolder)
   'LW("function fnMovieBox - - - - - - - - - - - - - - - -*")
   'LW("sRootFldrDOS   =" & sRootFldrDOS)
   'LW("sWorkingFolder =" & sWorkingFolder)
-  '===================================
-  '== HTML template code
-  '===================================
-  sMovieBoxTemplate = ""
-  sMovieBoxTemplate = sMovieBoxTemplate & "<a data-fancybox data-width='1280' href='Data\@MovieLink'>" & vbCRLF
-  sMovieBoxTemplate = sMovieBoxTemplate & "  <div id='idMovieContainer' class='clsMovieContainer'>" & vbCRLF
-  sMovieBoxTemplate = sMovieBoxTemplate & "    <div id='idMoviePoster' class='clsMoviePosterBox'>" & vbCRLF
-  sMovieBoxTemplate = sMovieBoxTemplate & "      <img src='@PicURL' class='clsMoviePosterPic'>" & vbCRLF
-  sMovieBoxTemplate = sMovieBoxTemplate & "    </div>" & vbCRLF
-  sMovieBoxTemplate = sMovieBoxTemplate & "    <span class='clsMovieTitle'>" & vbCRLF
-  sMovieBoxTemplate = sMovieBoxTemplate & "    @MovieTitle" & vbCRLF
-  sMovieBoxTemplate = sMovieBoxTemplate & "    </span>" & vbCRLF
-  sMovieBoxTemplate = sMovieBoxTemplate & "  </div>" & vbCRLF
-  sMovieBoxTemplate = sMovieBoxTemplate & "</a>" & vbCRLF & vbCRLF
 
   set fso=Server.CreateObject("Scripting.FileSystemObject")
   set oFldCurrent=fso.GetFolder(sRootFldrDOS & sCurrentFldrDOS)
   'LW("oFldCurrent.path=" & sRootFldrDOS & sCurrentFldrDOS)
+  '
+  '   Read WHOLE template HTML file into memory
+  sTemplateFileName=sRootFldrDOS & "..\ASP\fnMovieBox_template.html"
+  set objTemplateFile=fso.OpenTextFile(sTemplateFileName,1,false)
+  sMovieBoxTemplate=objTemplateFile.ReadAll
+  objTemplateFile.close
+  LW ("sMovieBoxTemplate=" & sMovieBoxTemplate)
 
   sHtmlResult = ""
   for each oFileCrnt in oFldCurrent.files
