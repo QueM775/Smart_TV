@@ -1,0 +1,96 @@
+1:9:27 0 sRootFolderDOS=I:\WEB\HTTP\erich\Smart_TV\Data\
+1:9:27 1 sUnformattedPath=\
+1:9:27 2 sUnformattedPath=
+1:9:27 3 sUnformattedPath=
+1:9:27 Check folder >>>  I:\WEB\HTTP\erich\Smart_TV\Data\
+1:9:27 sRootFolderDOS   =I:\WEB\HTTP\erich\Smart_TV\Data\
+1:9:27 sCurrentFldrDOS  =
+1:9:27 Len(sCurrentFldrDOS)=0
+1:9:27 objFolderCurrent.path=I:\WEB\HTTP\erich\Smart_TV\Data\
+1:9:27 ---- FOLDERS ----
+1:9:27 x.Name = ABC ===========================================
+1:9:27 sHTML = <a href='?fld=ABC'>
+  <div id='idMovieContainer' class='clsFolderContainer'>
+    <div id='idMoviePoster' class='clsMoviePosterBox'>
+      <img src='./Images/FolderIcon.png' class='clsMoviePosterPic' width='90'>
+    </div>
+    <p class='clsMovieTitle'>
+    ABC
+    </p>
+  </div>
+</a>
+
+1:9:27 x.Name = Music ===========================================
+1:9:27 sHTML = <a href='?fld=Music'>
+  <div id='idMovieContainer' class='clsFolderContainer'>
+    <div id='idMoviePoster' class='clsMoviePosterBox'>
+      <img src='./Images/FolderIcon.png' class='clsMoviePosterPic' width='90'>
+    </div>
+    <p class='clsMovieTitle'>
+    Music
+    </p>
+  </div>
+</a>
+
+1:9:27 ---- FOLDERS ----
+1:9:27 ==== MOVIE FILES ====
+1:9:27 ==== MOVIE FILES ====
+1:9:27 ==== AUDIO FILES ====
+1:9:27 ==== AUDIO FILES ====
+1:9:27 ==== PDF FILES ====
+1:9:27 
+1:9:27 function fnMovieBox - - - - - - - - - - - - - - - -
+1:9:27 sRootFldrDOS   =I:\WEB\HTTP\erich\Smart_TV\Data\
+1:9:27 sWorkingFolder =
+1:9:27 sFileName      =Git-Hub-01.pdf
+1:9:27 sFileNamePoster=I:\WEB\HTTP\erich\Smart_TV\Data\Git-Hub-01.jpg
+1:9:27 sHTML=<a data-fancybox data-width='1280' href='Data\Git-Hub-01.pdf'>
+  <div id='idMovieContainer' class='clsMovieContainer'>
+    <div id='idMoviePoster' class='clsMoviePosterBox'>
+      <img src='Images/pdf-logo.png' class='clsMoviePosterPic'>
+    </div>
+    <span class='clsMovieTitle'>
+    Git Hub 01 
+    </span>
+  </div>
+</a>
+
+
+1:9:27 
+1:9:27 function fnMovieBox - - - - - - - - - - - - - - - -
+1:9:27 sRootFldrDOS   =I:\WEB\HTTP\erich\Smart_TV\Data\
+1:9:27 sWorkingFolder =
+1:9:27 sFileName      =Git-Hub-02.pdf
+1:9:27 sFileNamePoster=I:\WEB\HTTP\erich\Smart_TV\Data\Git-Hub-02.jpg
+1:9:27 sHTML=<a data-fancybox data-width='1280' href='Data\Git-Hub-02.pdf'>
+  <div id='idMovieContainer' class='clsMovieContainer'>
+    <div id='idMoviePoster' class='clsMoviePosterBox'>
+      <img src='Images/pdf-logo.png' class='clsMoviePosterPic'>
+    </div>
+    <span class='clsMovieTitle'>
+    Git Hub 02 
+    </span>
+  </div>
+</a>
+
+
+1:9:27 ==== PDF FILES ====
+1:9:28 0 sRootFolderDOS=I:\WEB\HTTP\erich\Smart_TV\Data\
+1:9:28 1 sUnformattedPath=Music
+1:9:28 2 sUnformattedPath=Music
+1:9:28 3 sUnformattedPath=Music\
+1:9:28 Check folder >>>  I:\WEB\HTTP\erich\Smart_TV\Data\Music\
+1:9:28 sRootFolderDOS   =I:\WEB\HTTP\erich\Smart_TV\Data\
+1:9:28 sCurrentFldrDOS  =Music\
+1:9:28 Len(sCurrentFldrDOS)=6
+1:9:28 sFolderNameUpper=Music
+1:9:28 InStr(sFolderNameUpper,'\')=0
+1:9:28 objFolderCurrent.path=I:\WEB\HTTP\erich\Smart_TV\Data\Music\
+1:9:28 ---- FOLDERS ----
+1:9:28 ---- FOLDERS ----
+1:9:28 ==== MOVIE FILES ====
+1:9:28 ==== MOVIE FILES ====
+1:9:28 ==== AUDIO FILES ====
+1:9:28 ==== AUDIO FILES ====
+1:9:28 ==== PDF FILES ====
+1:9:28 ==== PDF FILES ====

@@ -7,6 +7,7 @@
   <!-- CSS -->
   <link rel="stylesheet" type="text/css" href="CSS/jquery.fancybox.min.css">
   <link rel="stylesheet" type="text/css" href="CSS/movie.css">
+  <link rel='stylesheet' type='text/css' href='CSS/music.css'>
 </head>
 <body>
 <!--
@@ -16,6 +17,7 @@ File includes in HTML code (before ASP code starts in the DEFAULT.ASP ), it is n
 but we have to accept establish a rule how to do it.
 -->
 <!-- #include file="ASP\fnMovieBox.asp" -->
+<!-- #include file="ASP\fnAudioPlayer.asp" -->
 <!-- #include file="ASP\fnPdfBox.asp" -->
 <!-- #include file="ASP\fnSubfolder.asp" -->
 <!-- #include file="ASP\fnLW.asp" -->
@@ -96,6 +98,15 @@ Response.write("</div>" & vbCRLF)
 LW("==== MOVIE FILES ====")
 
 '=====================================
+' List of all *.MP4 FILES in current folder
+'=====================================
+LW("==== AUDIO FILES ====")
+Response.write(fnAudioPlayer(sRootFolderDOS, sCurrentFldrDOS))
+
+LW("==== AUDIO FILES ====")
+
+
+'=====================================
 ' List of all *.PDF FILES in current folder
 '=====================================
 LW("==== PDF FILES ====")
@@ -119,5 +130,6 @@ set fs=nothing
 %>
 <script src="Javascripts/jquery-3.2.1.min.js"></script>
 <script src="Javascripts/jquery.fancybox.min.js"></script>
+<script src="Javascripts/AudioPlayerA.js"></script>
 </body>
 </html>
