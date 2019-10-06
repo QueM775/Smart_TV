@@ -66,3 +66,14 @@ http://jsfiddle.net/Barzi/Jzs6B/9/
 Open source, free to use J-player
 http://jplayer.org/latest/demos/ Sample 
 http://jplayer.org/latest/demo-02-video/
+
+------------
+
+**Author:** Mike
+
+**Date** 2019-10-06.
+
+Audio player added to the project. If you will play with CSS properties for the AudioPlayer file.
+You can use (add/remove CSS classes, add/remove elements  leike <div>,<p>) the "fnAudioPlayer_template.html"
+template file, just temporary link "music.css" and "AudioPlayerA.js" file to the template file
+
