@@ -1,6 +1,6 @@
 #playlist,audio
 {
-  background:#666;
+  /*background:#666;*/
   width:400px;
   padding:11px;
 }
@@ -27,7 +27,7 @@ li p
   padding:5px;
   display:block;
 }
-
-ul {
+ul 
+{
   padding: 3px;
 }
