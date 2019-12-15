@@ -1,0 +1,285 @@
+ /* Default CSS */
+
+ html{ /* Mike 2019-12-08@21:04:47 */
+  height: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+ }
+ 
+ body {
+  /* background: linear-gradient(#62d8f3, #9cd8dd); */
+  /* Mike 2019-12-08@21:05:22 */
+  background: -webkit-linear-gradient(center top , #62d8f3, #9cd8dd);
+  background:    -moz-linear-gradient(center top , #62d8f3, #9cd8dd);
+  background:     -ms-linear-gradient(center top , #62d8f3, #9cd8dd);
+  background:      -o-linear-gradient(center top , #62d8f3, #9cd8dd);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.4em;
+  background-attachment: fixed;
+} 
+
+/*Parent Div Left and Right*/
+.clsLeft{
+  border: none;
+  border-color: #1e88e5;
+  width:33%;
+  float: left;
+}
+.clsRight{
+  border:solid;
+  border-color: green;
+  border-width: 0px;
+  width:66%;
+  float: left;
+  margin-left: 1%;
+}
+
+/* Our First Child left Div Root folders */
+  #RootFldr{
+   left: 2px;
+   }
+ /* Our 2nd Child left Sub-Folder Div */
+ #SubFldr{
+  left: 2px;
+  }
+  /* Our Top Right Main Player Div */
+ #MainPly{
+  }
+ /* Our bottom right Footer Music files Div */
+ #Footer{
+
+  }
+
+  #idPlayBox{
+    border-style: solid;
+    border-width: 0px;
+    width: 650px;
+    float: left;
+   }
+   
+   #SlideMusic{
+    border-style: solid;
+    border-width: 0px;
+    float: right;
+    width: 330px;
+   }
+
+   .clsSlideShowCtrl{
+     height: 75px;
+     float: left;
+     margin-right: 10px;
+   }
+
+   .clsSlideShowDelay{
+     font-size: 25px;
+     width: 100px;
+   }
+
+   .clsSectionBorder {
+     border-style: solid;
+     border-width: 5px; 
+     border-radius: 10px;
+     overflow: hidden;
+     border-color: #ff0000;
+     margin: auto;
+     margin-bottom: 25px;
+     padding: 10px 0px 10px 25px ;
+     box-shadow: 5px 5px 15px 5px rgba(204,0,0,0.64);
+     }
+
+    .clsSectionBorder_decor{ /* Mike 2019-12-09@10:33:37 */
+      background-color: green;
+     }
+ 
+   .clsPicSection{
+     border-style: solid;
+     border-width: 5px;
+     border-radius: 15px;
+     overflow: auto;
+     border-color: #ff0000;
+     display: box;
+     margin: auto;
+     padding: 5px;
+     background: linear-gradient(#63d8f2, #9bd8dd);
+     box-shadow: 5px 5px 15px 5px rgba(204,0,0,0.64);
+     float: left;
+   }
+   
+   .clsPicPosterBox{
+     width: 98%;
+     border-radius: 5px;
+     margin: 0px;
+     padding: 0px;
+   }
+ 
+   .clsPicPosterPic{
+     height: 245px;
+     max-width: 145px;
+     border-radius: 5px;
+     display: block;
+     margin-left: auto;
+     margin-right: auto;
+   }
+  .clsFolderMedalion{ /* Obsolete, replaced with ".clsSubFolderListItem", Mike 2019-12-09@19:21:03 */
+    float: left;
+    overflow: hidden;
+    width: 60px;
+    height: 120px;
+    border-style: solid;
+    border-width: 5px;
+    border-radius: 10px;
+    border-color: #7e947d;
+    background-color: #ecde55;
+    box-shadow: 5px 5px 5px grey;
+    padding-left: 5px;
+    padding-top: 5px;
+    margin-left: 15px;
+    margin-bottom: 15px;
+    text-align: center;
+  }
+
+  .clsSubFolderListItem{
+    overflow: hidden;
+    width: 100%;
+    line-height: 1.6;
+    /* border: solid black; */ /* for debug purpose only. Mike 2019-12-09@19:48:44; */
+    text-decoration: none;
+  }
+
+  .clsSubFolderIcon{
+    width: 40px;
+  }
+  
+  .clsBodyOther{
+    /* background-color: #fffbdd; */
+    background-image: linear-gradient(to bottom, #62d8f3, #9cd8dd);
+    }
+  
+  .clsFolderTitle{
+    /* font-size: 30px; */
+    font-size: 1.4em;  
+  }
+  
+  .clsBreadCrumbs{
+    /*
+    border-style: solid;
+    border-width: 5px;
+    border-color: #7e947d;
+    border-radius: 10px 55px 0px 10px;
+    padding: 5px 25px 5px 5px;
+    */
+    margin: 5px;
+    font-size: 30px;
+    font-family: Arial;
+    text-decoration: none;
+    line-height: 1.6; /*Mike 2019-12-08@20:45:19 */
+    /* float: left; */ /* Mike 2019-12-08@20:40:39 */
+    background-color: #62d8f3;
+  }
+  
+  .clsPicContainer {
+    display: block;
+    width:  150px;
+    height: 250px;
+    border:solid 3px #00ff71; 
+    border-radius:10px;
+    overflow: hidden;
+    padding: 10px;
+    margin: 5px;
+    background-image: url(../IMG/xmass-player-background.jpg);
+    float: left;
+    box-shadow: 5px 5px 5px grey;
+  }
+
+  audio:hover, audio:focus, audio:active{
+    -webkit-box-shadow: 15px 15px 20px rgba(0,0, 0, 0.4);
+    -moz-box-shadow: 15px 15px 20px rgba(0,0, 0, 0.4);
+    box-shadow: 15px 15px 20px rgba(0,0, 0, 0.4);
+    -webkit-transform: scale(1.05);
+    -moz-transform: scale(1.05);
+    transform: scale(1.05);
+  }
+
+  audio{
+    -webkit-transition:all 0.5s linear;
+    -moz-transition:all 0.5s linear;
+    -o-transition:all 0.5s linear;
+    transition:all 0.5s linear;
+    -moz-box-shadow: 2px 2px 4px 0px #006773;
+    -webkit-box-shadow:  2px 2px 4px 0px #006773;
+    box-shadow: 2px 2px 4px 0px #006773;
+    -moz-border-radius:7px 7px 7px 7px ;
+    -webkit-border-radius:7px 7px 7px 7px ;
+    border-radius:7px 7px 7px 7px ;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 35px;
+    padding-bottom: 10px;
+    /* background-image: linear-gradient(#7e947d,#bbc58c); */ 
+    background-image: url(../IMG/xmass-player-background.jpg);
+    width: 600px;
+  }
+
+  .clsAudioTitle{
+    padding-left: 25px;
+    font-size: 40px;
+    display: flex;
+  }
+
+  .clsPdfContainer {
+    display: block;
+    width:  150px;
+    height: 250px;
+    border:solid 3px #ff0000; 
+    border-radius:10px;
+    padding: 10px;
+    margin: 5px;
+    background-color: #ffc4ce;
+    float: left;
+    box-shadow: 5px 5px 5px grey;
+  }
+
+  .clsPdfPosterBox{
+    width: 98%;
+    border-radius: 5px;
+    margin: 0px;
+    padding: 0px;
+  }
+
+  .clsPdfPosterPic{
+    /* height: 310px; */
+    max-height: 180px; 
+    max-width: 145px;
+    border-radius: 5px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .clsMovieContainer{
+    border: solid #2f9fff 5px;
+    border-radius: 12px;
+    font-size: 33px;
+    vertical-align: middle;
+    margin: 20px 5px 10px 5px;
+    padding: 7px;
+  }
+
+  .clsMovieIcon{
+    float: left;
+    /* border:  solid green 2px; */
+    border-radius: 10px;
+    display: box;
+    height: 120px;
+    margin-right: 25px;
+  }
+
+  .clsMovieTitle{
+    display: table-cell;
+    height: 120px;
+    vertical-align: middle;
+    /* border: 3px dashed #1c87c9; */
+  }
+

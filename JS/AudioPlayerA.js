@@ -16,6 +16,7 @@ var tracks;
 var current;
 init();
 function init(){
+  console.log('0~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~');
   current = 0;
   objAudioPlayer = $('#idAudioPlayer');
   objPlayList = $('#playlist');
@@ -26,21 +27,46 @@ function init(){
     e.preventDefault();
     link = $(this);
     current = link.parent().index();
-    run(link, objAudioPlayer[0]);
+    fnRunPlayer(link, objAudioPlayer[0]);
   });
+  fnShowCurrentSongFileName();
+  /*************************************/
+  /* Jump to the next song in the list */
+  /*************************************/
+  console.log('1~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~');
   objAudioPlayer[0].addEventListener('ended',function(e){
     current++;
+    console.log('2~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~');
     if(current > (len)){
       current = 0;
     }
     link = objPlayList.find('a')[current];    
-    run($(link),objAudioPlayer[0]);
+    fnRunPlayer($(link),objAudioPlayer[0]);
   });
 }
-function run(link, oPlayerAudio){
+
+function fnRunPlayer(link, oPlayerAudio){
+  console.log('2~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~');
   oPlayerAudio.src = link.attr('href');
   par = link.parent();
   par.addClass('active').siblings().removeClass('active');
   oPlayerAudio.load();
   oPlayerAudio.play();
+  if (document.getElementById('idCurrentSongTitle') !== null){
+    fnShowCurrentSongFileName();
+  }
+}
+
+
+function fnShowCurrentSongFileName(){
+  const sSongNameLong = objAudioPlayer[0].src;
+  if (sSongNameLong.length > 0){
+    const arrSongName   = sSongNameLong.split("/");
+    console.log('arrSongName=' + arrSongName[arrSongName.length - 1]);
+    let sSongNameShort = arrSongName[arrSongName.length - 1];
+    sSongNameShort = sSongNameShort.replace(/_/g," ");
+    sSongNameShort = sSongNameShort.replace(/-/g," ");
+    sSongNameShort = sSongNameShort.replace(/.mp3/g,"");
+    document.getElementById('idCurrentSongTitle').innerHTML = sSongNameShort;
+  }
 }

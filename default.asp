@@ -1,45 +1,28 @@
 <!DOCTYPE html>
-<html>
-<head>
-  <meta charset="utf-8">
-  <title>My video player</title>
 
-  <!-- CSS -->
-  <link rel="stylesheet" type="text/css" href="CSS/jquery.fancybox.min.css">
-  <link rel="stylesheet" type="text/css" href="CSS/movie.css">
-  <link rel='stylesheet' type='text/css' href='CSS/music.css'>
-</head>
-<body>
-<!--
-Include HERE all necessary *.ASP files from the ASP\ folder 
-Included files must have opening and closing  ASP brackets i.e. "< %" and "% >"
-File includes in HTML code (before ASP code starts in the DEFAULT.ASP ), it is not mandatory
-but we have to accept establish a rule how to do it.
--->
-<!-- #include file="ASP\fnMovieBox.asp" -->
-<!-- #include file="ASP\fnAudioPlayer.asp" -->
-<!-- #include file="ASP\fnPdfBox.asp" -->
-<!-- #include file="ASP\fnSubfolder.asp" -->
-<!-- #include file="ASP\fnLW.asp" -->
-<!-- #include file="ASP\fnUpperFolder.asp" -->
 <!-- #include file="ASP\fnFormatDosPath.asp" -->
+<!-- #include file="ASP\fnLW.asp" -->
+<!-- #include file="ASP\fnSubfolder.asp" -->
+<!-- #include file="ASP\fnTypeOTHER_controller.asp" -->
+<!-- #include file="ASP\fnTypeMOVIE_controller.asp" -->
+<!-- #include file="ASP\fnTypePDF_controller.asp" -->
+<!-- #include file="ASP\fnTypeM3U_controller.asp" -->
+<!-- #include file="ASP\fnTypePIC_controller.asp" -->
+<!-- #include file="ASP\fnTypeLNK_controller.asp" -->
+<!-- #include file="ASP\fnUpperFolder.asp" -->
 <%
-
-' Root folder for all files MUST be (current-folder-where-DEFUALT.ASP-file-is)+('\Data')
-' Suffix **DOS indicates that this path is in DOS notation (as IIS sees it aaa\bbb\ccc\ddd\)  
-' in opposite to WEB notation /aaa/bbb/ccc/ddd/
+' Root folder for all DATA-files MUST be (current-folder-where-DEFUALT.ASP-file-is)+('\Data\')
+' Suffix **DOS indicates that this path is in DOS notation (as IIS sees it C:\inetpub\wwwroot\html\ddd\)  
+' in opposite to WEB notation /html/ddd/
 sRootFolderDOS = Server.MapPath(".") & "\Data\"
 LW("0 sRootFolderDOS=" & sRootFolderDOS)
 
 ' Current filer counts from the sRootFolderDOS
 sCurrentFldrDOS = Request.QueryString("fld")
-sCurrentFldrDOS = fnFormatDosPath(sCurrentFldrDOS)
+sCurrentFldrDOS = fnFormatDosPath(sCurrentFldrDOS) ' removing leading and adding tailing backslashes ('\')
 
-' add tailing '\' to the root folder
-if Right(sRootFolderDOS, 1) <> "\" then
-  sRootFolderDOS = sRootFolderDOS & "\"
-end if 
-
+' Make sure that we have correct (existing) current folder name
+' in case of error just set it to `home` i.e. /DATA/ folder name
 set fs=Server.CreateObject("Scripting.FileSystemObject")
 LW("Check folder >>>  " & sRootFolderDOS & sCurrentFldrDOS)
 if not (fs.FolderExists(sRootFolderDOS & sCurrentFldrDOS)) then
@@ -50,86 +33,49 @@ end if
 
 LW("sRootFolderDOS   =" & sRootFolderDOS)
 LW("sCurrentFldrDOS  =" & sCurrentFldrDOS)
+
+'=====================================
+' Now we are done with all COMMON settings 
+' and configuration.
+' The rest will depend on folder' specific 
+' format (purpose)
+' As of now we have 4 types of folder-specific-formats
+' PIC - set of image files (JPG/PNG/GIF/TIFF) in the folder with a possible bunch of MP3 files as background music
+' MOV - set of MP4 files with possible JPG file as a poster
+' M3U - set of MP3 files
+' PDF - set of PDF files
+' LNK - loads chunk of HTML code
+' ??? - OTHER folder (without extension) - set of sub-folders only (content of the folder should be ignoted)
 '
-' Create link to upper folder
 '
-LW("Len(sCurrentFldrDOS)=" & Len(sCurrentFldrDOS))
-if Len(sCurrentFldrDOS) > 0 then
-  ' we are not in the root folder, so we can go up
-  sFolderNameUpper = Left(sCurrentFldrDOS,Len(sCurrentFldrDOS)-1)
-  LW("sFolderNameUpper=" & sFolderNameUpper)
-  LW("InStr(sFolderNameUpper,'\')=" & InStr(sFolderNameUpper,"\"))
-  iLastSlashPosition = (InStrRev(sFolderNameUpper, "\"))
-  if (iLastSlashPosition > 0) then
-    ' we have more then one subfolders level i.e. aaa\bbb\ccc\ddd
-    LW("iLastSlashPosition=" & iLastSlashPosition)
-    sFolderNameUpper = Left(sFolderNameUpper, iLastSlashPosition)
-    LW("sFolderNameUpper=" & sFolderNameUpper & " *********************")
-  else
-    sFolderNameUpper = "\"
-  end if
-  Response.write(fnUpperFolder(sFolderNameUpper))
-end if 'if Len(sCurrentFldrDOS) > 0
-
-'=========================================
-' List of subFOLDERS in current folder
-'=========================================
-set objFolderCurrent=fs.GetFolder(sRootFolderDOS & sCurrentFldrDOS)
-LW("objFolderCurrent.path=" & sRootFolderDOS & sCurrentFldrDOS)
-
-LW("---- FOLDERS ----")
-for each x in objFolderCurrent.SubFolders
-  'Print the name of all subfolders in the test folder
-  LW("x.Name = " & x.Name & " ===========================================")
-  sHTML = fnSubfolder(sCurrentFldrDOS, x.Name)
-  Response.write(sHTML)
-  LW("sHTML = " & sHTML)
-next
-LW("---- FOLDERS ----")
-
+' Folder's type defined through it's folder-name-extension, like "something-something.PIC"
+' if current folder does not have any of these 4 types
+' script will teat if as a folder without any content (with sub-folders only)
+'
 '=====================================
-' List of all *.MP4 FILES in current folder
-'=====================================
-LW("==== MOVIE FILES ====")
-Response.write("<div id='idMovieContainer' class='clsAllMovies'>" & vbCRLF)
-sHTML_code = fnMovieBox(sRootFolderDOS, sCurrentFldrDOS)
-Response.write(sHTML_code)
-Response.write("</div>" & vbCRLF)
-LW("==== MOVIE FILES ====")
+'
+' Determinate what type of folder do we have as a current folder
+sFolderType = Ucase(Left(Right(sCurrentFldrDOS,5),4))
+LW("sFolderType=" & sFolderType)
 
-'=====================================
-' List of all *.MP4 FILES in current folder
-'=====================================
-LW("==== AUDIO FILES ====")
-Response.write(fnAudioPlayer(sRootFolderDOS, sCurrentFldrDOS))
-
-LW("==== AUDIO FILES ====")
-
-
-'=====================================
-' List of all *.PDF FILES in current folder
-'=====================================
-LW("==== PDF FILES ====")
-set objFolderCurrent=fs.GetFolder(sRootFolderDOS & sCurrentFldrDOS)
-Response.write("<div id='idMovieContainer' class='clsAllMovies'>" & vbCRLF)
-for each objFolderCurrent in objFolderCurrent.files
-  'Print the name of all subfolders in the test folder
-  if Ucase(Right(objFolderCurrent.Name, 4)) = ".PDF" then
-    sHTML = fnPdfBox(sRootFolderDOS, sCurrentFldrDOS, objFolderCurrent.Name)
-    LW("sHTML=" & sHTML)
-    Response.write(sHTML)
-  end if
-next
-Response.write("</div>" & vbCRLF)
-LW("==== PDF FILES ====")
-
-
-'============= CLOSING PAGE CODE ============='
-set objFolderCurrent=nothing
-set fs=nothing
+Select Case sFolderType
+  Case ".MOV"
+    'Response.write("MOV type")
+    Response.write(fnListOfMOVIES(sRootFolderDOS, sCurrentFldrDOS))
+  Case ".PDF"
+    'Response.write("PDF type")
+    Response.write(fnListOfPDF(sRootFolderDOS, sCurrentFldrDOS))
+  Case ".M3U"
+    'Response.write("M3U type")
+    Response.write(fnListOfM3U(sRootFolderDOS, sCurrentFldrDOS))
+  Case ".PIC"
+    'Response.write("PIC type")
+    Response.write(fnListOfPIC(sRootFolderDOS, sCurrentFldrDOS))
+  Case ".LNK"
+    'Response.write("LNK type")
+    Response.write(fnLoadHTML(sRootFolderDOS, sCurrentFldrDOS))
+  Case Else
+    'Response.write("OTHER type")
+    Response.write(fnOTHER(sRootFolderDOS, sCurrentFldrDOS))
+End Select
 %>
-<script src="Javascripts/jquery-3.2.1.min.js"></script>
-<script src="Javascripts/jquery.fancybox.min.js"></script>
-<script src="Javascripts/AudioPlayerA.js"></script>
-</body>
-</html>

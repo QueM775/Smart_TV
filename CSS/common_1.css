@@ -1,0 +1,176 @@
+ /* Default CSS */
+ 
+ body {
+  background: linear-gradient(#7e947d, #bbc58c);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.4em;  
+} 
+/*Parent Div Left and Right*/
+.clsLeft{
+  border:solid;
+  border-color: yellow;
+  width:33%;
+  float: left;
+}
+.clsRight{
+  border:solid;
+  border-color: green;
+  width:63%;
+  float: left;
+}
+
+/* Our First Child left Div Root folders */
+  #RootFldr{
+   left: 2px;
+   }
+ /* Our 2nd Child left Sub-Folder Div */
+ #SubFldr{
+  left: 2px;
+  }
+  /* Our Top Right Main Player Div */
+ #MainPly{
+  }
+ /* Our bottom right Footer Music files Div */
+ #Footer{
+
+  }
+  .clsSectionBorder {
+    border-style: solid;
+    border-width: 5px; 
+    border-radius: 10px;
+    overflow: hidden;
+    border-color: #ecde55;
+    margin: auto;
+    padding: 5px; 
+  }
+
+  #idPlayBox{
+    border-style: solid;
+    border-width: 0px;
+    width: 404px;
+    float: left;
+   }
+   
+   #SlideMusic{
+    border-style: solid;
+    border-width: 0px;
+    float: right;
+   }
+   
+   .clsSectionBorder {
+     border-style: solid;
+     border-width: 5px; 
+     border-radius: 10px;
+     overflow: hidden;
+     border-color: #ecde55;
+     margin: auto;
+     padding: 5px; 
+   }
+ 
+   .clsPicSection{
+     border-style: solid;
+     border-width: 2px;
+     border-radius: 15px;
+     overflow: auto;
+     border-color: #e39f0d;
+     display: box;
+     margin: auto;
+     padding: 5px;
+     background: linear-gradient(#7e947d, #bbc58c);
+     float: left;
+   }
+   
+   .clsPicPosterBox{
+     width: 98%;
+     border-radius: 5px;
+     margin: 0px;
+     padding: 0px;
+   }
+ 
+   .clsPicPosterPic{
+     height: 245px;
+     max-width: 145px;
+     border-radius: 5px;
+     display: block;
+     margin-left: auto;
+     margin-right: auto;
+   }
+  .clsFolderMedalion{
+    float: left;
+    overflow: hidden;
+    width: 60px;
+    height: 120px;
+    border-style: solid;
+    border-width: 5px;
+    border-radius: 10px;
+    border-color: #7e947d;
+    background-color: #ecde55;
+    box-shadow: 5px 5px 5px grey;
+    padding-left: 5px;
+    padding-top: 5px;
+    margin-left: 15px;
+    margin-bottom: 15px;
+    text-align: center;
+  }
+  
+  .clsBodyOther{
+    background-color: #fffbdd;
+  }
+  
+  .clsFolderTitle{
+    font-size: 12px;
+  }
+  
+  .clsBreadCrumbs{
+    border-style: solid;
+    border-width: 5px;
+    border-color: #7e947d;
+    border-radius: 10px 55px 0px 10px;
+    margin: 5px;
+    padding: 5px 25px 5px 5px;
+    font-size: 20px;
+    font-family: Arial;
+    text-decoration: none;
+    float: left;
+  }
+  
+  .clsPicContainer {
+    display: block;
+    width:  150px;
+    height: 250px;
+    border:solid 3px #94c559; 
+    border-radius:10px;
+    overflow: hidden;
+    padding: 10px;
+    margin: 5px;
+    background-color: #c6ffc4;
+    float: left;
+    box-shadow: 5px 5px 5px grey;
+  }
+  audio:hover, audio:focus, audio:active{
+    -webkit-box-shadow: 15px 15px 20px rgba(0,0, 0, 0.4);
+    -moz-box-shadow: 15px 15px 20px rgba(0,0, 0, 0.4);
+    box-shadow: 15px 15px 20px rgba(0,0, 0, 0.4);
+    -webkit-transform: scale(1.05);
+    -moz-transform: scale(1.05);
+    transform: scale(1.05);
+  }
+
+  audio{
+    -webkit-transition:all 0.5s linear;
+    -moz-transition:all 0.5s linear;
+    -o-transition:all 0.5s linear;
+    transition:all 0.5s linear;
+    -moz-box-shadow: 2px 2px 4px 0px #006773;
+    -webkit-box-shadow:  2px 2px 4px 0px #006773;
+    box-shadow: 2px 2px 4px 0px #006773;
+    -moz-border-radius:7px 7px 7px 7px ;
+    -webkit-border-radius:7px 7px 7px 7px ;
+    border-radius:7px 7px 7px 7px ;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 35px;
+    padding-bottom: 10px;
+    background-image: linear-gradient(#7e947d,#bbc58c);
+    width: 600px;
+  }

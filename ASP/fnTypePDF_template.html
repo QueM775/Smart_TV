@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- fnTypePdf_template.html START -->
+<!-- This is our Pdf Page -->
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>PDF Folder LIST</title>
+  <link rel="stylesheet" type="text/css" href="CSS/common.css">
+  <link rel="stylesheet" type="text/css" href="CSS/jquery.fancybox.min.css">
+  <script src="JS/jquery-3.2.1.min.js"></script>  
+</head>
+<body class="clsBodyOther">
+
+   <div class="clsLeft"> <!-- clsLeft Begins -->
+       <div class='clsSectionBorder'><!-- BreadCrumb SECTION Begin -->
+           <a href="default.asp?fld=\" class="clsBreadCrumbs">ROOT </a>
+            <!-- SplitMarker -->
+            <!-- Section 01 begin -->
+            <a href="default.asp?fld=@BreadCrumbHref" class="clsBreadCrumbs">@BreadCrumbTitle </a>
+            <!-- Section 01 end -->
+            <!-- SplitMarker -->
+       </div><!-- BreadCrumb SECTION End -->
+       <div class='clsSectionBorder'><!-- SubFolder SECTION Begin -->
+           <!-- SplitMarker -->
+           <!-- Section 02 begin -->
+           <a href='?fld=@FldName'>
+           <div class="clsFolderMedalion">
+               <img src='../IMG/FolderIcon.png' width='90'>
+               <p class='clsFolderTitle'>@FldTitle</p>
+           </div>
+           </a>
+           <!-- Section 02 End -->
+           <!-- SplitMarker -->
+       </div><!-- SubFolder SECTION End -->
+   </div><!-- clsLeft End -->
+
+<div class="clsRight"> <!-- clsRight Begins --> 
+    <div class='clsSectionBorder'><!-- PDF SECTION Begin -->
+        <!-- SplitMarker -->
+        <a data-fancybox data-width='1280' href='Data\@PdfName'>
+        <div class='clsPdfContainer'>
+            <div class='clsPdfPosterBox'>
+                <img src='IMG\pdf-logo.png' class='clsPdfPosterPic'>
+            </div>
+             <span class='clsPdfTitle'>
+                 <h1>@PdfTitle</h1>
+             </span>
+        </div>
+        </a>
+        <!-- SplitMarker -->
+     </div><!-- PDF SECTION End -->
+</div><!-- clsRight End -->
+<!-- SplitMarker -->
+   <script src="JS/jquery.fancybox.min.js"></script>
+   <!-- Keep these so the gradient displays properly -->
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</body>
+</html>
+<!-- fnTypePdf_template.html END -->

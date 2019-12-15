@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">  
+  <!-- fnTypeM3U_template.html START -->
+<!-- This is our Opening Page -->
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>## MUSIC ##</title>
+  <link rel="stylesheet" type="text/css" href="css/common.css">
+  <link rel="stylesheet" type="text/css" href="css/jquery.fancybox.min.css" title="AAAAA">
+  <script src="JS/jquery-3.2.1.min.js"></script>
+  <script src="JS/Common.js"></script>
+</head>
+
+<body class="clsBodyOther" onload='fnPageOnLoad()'>
+    <div class="clsLeft"> <!-- clsLeft Begins -->
+
+         <div class='clsSectionBorder clsSectionBorder_decor' style='background:url(./IMG/christmas-tree-icon.png) no-repeat top right -200px; height:480px; overflow: auto;'>
+          <!--BreadCrumb SECTION Begin  -->
+            <a href="default.asp?fld=\" class="clsBreadCrumbs">ROOT</a><br />
+            <!-- SplitMarker -->
+<!-- Section#1 -->
+            <a href="default.asp?fld=@BreadCrumbHref" class="clsBreadCrumbs" title='@BreadCrumbPipUp'>
+              <img src='./IMG/folder-up-icon.png' style='width:40px;height;40px;'>
+              @BreadCrumbText
+            </a>
+            <!-- SplitMarker -->
+<!-- Section#2 -->
+         </div> <!--BreadCrumb SECTION End -->
+          
+         <!-- SplitMarker -->
+<!-- Section#3 -->
+         <div class='clsSectionBorder'> <!--This is our second Div Sub Folders Left Bottom-->
+             <!-- SplitMarker -->
+<!-- Section#4 -->
+             <a href='?fld=@FldName\' style='text-decoration: none;'>
+               <span class="clsSubFolderListItem">
+                   <img src='./IMG/folder-down-icon.png' class='clsSubFolderIcon'>
+                   <span class='clsFolderTitle'>
+                     @FldTitle
+                   </span>
+                   <br/>
+               </span>
+              </a>
+              <!-- SplitMarker -->
+<!-- Section#5 -->
+         </div> <!--This is our second Div Sub Folders Left Bottom-->
+         <!-- SplitMarker -->
+<!-- Section#6 -->
+     </div><!-- clsLeft End -->
+     <div class="clsRight"> <!-- clsRight Begin -->
+        
+        <!-- M3U SECTION Begin -->
+        <div ID="MainPly" class='clsSectionBorder'>
+            <div style='width: 651px; display: block; float: left;'>
+                <audio id='idAudioPlayer' preload='auto' tabindex='0' controls="controls" volume="0.7" type='audio/mpeg'>
+                    <source type='audio/mp3' src=''>
+                     Sorry, your browser does not support HTML5 audio.
+                </audio>
+            </div>
+            <div>
+            <span id='idCurrentSongTitle' class='clsAudioTitle'></span>
+            </div>
+        </div>
+        <!-- M3U SECTION End -->
+
+        <!-- This is our Footer Div Where the Music list will be -->
+        <div ID="Footer" class='clsSectionBorder'>
+            <ul id='playlist'>
+            <!-- SplitMarker -->
+<!-- Section#7 -->
+            <li><a href="@MP3link">@MP3Name</a></li> <!-- The 'Apostrophe-issue' fix. Mike 2019-12-11@12:49:57 -->
+            <!-- SplitMarker -->
+<!-- Section#8 -->
+           </ul>
+        </div>
+        
+     </div> <!-- clsRight End -->
+
+<!-- This button is for debug purpose
+<input id="go" type="button" value="Go">
+-->
+
+</body>
+</html>
+<!-- fnTypeOTHER_template.html END -->
+
+
+
+
+
+
+
+
+
+<script src="JS/AudioPlayerA.js"></script>
+
+<script>
+  /* This function scrolls upper-folders-list to the bottom line in the list */
+  function fnPageOnLoad(){
+    for (let ii=0; ii < document.getElementsByClassName('clsBreadCrumbs').length; ii++){
+      document.getElementsByClassName('clsBreadCrumbs')[ii].focus();
+    }
+
+    /*************************************************
+    The next code bind a function to the 'OnBeforeUnLoad' event
+    *************************************************/
+    window.onbeforeunload = function() {
+      fnSaveBookMarkData();
+      //return false;  /* this command prompts user before let him to leave this page */
+    };
+    /*************************************************
+    The next code restores bookmark information from bookmark-file
+    during page load event
+    *************************************************/
+    const sHttpPath=window.location.href.split('=')[1];
+    console.log("sHttpPath=" + sHttpPath);
+    $.ajax({
+      type: "GET",
+      url: "asp/fnAjaxGetMp3pos.asp",
+      data: 'ajax_path='+sHttpPath,
+      success: function(msg){
+        console.log(msg);
+        const sMP3fileName = 'Data/' + sHttpPath.split('\\').join('/') + msg.split('|')[0]
+        console.log(sMP3fileName);
+        const fMP3FilePos = parseFloat(msg.split('|')[1])
+        console.log(fMP3FilePos);
+
+        const oPlayer = $('#idAudioPlayer')[0];
+        oPlayer.src = sMP3fileName;
+        oPlayer.currentTime = fMP3FilePos;
+        fnShowCurrentSongFileName();
+      }
+    }); // Ajax Call
+
+    console.log("Page LOADED")
+  }
+
+
+  /*************************************************
+  This function is for AJAX debug purposes only 
+  (un-rem the id="go" button above to use this function)
+  *************************************************/
+  $('#go').click(function(){
+      var sCurrMP3 = "";
+      console.log("~~~~~~~~~~~~~~~~");
+      fnSaveBookMarkData();
+  }); //event handler
+
+  function fnSaveBookMarkData(){
+    const oPlayer = $('#idAudioPlayer')[0];
+    const sMP3FullName = oPlayer.src;
+    iPos1 = sMP3FullName.indexOf("/Data/")
+    iPos2 = sMP3FullName.lastIndexOf("/") - iPos1;
+    const sRelPath = sMP3FullName.substr(iPos1+1, iPos2);
+    const sAjaxName = sMP3FullName.substr(sMP3FullName.lastIndexOf("/")+1, sMP3FullName.length);
+    const sMP3Position = oPlayer.currentTime;
+    console.log("sMP3FullName=" + sMP3FullName);
+    console.log("iPos1=" + iPos1);
+    console.log("iPos2=" + iPos2);
+    console.log("sRelPath=" + sRelPath);
+    console.log("sAjaxName=" + sAjaxName);
+    console.log("sMP3Position=" + sMP3Position);
+    console.log("FUll=" + 'ajax_path=' + sRelPath + '&ajax_name=' + sAjaxName + "&ajax_pos=" + sMP3Position)
+    $.ajax({
+      type: "GET",
+      url: "asp/fnAjaxSaveMp3pos.asp",
+      data: 'ajax_path=' + sRelPath + '&ajax_name=' + sAjaxName + "&ajax_pos=" + sMP3Position,
+      success: function(msg){
+        console.log(msg);       // show raw data from the server
+      }
+    }); // Ajax Call
+  }
+
+</script>

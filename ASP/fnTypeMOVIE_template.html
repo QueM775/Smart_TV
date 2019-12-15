@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">  
+<!-- fnTypeMOVIE_template.html START -->
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>### MOVIE ###</title>
+  <link rel="stylesheet" type="text/css" href="CSS/common.css">
+  <link rel="stylesheet" type="text/css" href="CSS/jquery.fancybox.min.css">
+  <script src="JS/jquery-3.2.1.min.js"></script>  
+</head>
+
+<body class="clsBodyOther" onload='fnPageOnLoad()'>
+    <div class="clsLeft"> <!-- clsLeft Begins -->
+
+         <div class='clsSectionBorder clsSectionBorder_decor' style='background:url(./IMG/christmas-tree-icon.png) no-repeat top right -200px; height:480px; overflow: auto;'>
+          <!--BreadCrumb SECTION Begin  -->
+            <a href="default.asp?fld=\" class="clsBreadCrumbs">ROOT</a><br />
+            <!-- SplitMarker -->
+<!-- Section#1 -->
+            <a href="default.asp?fld=@BreadCrumbHref" class="clsBreadCrumbs" title='@BreadCrumbPipUp'>
+              <img src='./IMG/folder-up-icon.png' style='width:40px;height;40px;'>
+              @BreadCrumbText
+            </a>
+            <!-- SplitMarker -->
+<!-- Section#2 -->
+         </div> <!--BreadCrumb SECTION End -->
+          
+         <!-- SplitMarker -->
+<!-- Section#3 -->
+         <div class='clsSectionBorder'> <!--This is our second Div Sub Folders Left Bottom-->
+             <!-- SplitMarker -->
+<!-- Section#4 -->
+             <a data-fancybox data-width='1280' href='Data\@MovieName'>
+               <span class="clsSubFolderListItem">
+                   <img src='./IMG/folder-down-icon.png' class='clsSubFolderIcon'>
+                   <span class='clsFolderTitle'>
+                     @FldTitle
+                   </span>
+                   <br/>
+               </span>
+              </a>
+              <!-- SplitMarker -->
+<!-- Section#5 -->
+         </div> <!--This is our second Div Sub Folders Left Bottom-->
+         <!-- SplitMarker -->
+<!-- Section#6 -->
+     </div><!-- clsLeft End -->
+
+
+
+
+
+
+     <div class="clsRight"> <!-- clsRight Begin -->
+        
+        <!-- Right top section BEGIN -->
+        <!-- Right top section END -->
+
+        <div  class='clsSectionBorder' style='padding: 0px 5px 0px 5px;'><!-- Link SECTION Begin -->
+          <!-- SplitMarker -->
+<!-- Section#7 -->
+          <a data-fancybox data-width='1280' href='Data\@MovieName' style='text-decoration: none;'>
+            <div class='clsMovieContainer'>
+              <img src='@MoviePoster' class='clsMovieIcon'>
+              <div class='clsMovieTitle'>
+                @MovieTitle
+              </div>
+            </div>
+          </a>
+          <!-- SplitMarker -->
+<!-- Section#8 -->
+        </div><!-- Link SECTION End -->
+        
+     </div> <!-- clsRight End -->
+
+<!-- This button is for debug purpose
+<input id="go" type="button" value="Go">
+-->
+
+</body>
+</html>
+<!-- fnTypeOTHER_template.html END -->
+
+<script src="JS/jquery.fancybox.min.js"></script>
+<script type="text/javascript">
+function fnPageOnLoad(){
+  /* dummy function, it needs due to be compatible with other templates which really has this function. */
+}
+</script>

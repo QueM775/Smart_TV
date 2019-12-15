@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">  
+  <!-- fnTypeOTHER_template.html START -->
+<!-- This is our Opening Page -->
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>## GENERAL NAVIGATION PAGE ##</title>
+  <link rel="stylesheet" type="text/css" href="css/common.css">
+  <link rel="stylesheet" type="text/css" href="css/jquery.fancybox.min.css" title="AAAAA">
+  <script src="JS/jquery-3.2.1.min.js"></script>
+  <script src="JS/Common.js"></script>
+</head>
+<body class="clsBodyOther" onload='fnPageOnLoad()'>
+    <div class="clsLeft"> <!-- clsLeft Begins -->
+
+         <div class='clsSectionBorder clsSectionBorder_decor' style='background:url(./IMG/christmas-tree-icon.png) no-repeat top right -200px; height:480px; overflow: auto;'>
+          <!--BreadCrumb SECTION Begin  -->
+            <a href="default.asp?fld=\" class="clsBreadCrumbs">ROOT</a><br />
+            <!-- SplitMarker -->
+<!-- Section#1 -->
+            <a href="default.asp?fld=@BreadCrumbHref" class="clsBreadCrumbs" title='@BreadCrumbPipUp'>
+              <img src='./IMG/folder-up-icon.png' style='width:40px;height;40px;'>
+              @BreadCrumbText
+            </a>
+            <!-- SplitMarker -->
+<!-- Section#2 -->
+         </div> <!--BreadCrumb SECTION End -->
+          
+         <!-- SplitMarker -->
+<!-- Section#3 -->
+         <div class='clsSectionBorder'> <!--This is our second Div Sub Folders Left Bottom-->
+             <!-- SplitMarker -->
+<!-- Section#4 -->
+             <a href="?fld=@FldName\" style="text-decoration: none;">
+               <span class="clsSubFolderListItem">
+                   <img src='./IMG/folder-down-icon.png' class='clsSubFolderIcon'>
+                   <span class='clsFolderTitle'>
+                     @FldTitle
+                   </span>
+                   <br/>
+               </span>
+              </a>
+              <!-- SplitMarker -->
+<!-- Section#5 -->
+         </div> <!--This is our second Div Sub Folders Left Bottom-->
+         <!-- SplitMarker -->
+<!-- Section#6 -->
+     </div><!-- clsLeft End -->
+
+ 
+</body>
+</html>
+<!-- fnTypeOTHER_template.html END -->
+
+<script type="text/javascript">
+/* This function scrolls upper-folders-list to the bottom line in the list */
+function fnPageOnLoad(){
+  for (let ii=0; ii < document.getElementsByClassName('clsBreadCrumbs').length; ii++){
+    document.getElementsByClassName('clsBreadCrumbs')[ii].focus();
+  }
+}
+</script>
