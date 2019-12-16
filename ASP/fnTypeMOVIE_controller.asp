@@ -50,15 +50,19 @@ function fnListOfMOVIES(sRootFldrDOS, sCurrentFldrDOS)
     sBrCrum = Replace(sBrCrum, "@BreadCrumbPipUp", arrBreadCrumbs(iIdx))
     sDynamicBreadCrumbs = sDynamicBreadCrumbs & sBrCrum & sDynamicAlignment
   Next
-
-
+  '
+  '
+  ' Scan subfolders in current folders
+  '
   sDynamicFolderHtml = ""
   For Each oSubFolderCurr in oFldCurrent.SubFolders
+    sFolderIcon = fnCheckFolderIcon(sRootFldrDOS, sCurrentFldrDOS, oSubFolderCurr.Name)
     'response.write("</br>" & oSubFolderCurr.Name)
     '
     ' Create current chunk of HTML code based on the template and current file name
     sHtmlLeftBottomCurrent = Replace(sHtmlLeftBottomLoop, "@FldName",  sCurrentFldrDOS & oSubFolderCurr.Name)
     sHtmlLeftBottomCurrent = Replace(sHtmlLeftBottomCurrent,   "@FldTitle", oSubFolderCurr.Name)
+    sHtmlLeftBottomCurrent = Replace(sHtmlLeftBottomCurrent, "@SubFolderIcon", sFolderIcon)
     '
     ' Add dynamically created HTML code to the rest of the HTML page
     sDynamicFolderHtml = sDynamicFolderHtml & sHtmlLeftBottomCurrent
@@ -77,22 +81,24 @@ function fnListOfMOVIES(sRootFldrDOS, sCurrentFldrDOS)
   sDynaHtmlMovie = ""
   For Each oFileCurr in oFldCurrent.Files
     sFileCurrName = oFileCurr.Name
+    'LW("sFileCurrName2=" & sFileCurrName)
     'Response.Write ("sFileCurrName=" & sFileCurrName & "</br>")
     sFileExt = Right(sFileCurrName, 4)
     If UCase(sFileExt) = ".MP4" Then
       ' Fix apostrophe issue
-      sFileCurrName = fnFixApostropheIssue(sRootFldrDOS & sCurrentFldrDOS, sFileCurrName)
-      'LW ("sFileCurrName = " & sRootFldrDOS & sCurrentFldrDOS & sFileCurrName)
+      sFileCurrNameShort = fnFixApostropheIssue(sRootFldrDOS & sCurrentFldrDOS, sFileCurrName)
+      'LW ("sFileCurrNameShort = " & sRootFldrDOS & sCurrentFldrDOS & sFileCurrNameShort)
       '
       '
       ' Create current chunk of HTML code based on the template and current file name
-      sCurrentHtml = Replace(sHtmlMP3listLoop, "@MovieName",  sCurrentFldrDOS & sFileCurrName)
-      sCurrentHtml = Replace(sCurrentHtml,   "@MovieTitle", fnMakeMovieTitleClean(sFileCurrName))
+      sCurrentHtml = Replace(sHtmlMP3listLoop, "@MovieName",  sCurrentFldrDOS & sFileCurrNameShort)
+      sCurrentHtml = Replace(sCurrentHtml,   "@MovieTitle", fnMakeMovieTitleClean(sFileCurrNameShort))
       '"IMG\pdf-logo.png"
       ' Check, does poster exist or not
       ' Poster file must have the same name as correspondent *.MP4 video file
       ' but with *.JPG extension (currently script does not support any other graphic file formats like *.GIF; *.PNG; *.BMP)
-      sFileNamePosterDosFull = sRootFldrDOS & sCurrentFldrDOS & (Left(sFileCurrName, Len(sFileCurrName) - 4)) & ".jpg"
+      sFileNamePosterDosFull = sRootFldrDOS & sCurrentFldrDOS & sFileCurrNameShort & ".jpg"
+      'LW("sFileCurrNameShort=" & sFileCurrNameShort)
       'LW("sFileNamePosterDosFull=" & sFileNamePosterDosFull)
       if (fso.FileExists(sFileNamePosterDosFull)) then
         iPosTailStarts = InStr(sFileNamePosterDosFull,"Data\") ' Find where relative path starts
@@ -146,4 +152,17 @@ function fnMakeMovieTitleClean(sMovieTitle)
   sMovieTitle = Replace(sMovieTitle,".", ". ")
   fnMakeMovieTitleClean = sMovieTitle
 end function
+
+function fnCheckFolderIcon(sRootFldrDOS, sCurrentFldrDOS, sSubFolderName)
+  set fso=Server.CreateObject("Scripting.FileSystemObject")
+  If (fso.FileExists(sRootFldrDOS & sCurrentFldrDOS & sSubFolderName & "\FolderIcon.png")) Then
+    sResult = "./Data/" & sCurrentFldrDOS & sSubFolderName & "\FolderIcon.png"
+  Else
+    sResult = "./IMG/folder-down-icon.png"
+  End If
+  sResult = Replace(sResult, "\", "/")
+  LW (sResult)
+  fnCheckFolderIcon = sResult
+end function
+
 %>

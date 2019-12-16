@@ -60,20 +60,21 @@ function fnListOfPIC(sRootFldrDOS, sCurrentFldrDOS)
     sBrCrum = Replace(sBrCrum, "@BreadCrumbPipUp", arrBreadCrumbs(iIdx))
     sDynamicBreadCrumbs = sDynamicBreadCrumbs & sBrCrum & sDynamicAlignment
   Next
-  ' @BreadCrumbHref
-  ' @BreadCrumbTitle
-
-  sDynaHtmlFolder = ""
+  '
+  '
+  ' Scan subfolders in current folders
+  '
+  sDynamicFolderHtml = ""
   For Each oSubFolderCurr in oFldCurrent.SubFolders
-    'Response.Write(oSubFolderCurr.Name & oSubFolderCurr.Name & "</br>")
+    sFolderIcon = fnCheckFolderIcon(sRootFldrDOS, sCurrentFldrDOS, oSubFolderCurr.Name)
     '
     ' Create current chunk of HTML code based on the template and current file name
-    sCurrentHtml = Replace(sHtmlBottomOpen, "@FldName", sCurrentFldrDOS & oSubFolderCurr.Name)
-    sCurrentHtml = Replace(sCurrentHtml,   "@FldTitle", oSubFolderCurr.Name)
+    sHtmlLeftBottomCurrent = Replace(sHtmlBottomOpen, "@FldName", sCurrentFldrDOS & oSubFolderCurr.Name)
+    sHtmlLeftBottomCurrent = Replace(sHtmlLeftBottomCurrent,   "@FldTitle", oSubFolderCurr.Name)
+    sHtmlLeftBottomCurrent = Replace(sHtmlLeftBottomCurrent, "@SubFolderIcon", sFolderIcon)
     '
     ' Add dynamically created HTML code to the rest of the HTML page
-    'Response.Write("<b>AAAA</b></br>")
-    sDynaHtmlFolder = sDynaHtmlFolder & sCurrentHtml
+    sDynamicFolderHtml = sDynamicFolderHtml & sHtmlLeftBottomCurrent
   Next
   '
   '
@@ -97,7 +98,8 @@ function fnListOfPIC(sRootFldrDOS, sCurrentFldrDOS)
   sPicSum = ""
   set oFldCurrent=fso.GetFolder(sRootFldrDOS & sCurrentFldrDOS)
   for each oFileCrnt in oFldCurrent.files
-    If InStr("~.JPG.JPEG.PNG.GIF.TIF.TIFF.BMP", Ucase(Right(oFileCrnt.Name, 4)) ) > 0 Then
+    If (InStr("~.JPG.JPEG.PNG.GIF.TIF.TIFF.BMP", Ucase(Right(oFileCrnt.Name, 4)) ) > 0) _
+        AND (Ucase(oFileCrnt.Name) <> Ucase("FolderIcon.png")) Then
       sCurrentImageFileName = oFileCrnt.Name
       LW(sRootFldrDOS)
       LW(sCurrentFldrDOS)
@@ -113,7 +115,7 @@ function fnListOfPIC(sRootFldrDOS, sCurrentFldrDOS)
   fnListOfPIC = sHtmlLeftHeader & _
                 sDynamicBreadCrumbs & _
                 sHtmlTopClose & _
-                sDynaHtmlFolder & _
+                sDynamicFolderHtml & _
                 sHtmlCloseSubFldOpenPlayer & _
                 sLiSum & _
                 arrSections(6) & _
@@ -130,6 +132,18 @@ function fnFixApostropheIssue(sPath, sFileCurrName)
   Else
     fnFixApostropheIssue = sFileCurrName
   End If
+end function
+
+function fnCheckFolderIcon(sRootFldrDOS, sCurrentFldrDOS, sSubFolderName)
+  set fso=Server.CreateObject("Scripting.FileSystemObject")
+  If (fso.FileExists(sRootFldrDOS & sCurrentFldrDOS & sSubFolderName & "\FolderIcon.png")) Then
+    sResult = "./Data/" & sCurrentFldrDOS & sSubFolderName & "\FolderIcon.png"
+  Else
+    sResult = "./IMG/folder-down-icon.png"
+  End If
+  sResult = Replace(sResult, "\", "/")
+  LW (sResult)
+  fnCheckFolderIcon = sResult
 end function
 
 %>

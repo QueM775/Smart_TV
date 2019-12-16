@@ -50,15 +50,19 @@ function fnListOfM3U(sRootFldrDOS, sCurrentFldrDOS)
     sBrCrum = Replace(sBrCrum, "@BreadCrumbPipUp", arrBreadCrumbs(iIdx))
     sDynamicBreadCrumbs = sDynamicBreadCrumbs & sBrCrum & sDynamicAlignment
   Next
-
-
+  '
+  '
+  ' Scan subfolders in current folders
+  '
   sDynamicFolderHtml = ""
   For Each oSubFolderCurr in oFldCurrent.SubFolders
+    sFolderIcon = fnCheckFolderIcon(sRootFldrDOS, sCurrentFldrDOS, oSubFolderCurr.Name)
     'response.write("</br>" & oSubFolderCurr.Name)
     '
     ' Create current chunk of HTML code based on the template and current file name
     sHtmlLeftBottomCurrent = Replace(sHtmlLeftBottomLoop, "@FldName",  sCurrentFldrDOS & oSubFolderCurr.Name)
     sHtmlLeftBottomCurrent = Replace(sHtmlLeftBottomCurrent,   "@FldTitle", oSubFolderCurr.Name)
+    sHtmlLeftBottomCurrent = Replace(sHtmlLeftBottomCurrent, "@SubFolderIcon", sFolderIcon)
     '
     ' Add dynamically created HTML code to the rest of the HTML page
     sDynamicFolderHtml = sDynamicFolderHtml & sHtmlLeftBottomCurrent
@@ -103,4 +107,17 @@ function fnListOfM3U(sRootFldrDOS, sCurrentFldrDOS)
             sLiSum & _
             sHtmlLeftFooter
 end function
+
+function fnCheckFolderIcon(sRootFldrDOS, sCurrentFldrDOS, sSubFolderName)
+  set fso=Server.CreateObject("Scripting.FileSystemObject")
+  If (fso.FileExists(sRootFldrDOS & sCurrentFldrDOS & sSubFolderName & "\FolderIcon.png")) Then
+    sResult = "./Data/" & sCurrentFldrDOS & sSubFolderName & "\FolderIcon.png"
+  Else
+    sResult = "./IMG/folder-down-icon.png"
+  End If
+  sResult = Replace(sResult, "\", "/")
+  LW (sResult)
+  fnCheckFolderIcon = sResult
+end function
+
 %>
