@@ -66,8 +66,8 @@ function fnShowCurrentSongFileName(){
     let sSongNameShort = arrSongName[arrSongName.length - 1];
     sSongNameShort = sSongNameShort.replace(/_/g," ");
     sSongNameShort = sSongNameShort.replace(/-/g," ");
-    sSongNameShort = sSongNameShort.replace(/.mp3/g,"");
-    sSongNameShort = sSongNameShort.replace(/%20/g," ");
+    sSongNameShort = sSongNameShort.replace(/.mp3/gi,""); /* remove file extansion which is always .MP3 */
+    sSongNameShort = sSongNameShort.replace(/%20/g," "); /* remove HTML-Space code */
     document.getElementById('idCurrentSongTitle').innerHTML = sSongNameShort;
   }
 }
