@@ -62,11 +62,12 @@ function fnShowCurrentSongFileName(){
   const sSongNameLong = objAudioPlayer[0].src;
   if (sSongNameLong.length > 0){
     const arrSongName   = sSongNameLong.split("/");
-    console.log('arrSongName=' + arrSongName[arrSongName.length - 1]);
+    console.log('arrSongName[-1]=' + arrSongName[arrSongName.length - 1]);
     let sSongNameShort = arrSongName[arrSongName.length - 1];
     sSongNameShort = sSongNameShort.replace(/_/g," ");
     sSongNameShort = sSongNameShort.replace(/-/g," ");
     sSongNameShort = sSongNameShort.replace(/.mp3/g,"");
+    sSongNameShort = sSongNameShort.replace(/%20/g," ");
     document.getElementById('idCurrentSongTitle').innerHTML = sSongNameShort;
   }
 }

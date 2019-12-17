@@ -1,0 +1,1588 @@
+19:38:36 0 sRootFolderDOS=I:\WEB\HTTP\erich\Smart_TV\Data\
+19:38:36 1 sUnformattedPath=Other01\Other02\Other03\
+19:38:36 2 sUnformattedPath=Other01\Other02\Other03\
+19:38:36 3 sUnformattedPath=Other01\Other02\Other03\
+19:38:36 Check folder >>>  I:\WEB\HTTP\erich\Smart_TV\Data\Other01\Other02\Other03\
+19:38:36 sRootFolderDOS   =I:\WEB\HTTP\erich\Smart_TV\Data\
+19:38:36 sCurrentFldrDOS  =Other01\Other02\Other03\
+19:38:36 sFolderType=ER03
+19:38:36 function fnPictureBox - - - - - - - - - - - - - - - -*
+19:38:36 oFldCurrent.path=I:\WEB\HTTP\erich\Smart_TV\Data\Other01\Other02\Other03\
+19:38:36 sTemplateFileName=I:\WEB\HTTP\erich\Smart_TV\Data\..\ASP\fnTypeOTHER_template.html
+19:38:36 Ubound(arrSections)=6
+19:38:36 UBound=3
+19:38:36 ./IMG/folder-down-icon.png
+19:38:39 0 sRootFolderDOS=I:\WEB\HTTP\erich\Smart_TV\Data\
+19:38:39 1 sUnformattedPath=Other01\Other02\Other03\Other04\
+19:38:39 2 sUnformattedPath=Other01\Other02\Other03\Other04\
+19:38:39 3 sUnformattedPath=Other01\Other02\Other03\Other04\
+19:38:39 Check folder >>>  I:\WEB\HTTP\erich\Smart_TV\Data\Other01\Other02\Other03\Other04\
+19:38:39 sRootFolderDOS   =I:\WEB\HTTP\erich\Smart_TV\Data\
+19:38:39 sCurrentFldrDOS  =Other01\Other02\Other03\Other04\
+19:38:39 sFolderType=ER04
+19:38:39 function fnPictureBox - - - - - - - - - - - - - - - -*
+19:38:39 oFldCurrent.path=I:\WEB\HTTP\erich\Smart_TV\Data\Other01\Other02\Other03\Other04\
+19:38:39 sTemplateFileName=I:\WEB\HTTP\erich\Smart_TV\Data\..\ASP\fnTypeOTHER_template.html
+19:38:39 Ubound(arrSections)=6
+19:38:39 UBound=4
+19:38:39 ./IMG/folder-down-icon.png
+19:38:40 0 sRootFolderDOS=I:\WEB\HTTP\erich\Smart_TV\Data\
+19:38:40 1 sUnformattedPath=Other01\Other02\Other03\Other04\Other05\
+19:38:40 2 sUnformattedPath=Other01\Other02\Other03\Other04\Other05\
+19:38:40 3 sUnformattedPath=Other01\Other02\Other03\Other04\Other05\
+19:38:40 Check folder >>>  I:\WEB\HTTP\erich\Smart_TV\Data\Other01\Other02\Other03\Other04\Other05\
+19:38:40 sRootFolderDOS   =I:\WEB\HTTP\erich\Smart_TV\Data\
+19:38:40 sCurrentFldrDOS  =Other01\Other02\Other03\Other04\Other05\
+19:38:40 sFolderType=ER05
+19:38:40 function fnPictureBox - - - - - - - - - - - - - - - -*
+19:38:40 oFldCurrent.path=I:\WEB\HTTP\erich\Smart_TV\Data\Other01\Other02\Other03\Other04\Other05\
+19:38:40 sTemplateFileName=I:\WEB\HTTP\erich\Smart_TV\Data\..\ASP\fnTypeOTHER_template.html
+19:38:40 Ubound(arrSections)=6
+19:38:40 UBound=5
+19:38:40 ./IMG/folder-down-icon.png
+19:38:40 0 sRootFolderDOS=I:\WEB\HTTP\erich\Smart_TV\Data\
+19:38:40 1 sUnformattedPath=Other01\Other02\Other03\Other04\Other05\Other06\
+19:38:40 2 sUnformattedPath=Other01\Other02\Other03\Other04\Other05\Other06\
+19:38:40 3 sUnformattedPath=Other01\Other02\Other03\Other04\Other05\Other06\
+19:38:40 Check folder >>>  I:\WEB\HTTP\erich\Smart_TV\Data\Other01\Other02\Other03\Other04\Other05\Other06\
+19:38:40 sRootFolderDOS   =I:\WEB\HTTP\erich\Smart_TV\Data\
+19:38:40 sCurrentFldrDOS  =Other01\Other02\Other03\Other04\Other05\Other06\
+19:38:40 sFolderType=ER06
+19:38:40 function fnPictureBox - - - - - - - - - - - - - - - -*
+19:38:40 oFldCurrent.path=I:\WEB\HTTP\erich\Smart_TV\Data\Other01\Other02\Other03\Other04\Other05\Other06\
+19:38:40 sTemplateFileName=I:\WEB\HTTP\erich\Smart_TV\Data\..\ASP\fnTypeOTHER_template.html
+19:38:40 Ubound(arrSections)=6
+19:38:40 UBound=6
+19:38:40 ./Data/Other01/Other02/Other03/Other04/Other05/Other06/Docs.pdf/FolderIcon.png
+19:38:40 ./Data/Other01/Other02/Other03/Other04/Other05/Other06/Links-orig.LNK/FolderIcon.png
+19:38:40 ./Data/Other01/Other02/Other03/Other04/Other05/Other06/Links.LNK/FolderIcon.png
+19:38:40 ./Data/Other01/Other02/Other03/Other04/Other05/Other06/MOVIES.mov/FolderIcon.png
+19:38:40 ./Data/Other01/Other02/Other03/Other04/Other05/Other06/Music.m3u/FolderIcon.png
+19:38:40 ./IMG/folder-down-icon.png
+19:38:40 ./Data/Other01/Other02/Other03/Other04/Other05/Other06/Pictures.pic/FolderIcon.png
+19:38:43 0 sRootFolderDOS=I:\WEB\HTTP\erich\Smart_TV\Data\
+19:38:43 1 sUnformattedPath=Other01\Other02\Other03\Other04\Other05\Other06\MOVIES.mov\
+19:38:43 2 sUnformattedPath=Other01\Other02\Other03\Other04\Other05\Other06\MOVIES.mov\
+19:38:43 3 sUnformattedPath=Other01\Other02\Other03\Other04\Other05\Other06\MOVIES.mov\
+19:38:43 Check folder >>>  I:\WEB\HTTP\erich\Smart_TV\Data\Other01\Other02\Other03\Other04\Other05\Other06\MOVIES.mov\
+19:38:43 sRootFolderDOS   =I:\WEB\HTTP\erich\Smart_TV\Data\
+19:38:43 sCurrentFldrDOS  =Other01\Other02\Other03\Other04\Other05\Other06\MOVIES.mov\
+19:38:43 sFolderType=.MOV
+19:38:43 function fnPictureBox - - - - - - - - - - - - - - - -*
+19:38:43 oFldCurrent.path=I:\WEB\HTTP\erich\Smart_TV\Data\Other01\Other02\Other03\Other04\Other05\Other06\MOVIES.mov\
+19:38:43 sTemplateFileName=I:\WEB\HTTP\erich\Smart_TV\Data\..\ASP\fnTypeMOVIE_template.html
+19:38:43 Ubound(arrSections)=8
+19:38:43 UBound=7
+19:38:43 
+19:38:43 ./Data/Other01/Other02/Other03/Other04/Other05/Other06/MOVIES.mov/AAABBBCCC/FolderIcon.png
+19:39:13 0 sRootFolderDOS=I:\WEB\HTTP\erich\Smart_TV\Data\
+19:39:13 1 sUnformattedPath=Other01\Other02\Other03\Other04\Other05\Other06\
+19:39:13 2 sUnformattedPath=Other01\Other02\Other03\Other04\Other05\Other06\
+19:39:13 3 sUnformattedPath=Other01\Other02\Other03\Other04\Other05\Other06\
+19:39:13 Check folder >>>  I:\WEB\HTTP\erich\Smart_TV\Data\Other01\Other02\Other03\Other04\Other05\Other06\
+19:39:13 sRootFolderDOS   =I:\WEB\HTTP\erich\Smart_TV\Data\
+19:39:13 sCurrentFldrDOS  =Other01\Other02\Other03\Other04\Other05\Other06\
+19:39:13 sFolderType=ER06
+19:39:13 function fnPictureBox - - - - - - - - - - - - - - - -*
+19:39:13 oFldCurrent.path=I:\WEB\HTTP\erich\Smart_TV\Data\Other01\Other02\Other03\Other04\Other05\Other06\
+19:39:13 sTemplateFileName=I:\WEB\HTTP\erich\Smart_TV\Data\..\ASP\fnTypeOTHER_template.html
+19:39:13 Ubound(arrSections)=6
+19:39:13 UBound=6
+19:39:13 ./Data/Other01/Other02/Other03/Other04/Other05/Other06/Docs.pdf/FolderIcon.png
+19:39:13 ./Data/Other01/Other02/Other03/Other04/Other05/Other06/Links-orig.LNK/FolderIcon.png
+19:39:13 ./Data/Other01/Other02/Other03/Other04/Other05/Other06/Links.LNK/FolderIcon.png
+19:39:13 ./Data/Other01/Other02/Other03/Other04/Other05/Other06/MOVIES.mov/FolderIcon.png
+19:39:13 ./Data/Other01/Other02/Other03/Other04/Other05/Other06/Music.m3u/FolderIcon.png
+19:39:13 ./IMG/folder-down-icon.png
+19:39:13 ./Data/Other01/Other02/Other03/Other04/Other05/Other06/Pictures.pic/FolderIcon.png
+19:39:15 0 sRootFolderDOS=I:\WEB\HTTP\erich\Smart_TV\Data\
+19:39:15 1 sUnformattedPath=Other01\Other02\Other03\Other04\Other05\Other06\MOVIES.mov\
+19:39:15 2 sUnformattedPath=Other01\Other02\Other03\Other04\Other05\Other06\MOVIES.mov\
+19:39:15 3 sUnformattedPath=Other01\Other02\Other03\Other04\Other05\Other06\MOVIES.mov\
+19:39:15 Check folder >>>  I:\WEB\HTTP\erich\Smart_TV\Data\Other01\Other02\Other03\Other04\Other05\Other06\MOVIES.mov\
+19:39:15 sRootFolderDOS   =I:\WEB\HTTP\erich\Smart_TV\Data\
+19:39:15 sCurrentFldrDOS  =Other01\Other02\Other03\Other04\Other05\Other06\MOVIES.mov\
+19:39:15 sFolderType=.MOV
+19:39:15 function fnPictureBox - - - - - - - - - - - - - - - -*
+19:39:15 oFldCurrent.path=I:\WEB\HTTP\erich\Smart_TV\Data\Other01\Other02\Other03\Other04\Other05\Other06\MOVIES.mov\
+19:39:15 sTemplateFileName=I:\WEB\HTTP\erich\Smart_TV\Data\..\ASP\fnTypeMOVIE_template.html
+19:39:15 Ubound(arrSections)=8
+19:39:15 UBound=7
+19:39:15 
+19:39:15 ./Data/Other01/Other02/Other03/Other04/Other05/Other06/MOVIES.mov/AAABBBCCC/FolderIcon.png
+19:39:17 0 sRootFolderDOS=I:\WEB\HTTP\erich\Smart_TV\Data\
+19:39:17 1 sUnformattedPath=Other01\Other02\Other03\Other04\Other05\Other06\MOVIES.mov\AAABBBCCC\
+19:39:17 2 sUnformattedPath=Other01\Other02\Other03\Other04\Other05\Other06\MOVIES.mov\AAABBBCCC\
+19:39:17 3 sUnformattedPath=Other01\Other02\Other03\Other04\Other05\Other06\MOVIES.mov\AAABBBCCC\
+19:39:17 Check folder >>>  I:\WEB\HTTP\erich\Smart_TV\Data\Other01\Other02\Other03\Other04\Other05\Other06\MOVIES.mov\AAABBBCCC\
+19:39:17 sRootFolderDOS   =I:\WEB\HTTP\erich\Smart_TV\Data\
+19:39:17 sCurrentFldrDOS  =Other01\Other02\Other03\Other04\Other05\Other06\MOVIES.mov\AAABBBCCC\
+19:39:17 sFolderType=BCCC
+19:39:17 function fnPictureBox - - - - - - - - - - - - - - - -*
+19:39:17 oFldCurrent.path=I:\WEB\HTTP\erich\Smart_TV\Data\Other01\Other02\Other03\Other04\Other05\Other06\MOVIES.mov\AAABBBCCC\
+19:39:17 sTemplateFileName=I:\WEB\HTTP\erich\Smart_TV\Data\..\ASP\fnTypeOTHER_template.html
+19:39:17 Ubound(arrSections)=6
+19:39:17 UBound=8
+19:39:29 0 sRootFolderDOS=I:\WEB\HTTP\erich\Smart_TV\Data\
+19:39:29 1 sUnformattedPath=Other01\Other02\Other03\Other04\Other05\Other06\MOVIES.mov\
+19:39:29 2 sUnformattedPath=Other01\Other02\Other03\Other04\Other05\Other06\MOVIES.mov\
+19:39:29 3 sUnformattedPath=Other01\Other02\Other03\Other04\Other05\Other06\MOVIES.mov\
+19:39:29 Check folder >>>  I:\WEB\HTTP\erich\Smart_TV\Data\Other01\Other02\Other03\Other04\Other05\Other06\MOVIES.mov\
+19:39:29 sRootFolderDOS   =I:\WEB\HTTP\erich\Smart_TV\Data\
+19:39:29 sCurrentFldrDOS  =Other01\Other02\Other03\Other04\Other05\Other06\MOVIES.mov\
+19:39:29 sFolderType=.MOV
+19:39:29 function fnPictureBox - - - - - - - - - - - - - - - -*
+19:39:29 oFldCurrent.path=I:\WEB\HTTP\erich\Smart_TV\Data\Other01\Other02\Other03\Other04\Other05\Other06\MOVIES.mov\
+19:39:29 sTemplateFileName=I:\WEB\HTTP\erich\Smart_TV\Data\..\ASP\fnTypeMOVIE_template.html
+19:39:29 Ubound(arrSections)=8
+19:39:29 UBound=7
+19:39:29 
+19:39:29 ./Data/Other01/Other02/Other03/Other04/Other05/Other06/MOVIES.mov/AAABBBCCC/FolderIcon.png
+19:42:4 0 sRootFolderDOS=I:\WEB\HTTP\erich\Smart_TV\Data\
+19:42:4 1 sUnformattedPath=Other01\Other02\Other03\
+19:42:4 2 sUnformattedPath=Other01\Other02\Other03\
+19:42:4 3 sUnformattedPath=Other01\Other02\Other03\
+19:42:4 Check folder >>>  I:\WEB\HTTP\erich\Smart_TV\Data\Other01\Other02\Other03\
+19:42:4 sRootFolderDOS   =I:\WEB\HTTP\erich\Smart_TV\Data\
+19:42:4 sCurrentFldrDOS  =Other01\Other02\Other03\
+19:42:4 sFolderType=ER03
+19:42:4 function fnPictureBox - - - - - - - - - - - - - - - -*
+19:42:4 oFldCurrent.path=I:\WEB\HTTP\erich\Smart_TV\Data\Other01\Other02\Other03\
+19:42:4 sTemplateFileName=I:\WEB\HTTP\erich\Smart_TV\Data\..\ASP\fnTypeOTHER_template.html
+19:42:4 Ubound(arrSections)=6
+19:42:4 UBound=3
+19:42:4 ./IMG/folder-down-icon.png
+19:42:6 0 sRootFolderDOS=I:\WEB\HTTP\erich\Smart_TV\Data\
+19:42:6 1 sUnformattedPath=Other01\Other02\Other03\Other04\
+19:42:6 2 sUnformattedPath=Other01\Other02\Other03\Other04\
+19:42:6 3 sUnformattedPath=Other01\Other02\Other03\Other04\
+19:42:6 Check folder >>>  I:\WEB\HTTP\erich\Smart_TV\Data\Other01\Other02\Other03\Other04\
+19:42:6 sRootFolderDOS   =I:\WEB\HTTP\erich\Smart_TV\Data\
+19:42:6 sCurrentFldrDOS  =Other01\Other02\Other03\Other04\
+19:42:6 sFolderType=ER04
+19:42:6 function fnPictureBox - - - - - - - - - - - - - - - -*
+19:42:6 oFldCurrent.path=I:\WEB\HTTP\erich\Smart_TV\Data\Other01\Other02\Other03\Other04\
+19:42:6 sTemplateFileName=I:\WEB\HTTP\erich\Smart_TV\Data\..\ASP\fnTypeOTHER_template.html
+19:42:6 Ubound(arrSections)=6
+19:42:6 UBound=4
+19:42:6 ./IMG/folder-down-icon.png
+19:42:6 0 sRootFolderDOS=I:\WEB\HTTP\erich\Smart_TV\Data\
+19:42:6 1 sUnformattedPath=Other01\Other02\Other03\Other04\Other05\
+19:42:6 2 sUnformattedPath=Other01\Other02\Other03\Other04\Other05\
+19:42:6 3 sUnformattedPath=Other01\Other02\Other03\Other04\Other05\
+19:42:6 Check folder >>>  I:\WEB\HTTP\erich\Smart_TV\Data\Other01\Other02\Other03\Other04\Other05\
+19:42:6 sRootFolderDOS   =I:\WEB\HTTP\erich\Smart_TV\Data\
+19:42:6 sCurrentFldrDOS  =Other01\Other02\Other03\Other04\Other05\
+19:42:6 sFolderType=ER05
+19:42:6 function fnPictureBox - - - - - - - - - - - - - - - -*
+19:42:6 oFldCurrent.path=I:\WEB\HTTP\erich\Smart_TV\Data\Other01\Other02\Other03\Other04\Other05\
+19:42:6 sTemplateFileName=I:\WEB\HTTP\erich\Smart_TV\Data\..\ASP\fnTypeOTHER_template.html
+19:42:6 Ubound(arrSections)=6
+19:42:6 UBound=5
+19:42:6 ./IMG/folder-down-icon.png
+19:42:6 0 sRootFolderDOS=I:\WEB\HTTP\erich\Smart_TV\Data\
+19:42:6 1 sUnformattedPath=Other01\Other02\Other03\Other04\Other05\Other06\
+19:42:6 2 sUnformattedPath=Other01\Other02\Other03\Other04\Other05\Other06\
+19:42:6 3 sUnformattedPath=Other01\Other02\Other03\Other04\Other05\Other06\
+19:42:6 Check folder >>>  I:\WEB\HTTP\erich\Smart_TV\Data\Other01\Other02\Other03\Other04\Other05\Other06\
+19:42:6 sRootFolderDOS   =I:\WEB\HTTP\erich\Smart_TV\Data\
+19:42:6 sCurrentFldrDOS  =Other01\Other02\Other03\Other04\Other05\Other06\
+19:42:6 sFolderType=ER06
+19:42:6 function fnPictureBox - - - - - - - - - - - - - - - -*
+19:42:6 oFldCurrent.path=I:\WEB\HTTP\erich\Smart_TV\Data\Other01\Other02\Other03\Other04\Other05\Other06\
+19:42:6 sTemplateFileName=I:\WEB\HTTP\erich\Smart_TV\Data\..\ASP\fnTypeOTHER_template.html
+19:42:6 Ubound(arrSections)=6
+19:42:6 UBound=6
+19:42:6 ./Data/Other01/Other02/Other03/Other04/Other05/Other06/Docs.pdf/FolderIcon.png
+19:42:6 ./Data/Other01/Other02/Other03/Other04/Other05/Other06/Links-orig.LNK/FolderIcon.png
+19:42:6 ./Data/Other01/Other02/Other03/Other04/Other05/Other06/Links.LNK/FolderIcon.png
+19:42:6 ./Data/Other01/Other02/Other03/Other04/Other05/Other06/MOVIES.mov/FolderIcon.png
+19:42:6 ./Data/Other01/Other02/Other03/Other04/Other05/Other06/Music.m3u/FolderIcon.png
+19:42:6 ./IMG/folder-down-icon.png
+19:42:6 ./Data/Other01/Other02/Other03/Other04/Other05/Other06/Pictures.pic/FolderIcon.png
+19:42:9 0 sRootFolderDOS=I:\WEB\HTTP\erich\Smart_TV\Data\
+19:42:9 1 sUnformattedPath=Other01\Other02\Other03\Other04\Other05\Other06\MOVIES.mov\
+19:42:9 2 sUnformattedPath=Other01\Other02\Other03\Other04\Other05\Other06\MOVIES.mov\
+19:42:9 3 sUnformattedPath=Other01\Other02\Other03\Other04\Other05\Other06\MOVIES.mov\
+19:42:9 Check folder >>>  I:\WEB\HTTP\erich\Smart_TV\Data\Other01\Other02\Other03\Other04\Other05\Other06\MOVIES.mov\
+19:42:9 sRootFolderDOS   =I:\WEB\HTTP\erich\Smart_TV\Data\
+19:42:9 sCurrentFldrDOS  =Other01\Other02\Other03\Other04\Other05\Other06\MOVIES.mov\
+19:42:9 sFolderType=.MOV
+19:42:9 function fnPictureBox - - - - - - - - - - - - - - - -*
+19:42:9 oFldCurrent.path=I:\WEB\HTTP\erich\Smart_TV\Data\Other01\Other02\Other03\Other04\Other05\Other06\MOVIES.mov\
+19:42:9 sTemplateFileName=I:\WEB\HTTP\erich\Smart_TV\Data\..\ASP\fnTypeMOVIE_template.html
+19:42:9 Ubound(arrSections)=8
+19:42:9 UBound=7
+19:42:9 
+19:42:9 ./Data/Other01/Other02/Other03/Other04/Other05/Other06/MOVIES.mov/AAABBBCCC/FolderIcon.png
+19:42:10 0 sRootFolderDOS=I:\WEB\HTTP\erich\Smart_TV\Data\
+19:42:10 1 sUnformattedPath=Other01\Other02\Other03\Other04\Other05\Other06\MOVIES.mov\AAABBBCCC\
+19:42:10 2 sUnformattedPath=Other01\Other02\Other03\Other04\Other05\Other06\MOVIES.mov\AAABBBCCC\
+19:42:10 3 sUnformattedPath=Other01\Other02\Other03\Other04\Other05\Other06\MOVIES.mov\AAABBBCCC\
+19:42:10 Check folder >>>  I:\WEB\HTTP\erich\Smart_TV\Data\Other01\Other02\Other03\Other04\Other05\Other06\MOVIES.mov\AAABBBCCC\
+19:42:10 sRootFolderDOS   =I:\WEB\HTTP\erich\Smart_TV\Data\
+19:42:10 sCurrentFldrDOS  =Other01\Other02\Other03\Other04\Other05\Other06\MOVIES.mov\AAABBBCCC\
+19:42:10 sFolderType=BCCC
+19:42:10 function fnPictureBox - - - - - - - - - - - - - - - -*
+19:42:10 oFldCurrent.path=I:\WEB\HTTP\erich\Smart_TV\Data\Other01\Other02\Other03\Other04\Other05\Other06\MOVIES.mov\AAABBBCCC\
+19:42:10 sTemplateFileName=I:\WEB\HTTP\erich\Smart_TV\Data\..\ASP\fnTypeOTHER_template.html
+19:42:10 Ubound(arrSections)=6
+19:42:10 UBound=8
+19:46:55 0 sRootFolderDOS=I:\WEB\HTTP\erich\Smart_TV\Data\
+19:46:55 1 sUnformattedPath=Other01\Other02\Other03\Other04\Other05\Other06\MOVIES.mov\AAABBBCCC\
+19:46:55 2 sUnformattedPath=Other01\Other02\Other03\Other04\Other05\Other06\MOVIES.mov\AAABBBCCC\
+19:46:55 3 sUnformattedPath=Other01\Other02\Other03\Other04\Other05\Other06\MOVIES.mov\AAABBBCCC\
+19:46:55 Check folder >>>  I:\WEB\HTTP\erich\Smart_TV\Data\Other01\Other02\Other03\Other04\Other05\Other06\MOVIES.mov\AAABBBCCC\
+19:46:55 sRootFolderDOS   =I:\WEB\HTTP\erich\Smart_TV\Data\
+19:46:55 sCurrentFldrDOS  =Other01\Other02\Other03\Other04\Other05\Other06\MOVIES.mov\AAABBBCCC\
+19:46:55 sFolderType=BCCC
+19:46:55 function fnPictureBox - - - - - - - - - - - - - - - -*
+19:46:55 oFldCurrent.path=I:\WEB\HTTP\erich\Smart_TV\Data\Other01\Other02\Other03\Other04\Other05\Other06\MOVIES.mov\AAABBBCCC\
+19:46:55 sTemplateFileName=I:\WEB\HTTP\erich\Smart_TV\Data\..\ASP\fnTypeOTHER_template.html
+19:46:55 Ubound(arrSections)=6
+19:46:55 UBound=8
+19:46:56 0 sRootFolderDOS=I:\WEB\HTTP\erich\Smart_TV\Data\
+19:46:56 1 sUnformattedPath=Other01\Other02\Other03\Other04\Other05\Other06\
+19:46:56 2 sUnformattedPath=Other01\Other02\Other03\Other04\Other05\Other06\
+19:46:56 3 sUnformattedPath=Other01\Other02\Other03\Other04\Other05\Other06\
+19:46:56 Check folder >>>  I:\WEB\HTTP\erich\Smart_TV\Data\Other01\Other02\Other03\Other04\Other05\Other06\
+19:46:56 sRootFolderDOS   =I:\WEB\HTTP\erich\Smart_TV\Data\
+19:46:56 sCurrentFldrDOS  =Other01\Other02\Other03\Other04\Other05\Other06\
+19:46:56 sFolderType=ER06
+19:46:56 function fnPictureBox - - - - - - - - - - - - - - - -*
+19:46:56 oFldCurrent.path=I:\WEB\HTTP\erich\Smart_TV\Data\Other01\Other02\Other03\Other04\Other05\Other06\
+19:46:56 sTemplateFileName=I:\WEB\HTTP\erich\Smart_TV\Data\..\ASP\fnTypeOTHER_template.html
+19:46:56 Ubound(arrSections)=6
+19:46:56 UBound=6
+19:46:56 ./Data/Other01/Other02/Other03/Other04/Other05/Other06/Docs.pdf/FolderIcon.png
+19:46:56 ./Data/Other01/Other02/Other03/Other04/Other05/Other06/Links-orig.LNK/FolderIcon.png
+19:46:56 ./Data/Other01/Other02/Other03/Other04/Other05/Other06/Links.LNK/FolderIcon.png
+19:46:56 ./Data/Other01/Other02/Other03/Other04/Other05/Other06/MOVIES.mov/FolderIcon.png
+19:46:56 ./Data/Other01/Other02/Other03/Other04/Other05/Other06/Music.m3u/FolderIcon.png
+19:46:56 ./IMG/folder-down-icon.png
+19:46:56 ./Data/Other01/Other02/Other03/Other04/Other05/Other06/Pictures.pic/FolderIcon.png
+20:5:34 0 sRootFolderDOS=I:\WEB\HTTP\erich\Smart_TV\Data\
+20:5:34 1 sUnformattedPath=Other01\Other02\Other03\Other04\Other05\Other06\MOVIES.mov\
+20:5:34 2 sUnformattedPath=Other01\Other02\Other03\Other04\Other05\Other06\MOVIES.mov\
+20:5:34 3 sUnformattedPath=Other01\Other02\Other03\Other04\Other05\Other06\MOVIES.mov\
+20:5:34 Check folder >>>  I:\WEB\HTTP\erich\Smart_TV\Data\Other01\Other02\Other03\Other04\Other05\Other06\MOVIES.mov\
+20:5:34 sRootFolderDOS   =I:\WEB\HTTP\erich\Smart_TV\Data\
+20:5:34 sCurrentFldrDOS  =Other01\Other02\Other03\Other04\Other05\Other06\MOVIES.mov\
+20:5:34 sFolderType=.MOV
+20:5:34 function fnPictureBox - - - - - - - - - - - - - - - -*
+20:5:34 oFldCurrent.path=I:\WEB\HTTP\erich\Smart_TV\Data\Other01\Other02\Other03\Other04\Other05\Other06\MOVIES.mov\
+20:5:34 sTemplateFileName=I:\WEB\HTTP\erich\Smart_TV\Data\..\ASP\fnTypeMOVIE_template.html
+20:5:34 Ubound(arrSections)=8
+20:5:34 UBound=7
+20:5:34 
+20:5:34 ./Data/Other01/Other02/Other03/Other04/Other05/Other06/MOVIES.mov/AAABBBCCC/FolderIcon.png
+20:5:36 0 sRootFolderDOS=I:\WEB\HTTP\erich\Smart_TV\Data\
+20:5:36 1 sUnformattedPath=Other01\Other02\Other03\Other04\Other05\Other06\MOVIES.mov\AAABBBCCC\
+20:5:36 2 sUnformattedPath=Other01\Other02\Other03\Other04\Other05\Other06\MOVIES.mov\AAABBBCCC\
+20:5:36 3 sUnformattedPath=Other01\Other02\Other03\Other04\Other05\Other06\MOVIES.mov\AAABBBCCC\
+20:5:36 Check folder >>>  I:\WEB\HTTP\erich\Smart_TV\Data\Other01\Other02\Other03\Other04\Other05\Other06\MOVIES.mov\AAABBBCCC\
+20:5:36 sRootFolderDOS   =I:\WEB\HTTP\erich\Smart_TV\Data\
+20:5:36 sCurrentFldrDOS  =Other01\Other02\Other03\Other04\Other05\Other06\MOVIES.mov\AAABBBCCC\
+20:5:36 sFolderType=BCCC
+20:5:36 function fnPictureBox - - - - - - - - - - - - - - - -*
+20:5:36 oFldCurrent.path=I:\WEB\HTTP\erich\Smart_TV\Data\Other01\Other02\Other03\Other04\Other05\Other06\MOVIES.mov\AAABBBCCC\
+20:5:36 sTemplateFileName=I:\WEB\HTTP\erich\Smart_TV\Data\..\ASP\fnTypeOTHER_template.html
+20:5:36 Ubound(arrSections)=6
+20:5:36 UBound=8
+20:5:39 0 sRootFolderDOS=I:\WEB\HTTP\erich\Smart_TV\Data\
+20:5:39 1 sUnformattedPath=\
+20:5:39 2 sUnformattedPath=
+20:5:39 3 sUnformattedPath=
+20:5:39 Check folder >>>  I:\WEB\HTTP\erich\Smart_TV\Data\
+20:5:39 sRootFolderDOS   =I:\WEB\HTTP\erich\Smart_TV\Data\
+20:5:39 sCurrentFldrDOS  =
+20:5:39 sFolderType=
+20:5:39 function fnPictureBox - - - - - - - - - - - - - - - -*
+20:5:39 oFldCurrent.path=I:\WEB\HTTP\erich\Smart_TV\Data\
+20:5:39 sTemplateFileName=I:\WEB\HTTP\erich\Smart_TV\Data\..\ASP\fnTypeOTHER_template.html
+20:5:39 Ubound(arrSections)=6
+20:5:39 UBound=-1
+20:5:39 ./IMG/folder-down-icon.png
+20:5:41 0 sRootFolderDOS=I:\WEB\HTTP\erich\Smart_TV\Data\
+20:5:41 1 sUnformattedPath=Other01\
+20:5:41 2 sUnformattedPath=Other01\
+20:5:41 3 sUnformattedPath=Other01\
+20:5:41 Check folder >>>  I:\WEB\HTTP\erich\Smart_TV\Data\Other01\
+20:5:41 sRootFolderDOS   =I:\WEB\HTTP\erich\Smart_TV\Data\
+20:5:41 sCurrentFldrDOS  =Other01\
+20:5:41 sFolderType=ER01
+20:5:41 function fnPictureBox - - - - - - - - - - - - - - - -*
+20:5:41 oFldCurrent.path=I:\WEB\HTTP\erich\Smart_TV\Data\Other01\
+20:5:41 sTemplateFileName=I:\WEB\HTTP\erich\Smart_TV\Data\..\ASP\fnTypeOTHER_template.html
+20:5:41 Ubound(arrSections)=6
+20:5:41 UBound=1
+20:5:41 ./IMG/folder-down-icon.png
+20:5:41 0 sRootFolderDOS=I:\WEB\HTTP\erich\Smart_TV\Data\
+20:5:41 1 sUnformattedPath=Other01\Other02\
+20:5:41 2 sUnformattedPath=Other01\Other02\
+20:5:41 3 sUnformattedPath=Other01\Other02\
+20:5:41 Check folder >>>  I:\WEB\HTTP\erich\Smart_TV\Data\Other01\Other02\
+20:5:41 sRootFolderDOS   =I:\WEB\HTTP\erich\Smart_TV\Data\
+20:5:41 sCurrentFldrDOS  =Other01\Other02\
+20:5:41 sFolderType=ER02
+20:5:41 function fnPictureBox - - - - - - - - - - - - - - - -*
+20:5:41 oFldCurrent.path=I:\WEB\HTTP\erich\Smart_TV\Data\Other01\Other02\
+20:5:41 sTemplateFileName=I:\WEB\HTTP\erich\Smart_TV\Data\..\ASP\fnTypeOTHER_template.html
+20:5:41 Ubound(arrSections)=6
+20:5:41 UBound=2
+20:5:41 ./IMG/folder-down-icon.png
+20:5:42 0 sRootFolderDOS=I:\WEB\HTTP\erich\Smart_TV\Data\
+20:5:42 1 sUnformattedPath=Other01\Other02\Other03\
+20:5:42 2 sUnformattedPath=Other01\Other02\Other03\
+20:5:42 3 sUnformattedPath=Other01\Other02\Other03\
+20:5:42 Check folder >>>  I:\WEB\HTTP\erich\Smart_TV\Data\Other01\Other02\Other03\
+20:5:42 sRootFolderDOS   =I:\WEB\HTTP\erich\Smart_TV\Data\
+20:5:42 sCurrentFldrDOS  =Other01\Other02\Other03\
+20:5:42 sFolderType=ER03
+20:5:42 function fnPictureBox - - - - - - - - - - - - - - - -*
+20:5:42 oFldCurrent.path=I:\WEB\HTTP\erich\Smart_TV\Data\Other01\Other02\Other03\
+20:5:42 sTemplateFileName=I:\WEB\HTTP\erich\Smart_TV\Data\..\ASP\fnTypeOTHER_template.html
+20:5:42 Ubound(arrSections)=6
+20:5:42 UBound=3
+20:5:42 ./IMG/folder-down-icon.png
+20:5:42 0 sRootFolderDOS=I:\WEB\HTTP\erich\Smart_TV\Data\
+20:5:42 1 sUnformattedPath=Other01\Other02\Other03\Other04\
+20:5:42 2 sUnformattedPath=Other01\Other02\Other03\Other04\
+20:5:42 3 sUnformattedPath=Other01\Other02\Other03\Other04\
+20:5:42 Check folder >>>  I:\WEB\HTTP\erich\Smart_TV\Data\Other01\Other02\Other03\Other04\
+20:5:42 sRootFolderDOS   =I:\WEB\HTTP\erich\Smart_TV\Data\
+20:5:42 sCurrentFldrDOS  =Other01\Other02\Other03\Other04\
+20:5:42 sFolderType=ER04
+20:5:42 function fnPictureBox - - - - - - - - - - - - - - - -*
+20:5:42 oFldCurrent.path=I:\WEB\HTTP\erich\Smart_TV\Data\Other01\Other02\Other03\Other04\
+20:5:42 sTemplateFileName=I:\WEB\HTTP\erich\Smart_TV\Data\..\ASP\fnTypeOTHER_template.html
+20:5:42 Ubound(arrSections)=6
+20:5:42 UBound=4
+20:5:42 ./IMG/folder-down-icon.png
+20:5:42 0 sRootFolderDOS=I:\WEB\HTTP\erich\Smart_TV\Data\
+20:5:42 1 sUnformattedPath=Other01\Other02\Other03\Other04\Other05\
+20:5:42 2 sUnformattedPath=Other01\Other02\Other03\Other04\Other05\
+20:5:42 3 sUnformattedPath=Other01\Other02\Other03\Other04\Other05\
+20:5:42 Check folder >>>  I:\WEB\HTTP\erich\Smart_TV\Data\Other01\Other02\Other03\Other04\Other05\
+20:5:42 sRootFolderDOS   =I:\WEB\HTTP\erich\Smart_TV\Data\
+20:5:42 sCurrentFldrDOS  =Other01\Other02\Other03\Other04\Other05\
+20:5:42 sFolderType=ER05
+20:5:42 function fnPictureBox - - - - - - - - - - - - - - - -*
+20:5:42 oFldCurrent.path=I:\WEB\HTTP\erich\Smart_TV\Data\Other01\Other02\Other03\Other04\Other05\
+20:5:42 sTemplateFileName=I:\WEB\HTTP\erich\Smart_TV\Data\..\ASP\fnTypeOTHER_template.html
+20:5:42 Ubound(arrSections)=6
+20:5:42 UBound=5
+20:5:42 ./IMG/folder-down-icon.png
+20:5:43 0 sRootFolderDOS=I:\WEB\HTTP\erich\Smart_TV\Data\
+20:5:43 1 sUnformattedPath=Other01\Other02\Other03\Other04\Other05\Other06\
+20:5:43 2 sUnformattedPath=Other01\Other02\Other03\Other04\Other05\Other06\
+20:5:43 3 sUnformattedPath=Other01\Other02\Other03\Other04\Other05\Other06\
+20:5:43 Check folder >>>  I:\WEB\HTTP\erich\Smart_TV\Data\Other01\Other02\Other03\Other04\Other05\Other06\
+20:5:43 sRootFolderDOS   =I:\WEB\HTTP\erich\Smart_TV\Data\
+20:5:43 sCurrentFldrDOS  =Other01\Other02\Other03\Other04\Other05\Other06\
+20:5:43 sFolderType=ER06
+20:5:43 function fnPictureBox - - - - - - - - - - - - - - - -*
+20:5:43 oFldCurrent.path=I:\WEB\HTTP\erich\Smart_TV\Data\Other01\Other02\Other03\Other04\Other05\Other06\
+20:5:43 sTemplateFileName=I:\WEB\HTTP\erich\Smart_TV\Data\..\ASP\fnTypeOTHER_template.html
+20:5:43 Ubound(arrSections)=6
+20:5:43 UBound=6
+20:5:43 ./Data/Other01/Other02/Other03/Other04/Other05/Other06/Docs.pdf/FolderIcon.png
+20:5:43 ./Data/Other01/Other02/Other03/Other04/Other05/Other06/Links-orig.LNK/FolderIcon.png
+20:5:43 ./Data/Other01/Other02/Other03/Other04/Other05/Other06/Links.LNK/FolderIcon.png
+20:5:43 ./Data/Other01/Other02/Other03/Other04/Other05/Other06/MOVIES.mov/FolderIcon.png
+20:5:43 ./Data/Other01/Other02/Other03/Other04/Other05/Other06/Music.m3u/FolderIcon.png
+20:5:43 ./IMG/folder-down-icon.png
+20:5:43 ./Data/Other01/Other02/Other03/Other04/Other05/Other06/Pictures.pic/FolderIcon.png
+20:5:51 0 sRootFolderDOS=I:\WEB\HTTP\erich\Smart_TV\Data\
+20:5:51 1 sUnformattedPath=Other01\Other02\Other03\Other04\Other05\Other06\Links.LNK\
+20:5:51 2 sUnformattedPath=Other01\Other02\Other03\Other04\Other05\Other06\Links.LNK\
+20:5:51 3 sUnformattedPath=Other01\Other02\Other03\Other04\Other05\Other06\Links.LNK\
+20:5:51 Check folder >>>  I:\WEB\HTTP\erich\Smart_TV\Data\Other01\Other02\Other03\Other04\Other05\Other06\Links.LNK\
+20:5:51 sRootFolderDOS   =I:\WEB\HTTP\erich\Smart_TV\Data\
+20:5:51 sCurrentFldrDOS  =Other01\Other02\Other03\Other04\Other05\Other06\Links.LNK\
+20:5:51 sFolderType=.LNK
+20:5:51 function fnPictureBox - - - - - - - - - - - - - - - -*
+20:5:51 oFldCurrent.path=I:\WEB\HTTP\erich\Smart_TV\Data\Other01\Other02\Other03\Other04\Other05\Other06\Links.LNK\
+20:5:51 sTemplateFileName=I:\WEB\HTTP\erich\Smart_TV\Data\..\ASP\fnTypeLNK_template.html
+20:5:51 Ubound(arrSections)=8
+20:5:51 UBound=7
+20:5:51 
+20:5:51 sBreadCrumbsRelPathDOS=Other01\
+20:5:51 sBreadCrumbsRelPathDOS=Other01\Other02\
+20:5:51 sBreadCrumbsRelPathDOS=Other01\Other02\Other03\
+20:5:51 sBreadCrumbsRelPathDOS=Other01\Other02\Other03\Other04\
+20:5:51 sBreadCrumbsRelPathDOS=Other01\Other02\Other03\Other04\Other05\
+20:5:51 sBreadCrumbsRelPathDOS=Other01\Other02\Other03\Other04\Other05\Other06\
+20:5:51 sBreadCrumbsRelPathDOS=Other01\Other02\Other03\Other04\Other05\Other06\Links.LNK\
+20:5:58 0 sRootFolderDOS=I:\WEB\HTTP\erich\Smart_TV\Data\
+20:5:58 1 sUnformattedPath=Other01\Other02\Other03\Other04\Other05\Other06\
+20:5:58 2 sUnformattedPath=Other01\Other02\Other03\Other04\Other05\Other06\
+20:5:58 3 sUnformattedPath=Other01\Other02\Other03\Other04\Other05\Other06\
+20:5:58 Check folder >>>  I:\WEB\HTTP\erich\Smart_TV\Data\Other01\Other02\Other03\Other04\Other05\Other06\
+20:5:58 sRootFolderDOS   =I:\WEB\HTTP\erich\Smart_TV\Data\
+20:5:58 sCurrentFldrDOS  =Other01\Other02\Other03\Other04\Other05\Other06\
+20:5:58 sFolderType=ER06
+20:5:58 function fnPictureBox - - - - - - - - - - - - - - - -*
+20:5:58 oFldCurrent.path=I:\WEB\HTTP\erich\Smart_TV\Data\Other01\Other02\Other03\Other04\Other05\Other06\
+20:5:58 sTemplateFileName=I:\WEB\HTTP\erich\Smart_TV\Data\..\ASP\fnTypeOTHER_template.html
+20:5:58 Ubound(arrSections)=6
+20:5:58 UBound=6
+20:5:58 ./Data/Other01/Other02/Other03/Other04/Other05/Other06/Docs.pdf/FolderIcon.png
+20:5:58 ./Data/Other01/Other02/Other03/Other04/Other05/Other06/Links-orig.LNK/FolderIcon.png
+20:5:58 ./Data/Other01/Other02/Other03/Other04/Other05/Other06/Links.LNK/FolderIcon.png
+20:5:58 ./Data/Other01/Other02/Other03/Other04/Other05/Other06/MOVIES.mov/FolderIcon.png
+20:5:58 ./Data/Other01/Other02/Other03/Other04/Other05/Other06/Music.m3u/FolderIcon.png
+20:5:58 ./IMG/folder-down-icon.png
+20:5:58 ./Data/Other01/Other02/Other03/Other04/Other05/Other06/Pictures.pic/FolderIcon.png
+20:6:37 0 sRootFolderDOS=I:\WEB\HTTP\erich\Smart_TV\Data\
+20:6:37 1 sUnformattedPath=Other01\Other02\Other03\Other04\Other05\Other06\Links-orig.LNK\
+20:6:37 2 sUnformattedPath=Other01\Other02\Other03\Other04\Other05\Other06\Links-orig.LNK\
+20:6:37 3 sUnformattedPath=Other01\Other02\Other03\Other04\Other05\Other06\Links-orig.LNK\
+20:6:37 Check folder >>>  I:\WEB\HTTP\erich\Smart_TV\Data\Other01\Other02\Other03\Other04\Other05\Other06\Links-orig.LNK\
+20:6:37 sRootFolderDOS   =I:\WEB\HTTP\erich\Smart_TV\Data\
+20:6:37 sCurrentFldrDOS  =Other01\Other02\Other03\Other04\Other05\Other06\Links-orig.LNK\
+20:6:37 sFolderType=.LNK
+20:6:37 function fnPictureBox - - - - - - - - - - - - - - - -*
+20:6:37 oFldCurrent.path=I:\WEB\HTTP\erich\Smart_TV\Data\Other01\Other02\Other03\Other04\Other05\Other06\Links-orig.LNK\
+20:6:37 sTemplateFileName=I:\WEB\HTTP\erich\Smart_TV\Data\..\ASP\fnTypeLNK_template.html
+20:6:37 Ubound(arrSections)=8
+20:6:37 UBound=7
+20:6:37 
+20:6:37 sBreadCrumbsRelPathDOS=Other01\
+20:6:37 sBreadCrumbsRelPathDOS=Other01\Other02\
+20:6:37 sBreadCrumbsRelPathDOS=Other01\Other02\Other03\
+20:6:37 sBreadCrumbsRelPathDOS=Other01\Other02\Other03\Other04\
+20:6:37 sBreadCrumbsRelPathDOS=Other01\Other02\Other03\Other04\Other05\
+20:6:37 sBreadCrumbsRelPathDOS=Other01\Other02\Other03\Other04\Other05\Other06\
+20:6:37 sBreadCrumbsRelPathDOS=Other01\Other02\Other03\Other04\Other05\Other06\Links-orig.LNK\
+20:6:37 ./Data/Other01/Other02/Other03/Other04/Other05/Other06/Links-orig.LNK/AAABBBCCC/FolderIcon.png
+20:6:40 0 sRootFolderDOS=I:\WEB\HTTP\erich\Smart_TV\Data\
+20:6:40 1 sUnformattedPath=Other01\Other02\Other03\Other04\Other05\Other06\Links-orig.LNK\AAABBBCCC\
+20:6:40 2 sUnformattedPath=Other01\Other02\Other03\Other04\Other05\Other06\Links-orig.LNK\AAABBBCCC\
+20:6:40 3 sUnformattedPath=Other01\Other02\Other03\Other04\Other05\Other06\Links-orig.LNK\AAABBBCCC\
+20:6:40 Check folder >>>  I:\WEB\HTTP\erich\Smart_TV\Data\Other01\Other02\Other03\Other04\Other05\Other06\Links-orig.LNK\AAABBBCCC\
+20:6:40 sRootFolderDOS   =I:\WEB\HTTP\erich\Smart_TV\Data\
+20:6:40 sCurrentFldrDOS  =Other01\Other02\Other03\Other04\Other05\Other06\Links-orig.LNK\AAABBBCCC\
+20:6:40 sFolderType=BCCC
+20:6:40 function fnPictureBox - - - - - - - - - - - - - - - -*
+20:6:40 oFldCurrent.path=I:\WEB\HTTP\erich\Smart_TV\Data\Other01\Other02\Other03\Other04\Other05\Other06\Links-orig.LNK\AAABBBCCC\
+20:6:40 sTemplateFileName=I:\WEB\HTTP\erich\Smart_TV\Data\..\ASP\fnTypeOTHER_template.html
+20:6:40 Ubound(arrSections)=6
+20:6:40 UBound=8
+20:6:43 0 sRootFolderDOS=I:\WEB\HTTP\erich\Smart_TV\Data\
+20:6:43 1 sUnformattedPath=Other01\Other02\Other03\Other04\Other05\Other06\Links-orig.LNK\
+20:6:43 2 sUnformattedPath=Other01\Other02\Other03\Other04\Other05\Other06\Links-orig.LNK\
+20:6:43 3 sUnformattedPath=Other01\Other02\Other03\Other04\Other05\Other06\Links-orig.LNK\
+20:6:43 Check folder >>>  I:\WEB\HTTP\erich\Smart_TV\Data\Other01\Other02\Other03\Other04\Other05\Other06\Links-orig.LNK\
+20:6:43 sRootFolderDOS   =I:\WEB\HTTP\erich\Smart_TV\Data\
+20:6:43 sCurrentFldrDOS  =Other01\Other02\Other03\Other04\Other05\Other06\Links-orig.LNK\
+20:6:43 sFolderType=.LNK
+20:6:43 function fnPictureBox - - - - - - - - - - - - - - - -*
+20:6:43 oFldCurrent.path=I:\WEB\HTTP\erich\Smart_TV\Data\Other01\Other02\Other03\Other04\Other05\Other06\Links-orig.LNK\
+20:6:43 sTemplateFileName=I:\WEB\HTTP\erich\Smart_TV\Data\..\ASP\fnTypeLNK_template.html
+20:6:43 Ubound(arrSections)=8
+20:6:43 UBound=7
+20:6:43 
+20:6:43 sBreadCrumbsRelPathDOS=Other01\
+20:6:43 sBreadCrumbsRelPathDOS=Other01\Other02\
+20:6:43 sBreadCrumbsRelPathDOS=Other01\Other02\Other03\
+20:6:43 sBreadCrumbsRelPathDOS=Other01\Other02\Other03\Other04\
+20:6:43 sBreadCrumbsRelPathDOS=Other01\Other02\Other03\Other04\Other05\
+20:6:43 sBreadCrumbsRelPathDOS=Other01\Other02\Other03\Other04\Other05\Other06\
+20:6:43 sBreadCrumbsRelPathDOS=Other01\Other02\Other03\Other04\Other05\Other06\Links-orig.LNK\
+20:6:43 ./Data/Other01/Other02/Other03/Other04/Other05/Other06/Links-orig.LNK/AAABBBCCC/FolderIcon.png
+20:6:44 0 sRootFolderDOS=I:\WEB\HTTP\erich\Smart_TV\Data\
+20:6:44 1 sUnformattedPath=Other01\Other02\Other03\Other04\Other05\Other06\
+20:6:44 2 sUnformattedPath=Other01\Other02\Other03\Other04\Other05\Other06\
+20:6:44 3 sUnformattedPath=Other01\Other02\Other03\Other04\Other05\Other06\
+20:6:44 Check folder >>>  I:\WEB\HTTP\erich\Smart_TV\Data\Other01\Other02\Other03\Other04\Other05\Other06\
+20:6:44 sRootFolderDOS   =I:\WEB\HTTP\erich\Smart_TV\Data\
+20:6:44 sCurrentFldrDOS  =Other01\Other02\Other03\Other04\Other05\Other06\
+20:6:44 sFolderType=ER06
+20:6:44 function fnPictureBox - - - - - - - - - - - - - - - -*
+20:6:44 oFldCurrent.path=I:\WEB\HTTP\erich\Smart_TV\Data\Other01\Other02\Other03\Other04\Other05\Other06\
+20:6:44 sTemplateFileName=I:\WEB\HTTP\erich\Smart_TV\Data\..\ASP\fnTypeOTHER_template.html
+20:6:44 Ubound(arrSections)=6
+20:6:44 UBound=6
+20:6:44 ./Data/Other01/Other02/Other03/Other04/Other05/Other06/Docs.pdf/FolderIcon.png
+20:6:44 ./Data/Other01/Other02/Other03/Other04/Other05/Other06/Links-orig.LNK/FolderIcon.png
+20:6:44 ./Data/Other01/Other02/Other03/Other04/Other05/Other06/Links.LNK/FolderIcon.png
+20:6:44 ./Data/Other01/Other02/Other03/Other04/Other05/Other06/MOVIES.mov/FolderIcon.png
+20:6:44 ./Data/Other01/Other02/Other03/Other04/Other05/Other06/Music.m3u/FolderIcon.png
+20:6:44 ./IMG/folder-down-icon.png
+20:6:44 ./Data/Other01/Other02/Other03/Other04/Other05/Other06/Pictures.pic/FolderIcon.png
+20:6:47 0 sRootFolderDOS=I:\WEB\HTTP\erich\Smart_TV\Data\
+20:6:47 1 sUnformattedPath=Other01\Other02\Other03\Other04\Other05\Other06\Music.m3u\
+20:6:47 2 sUnformattedPath=Other01\Other02\Other03\Other04\Other05\Other06\Music.m3u\
+20:6:47 3 sUnformattedPath=Other01\Other02\Other03\Other04\Other05\Other06\Music.m3u\
+20:6:47 Check folder >>>  I:\WEB\HTTP\erich\Smart_TV\Data\Other01\Other02\Other03\Other04\Other05\Other06\Music.m3u\
+20:6:47 sRootFolderDOS   =I:\WEB\HTTP\erich\Smart_TV\Data\
+20:6:47 sCurrentFldrDOS  =Other01\Other02\Other03\Other04\Other05\Other06\Music.m3u\
+20:6:47 sFolderType=.M3U
+20:6:47 function fnPictureBox - - - - - - - - - - - - - - - -*
+20:6:47 oFldCurrent.path=I:\WEB\HTTP\erich\Smart_TV\Data\Other01\Other02\Other03\Other04\Other05\Other06\Music.m3u\
+20:6:47 sTemplateFileName=I:\WEB\HTTP\erich\Smart_TV\Data\..\ASP\fnTypeM3U_template.html
+20:6:47 Ubound(arrSections)=8
+20:6:47 UBound=7
+20:6:47 
+20:6:47 sBreadCrumbsRelPathDOS=Other01\
+20:6:47 sBreadCrumbsRelPathDOS=Other01\Other02\
+20:6:47 sBreadCrumbsRelPathDOS=Other01\Other02\Other03\
+20:6:47 sBreadCrumbsRelPathDOS=Other01\Other02\Other03\Other04\
+20:6:47 sBreadCrumbsRelPathDOS=Other01\Other02\Other03\Other04\Other05\
+20:6:47 sBreadCrumbsRelPathDOS=Other01\Other02\Other03\Other04\Other05\Other06\
+20:6:47 sBreadCrumbsRelPathDOS=Other01\Other02\Other03\Other04\Other05\Other06\Music.m3u\
+20:6:47 ./Data/Other01/Other02/Other03/Other04/Other05/Other06/Music.m3u/AAABBBCCC/FolderIcon.png
+20:6:47 @@@@@@@@@@ a-beep's.mp3 @@@@@@@@@@@@@@
+20:6:47 @@@@@@@@@@ Beethoven-MoonlightSonata.mp3 @@@@@@@@@@@@@@
+20:6:47 @@@@@@@@@@ chopin_nocturne_no20_in_c_sharp_minor_opposth.mp3 @@@@@@@@@@@@@@
+20:6:47 @@@@@@@@@@ joshua_bell_voice_of_the_violin_una_furtiva_lagrima.mp3 @@@@@@@@@@@@@@
+20:6:50 0 sRootFolderDOS=I:\WEB\HTTP\erich\Smart_TV\Data\
+20:6:50 1 sUnformattedPath=Other01\Other02\Other03\Other04\Other05\Other06\
+20:6:50 2 sUnformattedPath=Other01\Other02\Other03\Other04\Other05\Other06\
+20:6:50 3 sUnformattedPath=Other01\Other02\Other03\Other04\Other05\Other06\
+20:6:50 Check folder >>>  I:\WEB\HTTP\erich\Smart_TV\Data\Other01\Other02\Other03\Other04\Other05\Other06\
+20:6:50 sRootFolderDOS   =I:\WEB\HTTP\erich\Smart_TV\Data\
+20:6:50 sCurrentFldrDOS  =Other01\Other02\Other03\Other04\Other05\Other06\
+20:6:50 sFolderType=ER06
+20:6:50 function fnPictureBox - - - - - - - - - - - - - - - -*
+20:6:50 oFldCurrent.path=I:\WEB\HTTP\erich\Smart_TV\Data\Other01\Other02\Other03\Other04\Other05\Other06\
+20:6:50 sTemplateFileName=I:\WEB\HTTP\erich\Smart_TV\Data\..\ASP\fnTypeOTHER_template.html
+20:6:50 Ubound(arrSections)=6
+20:6:50 UBound=6
+20:6:50 ./Data/Other01/Other02/Other03/Other04/Other05/Other06/Docs.pdf/FolderIcon.png
+20:6:50 ./Data/Other01/Other02/Other03/Other04/Other05/Other06/Links-orig.LNK/FolderIcon.png
+20:6:50 ./Data/Other01/Other02/Other03/Other04/Other05/Other06/Links.LNK/FolderIcon.png
+20:6:50 ./Data/Other01/Other02/Other03/Other04/Other05/Other06/MOVIES.mov/FolderIcon.png
+20:6:50 ./Data/Other01/Other02/Other03/Other04/Other05/Other06/Music.m3u/FolderIcon.png
+20:6:50 ./IMG/folder-down-icon.png
+20:6:50 ./Data/Other01/Other02/Other03/Other04/Other05/Other06/Pictures.pic/FolderIcon.png
+20:6:51 0 sRootFolderDOS=I:\WEB\HTTP\erich\Smart_TV\Data\
+20:6:51 1 sUnformattedPath=Other01\Other02\Other03\Other04\Other05\Other06\MOVIES.mov\
+20:6:51 2 sUnformattedPath=Other01\Other02\Other03\Other04\Other05\Other06\MOVIES.mov\
+20:6:51 3 sUnformattedPath=Other01\Other02\Other03\Other04\Other05\Other06\MOVIES.mov\
+20:6:51 Check folder >>>  I:\WEB\HTTP\erich\Smart_TV\Data\Other01\Other02\Other03\Other04\Other05\Other06\MOVIES.mov\
+20:6:51 sRootFolderDOS   =I:\WEB\HTTP\erich\Smart_TV\Data\
+20:6:51 sCurrentFldrDOS  =Other01\Other02\Other03\Other04\Other05\Other06\MOVIES.mov\
+20:6:51 sFolderType=.MOV
+20:6:51 function fnPictureBox - - - - - - - - - - - - - - - -*
+20:6:51 oFldCurrent.path=I:\WEB\HTTP\erich\Smart_TV\Data\Other01\Other02\Other03\Other04\Other05\Other06\MOVIES.mov\
+20:6:51 sTemplateFileName=I:\WEB\HTTP\erich\Smart_TV\Data\..\ASP\fnTypeMOVIE_template.html
+20:6:51 Ubound(arrSections)=8
+20:6:51 UBound=7
+20:6:51 
+20:6:51 ./Data/Other01/Other02/Other03/Other04/Other05/Other06/MOVIES.mov/AAABBBCCC/FolderIcon.png
+20:11:47 0 sRootFolderDOS=I:\WEB\HTTP\erich\Smart_TV\Data\
+20:11:47 1 sUnformattedPath=Other01\Other02\Other03\Other04\Other05\Other06\MOVIES.mov\AAABBBCCC\
+20:11:47 2 sUnformattedPath=Other01\Other02\Other03\Other04\Other05\Other06\MOVIES.mov\AAABBBCCC\
+20:11:47 3 sUnformattedPath=Other01\Other02\Other03\Other04\Other05\Other06\MOVIES.mov\AAABBBCCC\
+20:11:47 Check folder >>>  I:\WEB\HTTP\erich\Smart_TV\Data\Other01\Other02\Other03\Other04\Other05\Other06\MOVIES.mov\AAABBBCCC\
+20:11:47 sRootFolderDOS   =I:\WEB\HTTP\erich\Smart_TV\Data\
+20:11:47 sCurrentFldrDOS  =Other01\Other02\Other03\Other04\Other05\Other06\MOVIES.mov\AAABBBCCC\
+20:11:47 sFolderType=BCCC
+20:11:47 function fnPictureBox - - - - - - - - - - - - - - - -*
+20:11:47 oFldCurrent.path=I:\WEB\HTTP\erich\Smart_TV\Data\Other01\Other02\Other03\Other04\Other05\Other06\MOVIES.mov\AAABBBCCC\
+20:11:47 sTemplateFileName=I:\WEB\HTTP\erich\Smart_TV\Data\..\ASP\fnTypeOTHER_template.html
+20:11:47 Ubound(arrSections)=6
+20:11:47 UBound=8
+20:12:0 0 sRootFolderDOS=I:\WEB\HTTP\erich\Smart_TV\Data\
+20:12:0 1 sUnformattedPath=Other01\Other02\Other03\Other04\Other05\Other06\MOVIES.mov\AAABBBCCC\
+20:12:0 2 sUnformattedPath=Other01\Other02\Other03\Other04\Other05\Other06\MOVIES.mov\AAABBBCCC\
+20:12:0 3 sUnformattedPath=Other01\Other02\Other03\Other04\Other05\Other06\MOVIES.mov\AAABBBCCC\
+20:12:0 Check folder >>>  I:\WEB\HTTP\erich\Smart_TV\Data\Other01\Other02\Other03\Other04\Other05\Other06\MOVIES.mov\AAABBBCCC\
+20:12:0 sRootFolderDOS   =I:\WEB\HTTP\erich\Smart_TV\Data\
+20:12:0 sCurrentFldrDOS  =Other01\Other02\Other03\Other04\Other05\Other06\MOVIES.mov\AAABBBCCC\
+20:12:0 sFolderType=BCCC
+20:12:0 function fnPictureBox - - - - - - - - - - - - - - - -*
+20:12:0 oFldCurrent.path=I:\WEB\HTTP\erich\Smart_TV\Data\Other01\Other02\Other03\Other04\Other05\Other06\MOVIES.mov\AAABBBCCC\
+20:12:0 sTemplateFileName=I:\WEB\HTTP\erich\Smart_TV\Data\..\ASP\fnTypeOTHER_template.html
+20:12:0 Ubound(arrSections)=6
+20:12:0 UBound=8
+20:12:2 0 sRootFolderDOS=I:\WEB\HTTP\erich\Smart_TV\Data\
+20:12:2 1 sUnformattedPath=Other01\Other02\Other03\Other04\Other05\Other06\MOVIES.mov\
+20:12:2 2 sUnformattedPath=Other01\Other02\Other03\Other04\Other05\Other06\MOVIES.mov\
+20:12:2 3 sUnformattedPath=Other01\Other02\Other03\Other04\Other05\Other06\MOVIES.mov\
+20:12:2 Check folder >>>  I:\WEB\HTTP\erich\Smart_TV\Data\Other01\Other02\Other03\Other04\Other05\Other06\MOVIES.mov\
+20:12:2 sRootFolderDOS   =I:\WEB\HTTP\erich\Smart_TV\Data\
+20:12:2 sCurrentFldrDOS  =Other01\Other02\Other03\Other04\Other05\Other06\MOVIES.mov\
+20:12:2 sFolderType=.MOV
+20:12:2 function fnPictureBox - - - - - - - - - - - - - - - -*
+20:12:2 oFldCurrent.path=I:\WEB\HTTP\erich\Smart_TV\Data\Other01\Other02\Other03\Other04\Other05\Other06\MOVIES.mov\
+20:12:2 sTemplateFileName=I:\WEB\HTTP\erich\Smart_TV\Data\..\ASP\fnTypeMOVIE_template.html
+20:12:2 Ubound(arrSections)=8
+20:12:2 UBound=7
+20:12:2 
+20:12:2 ./Data/Other01/Other02/Other03/Other04/Other05/Other06/MOVIES.mov/AAABBBCCC/FolderIcon.png
+20:12:7 0 sRootFolderDOS=I:\WEB\HTTP\erich\Smart_TV\Data\
+20:12:7 1 sUnformattedPath=Other01\Other02\Other03\Other04\Other05\Other06\MOVIES.mov\AAABBBCCC\
+20:12:7 2 sUnformattedPath=Other01\Other02\Other03\Other04\Other05\Other06\MOVIES.mov\AAABBBCCC\
+20:12:7 3 sUnformattedPath=Other01\Other02\Other03\Other04\Other05\Other06\MOVIES.mov\AAABBBCCC\
+20:12:7 Check folder >>>  I:\WEB\HTTP\erich\Smart_TV\Data\Other01\Other02\Other03\Other04\Other05\Other06\MOVIES.mov\AAABBBCCC\
+20:12:7 sRootFolderDOS   =I:\WEB\HTTP\erich\Smart_TV\Data\
+20:12:7 sCurrentFldrDOS  =Other01\Other02\Other03\Other04\Other05\Other06\MOVIES.mov\AAABBBCCC\
+20:12:7 sFolderType=BCCC
+20:12:7 function fnPictureBox - - - - - - - - - - - - - - - -*
+20:12:7 oFldCurrent.path=I:\WEB\HTTP\erich\Smart_TV\Data\Other01\Other02\Other03\Other04\Other05\Other06\MOVIES.mov\AAABBBCCC\
+20:12:7 sTemplateFileName=I:\WEB\HTTP\erich\Smart_TV\Data\..\ASP\fnTypeOTHER_template.html
+20:12:7 Ubound(arrSections)=6
+20:12:7 UBound=8
+20:12:19 0 sRootFolderDOS=I:\WEB\HTTP\erich\Smart_TV\Data\
+20:12:19 1 sUnformattedPath=Other01\Other02\Other03\Other04\
+20:12:19 2 sUnformattedPath=Other01\Other02\Other03\Other04\
+20:12:19 3 sUnformattedPath=Other01\Other02\Other03\Other04\
+20:12:19 Check folder >>>  I:\WEB\HTTP\erich\Smart_TV\Data\Other01\Other02\Other03\Other04\
+20:12:19 sRootFolderDOS   =I:\WEB\HTTP\erich\Smart_TV\Data\
+20:12:19 sCurrentFldrDOS  =Other01\Other02\Other03\Other04\
+20:12:19 sFolderType=ER04
+20:12:19 function fnPictureBox - - - - - - - - - - - - - - - -*
+20:12:19 oFldCurrent.path=I:\WEB\HTTP\erich\Smart_TV\Data\Other01\Other02\Other03\Other04\
+20:12:19 sTemplateFileName=I:\WEB\HTTP\erich\Smart_TV\Data\..\ASP\fnTypeOTHER_template.html
+20:12:19 Ubound(arrSections)=6
+20:12:19 UBound=4
+20:12:19 ./IMG/folder-down-icon.png
+20:12:21 0 sRootFolderDOS=I:\WEB\HTTP\erich\Smart_TV\Data\
+20:12:21 1 sUnformattedPath=Other01\Other02\Other03\Other04\Other05\
+20:12:21 2 sUnformattedPath=Other01\Other02\Other03\Other04\Other05\
+20:12:21 3 sUnformattedPath=Other01\Other02\Other03\Other04\Other05\
+20:12:21 Check folder >>>  I:\WEB\HTTP\erich\Smart_TV\Data\Other01\Other02\Other03\Other04\Other05\
+20:12:21 sRootFolderDOS   =I:\WEB\HTTP\erich\Smart_TV\Data\
+20:12:21 sCurrentFldrDOS  =Other01\Other02\Other03\Other04\Other05\
+20:12:21 sFolderType=ER05
+20:12:21 function fnPictureBox - - - - - - - - - - - - - - - -*
+20:12:21 oFldCurrent.path=I:\WEB\HTTP\erich\Smart_TV\Data\Other01\Other02\Other03\Other04\Other05\
+20:12:21 sTemplateFileName=I:\WEB\HTTP\erich\Smart_TV\Data\..\ASP\fnTypeOTHER_template.html
+20:12:21 Ubound(arrSections)=6
+20:12:21 UBound=5
+20:12:21 ./IMG/folder-down-icon.png
+20:12:22 0 sRootFolderDOS=I:\WEB\HTTP\erich\Smart_TV\Data\
+20:12:22 1 sUnformattedPath=Other01\Other02\Other03\Other04\Other05\Other06\
+20:12:22 2 sUnformattedPath=Other01\Other02\Other03\Other04\Other05\Other06\
+20:12:22 3 sUnformattedPath=Other01\Other02\Other03\Other04\Other05\Other06\
+20:12:22 Check folder >>>  I:\WEB\HTTP\erich\Smart_TV\Data\Other01\Other02\Other03\Other04\Other05\Other06\
+20:12:22 sRootFolderDOS   =I:\WEB\HTTP\erich\Smart_TV\Data\
+20:12:22 sCurrentFldrDOS  =Other01\Other02\Other03\Other04\Other05\Other06\
+20:12:22 sFolderType=ER06
+20:12:22 function fnPictureBox - - - - - - - - - - - - - - - -*
+20:12:22 oFldCurrent.path=I:\WEB\HTTP\erich\Smart_TV\Data\Other01\Other02\Other03\Other04\Other05\Other06\
+20:12:22 sTemplateFileName=I:\WEB\HTTP\erich\Smart_TV\Data\..\ASP\fnTypeOTHER_template.html
+20:12:22 Ubound(arrSections)=6
+20:12:22 UBound=6
+20:12:22 ./Data/Other01/Other02/Other03/Other04/Other05/Other06/Docs.pdf/FolderIcon.png
+20:12:22 ./Data/Other01/Other02/Other03/Other04/Other05/Other06/Links-orig.LNK/FolderIcon.png
+20:12:22 ./Data/Other01/Other02/Other03/Other04/Other05/Other06/Links.LNK/FolderIcon.png
+20:12:22 ./Data/Other01/Other02/Other03/Other04/Other05/Other06/MOVIES.mov/FolderIcon.png
+20:12:22 ./Data/Other01/Other02/Other03/Other04/Other05/Other06/Music.m3u/FolderIcon.png
+20:12:22 ./IMG/folder-down-icon.png
+20:12:22 ./Data/Other01/Other02/Other03/Other04/Other05/Other06/Pictures.pic/FolderIcon.png
+20:12:22 0 sRootFolderDOS=I:\WEB\HTTP\erich\Smart_TV\Data\
+20:12:22 1 sUnformattedPath=Other01\Other02\Other03\Other04\Other05\Other06\Docs.pdf\
+20:12:22 2 sUnformattedPath=Other01\Other02\Other03\Other04\Other05\Other06\Docs.pdf\
+20:12:22 3 sUnformattedPath=Other01\Other02\Other03\Other04\Other05\Other06\Docs.pdf\
+20:12:22 Check folder >>>  I:\WEB\HTTP\erich\Smart_TV\Data\Other01\Other02\Other03\Other04\Other05\Other06\Docs.pdf\
+20:12:22 sRootFolderDOS   =I:\WEB\HTTP\erich\Smart_TV\Data\
+20:12:22 sCurrentFldrDOS  =Other01\Other02\Other03\Other04\Other05\Other06\Docs.pdf\
+20:12:22 sFolderType=.PDF
+20:12:22 function fnPictureBox - - - - - - - - - - - - - - - -*
+20:12:22 oFldCurrent.path=I:\WEB\HTTP\erich\Smart_TV\Data\Other01\Other02\Other03\Other04\Other05\Other06\Docs.pdf\
+20:12:22 14+sTemplateFileName=I:\WEB\HTTP\erich\Smart_TV\Data\..\ASP\fnTypePDF_template.html
+20:12:22 Ubound(arrSections)=7
+20:12:22 0 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+20:12:22 <!DOCTYPE html>
+<html lang="en">
+<!-- fnTypePdf_template.html START -->
+<!-- This is our Pdf Page -->
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>PDF Folder LIST</title>
+  <link rel="stylesheet" type="text/css" href="CSS/common.css">
+  <link rel="stylesheet" type="text/css" href="CSS/jquery.fancybox.min.css">
+  <script src="JS/jquery-3.2.1.min.js"></script>  
+</head>
+<body class="clsBodyOther">
+
+   <div class="clsLeft"> <!-- clsLeft Begins -->
+       <div class='clsSectionBorder'><!-- BreadCrumb SECTION Begin -->
+           <a href="default.asp?fld=\" class="clsBreadCrumbs">ROOT </a>
+            
+20:12:22 1 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+20:12:22 
+            <!-- Section 01 begin -->
+            <a href="default.asp?fld=@BreadCrumbHref" class="clsBreadCrumbs">@BreadCrumbTitle </a>
+            <!-- Section 01 end -->
+            
+20:12:22 2 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+20:12:22 
+       </div><!-- BreadCrumb SECTION End -->
+       <div class='clsSectionBorder'><!-- SubFolder SECTION Begin -->
+           
+20:12:22 3 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+20:12:22 
+           <!-- Section 02 begin -->
+           <a href='?fld=@FldName'>
+           <div class="clsFolderMedalion">
+               <img src='../IMG/FolderIcon.png' width='90'>
+               <p class='clsFolderTitle'>@FldTitle</p>
+           </div>
+           </a>
+           <!-- Section 02 End -->
+           
+20:12:22 4 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+20:12:22 
+       </div><!-- SubFolder SECTION End -->
+   </div><!-- clsLeft End -->
+
+<div class="clsRight"> <!-- clsRight Begins --> 
+    <div class='clsSectionBorder'><!-- PDF SECTION Begin -->
+        
+20:12:22 5 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+20:12:22 
+        <a data-fancybox data-width='1280' href='Data\@PdfName'>
+        <div class='clsPdfContainer'>
+            <div class='clsPdfPosterBox'>
+                <img src='IMG\pdf-logo.png' class='clsPdfPosterPic'>
+            </div>
+             <span class='clsPdfTitle'>
+                 <h1>@PdfTitle</h1>
+             </span>
+        </div>
+        </a>
+        
+20:12:22 6 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+20:12:22 
+     </div><!-- PDF SECTION End -->
+</div><!-- clsRight End -->
+
+20:12:22 7 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+20:12:22 
+   <script src="JS/jquery.fancybox.min.js"></script>
+   <!-- Keep these so the gradient displays properly -->
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</body>
+</html>
+<!-- fnTypePdf_template.html END -->
+20:12:22 ZZ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+20:12:22 UBound=7
+20:12:22 sBreadCrumbsRelPathDOS=Other01\
+20:12:22 sBreadCrumbsRelPathDOS=Other01\Other02\
+20:12:22 sBreadCrumbsRelPathDOS=Other01\Other02\Other03\
+20:12:22 sBreadCrumbsRelPathDOS=Other01\Other02\Other03\Other04\
+20:12:22 sBreadCrumbsRelPathDOS=Other01\Other02\Other03\Other04\Other05\
+20:12:22 sBreadCrumbsRelPathDOS=Other01\Other02\Other03\Other04\Other05\Other06\
+20:12:22 sBreadCrumbsRelPathDOS=Other01\Other02\Other03\Other04\Other05\Other06\Docs.pdf\
+20:12:22 sCurrentHtml=
+        <a data-fancybox data-width='1280' href='Data\Other01\Other02\Other03\Other04\Other05\Other06\Docs.pdf\Git-Hub-01.pdf'>
+        <div class='clsPdfContainer'>
+            <div class='clsPdfPosterBox'>
+                <img src='IMG\pdf-logo.png' class='clsPdfPosterPic'>
+            </div>
+             <span class='clsPdfTitle'>
+                 <h1>Git-Hub-01.pdf</h1>
+             </span>
+        </div>
+        </a>
+        
+20:12:22 sCurrentHtml=
+        <a data-fancybox data-width='1280' href='Data\Other01\Other02\Other03\Other04\Other05\Other06\Docs.pdf\Git-Hub-02.pdf'>
+        <div class='clsPdfContainer'>
+            <div class='clsPdfPosterBox'>
+                <img src='IMG\pdf-logo.png' class='clsPdfPosterPic'>
+            </div>
+             <span class='clsPdfTitle'>
+                 <h1>Git-Hub-02.pdf</h1>
+             </span>
+        </div>
+        </a>
+        
+20:12:25 0 sRootFolderDOS=I:\WEB\HTTP\erich\Smart_TV\Data\
+20:12:25 1 sUnformattedPath=Other01\Other02\Other03\Other04\Other05\Other06\
+20:12:25 2 sUnformattedPath=Other01\Other02\Other03\Other04\Other05\Other06\
+20:12:25 3 sUnformattedPath=Other01\Other02\Other03\Other04\Other05\Other06\
+20:12:25 Check folder >>>  I:\WEB\HTTP\erich\Smart_TV\Data\Other01\Other02\Other03\Other04\Other05\Other06\
+20:12:25 sRootFolderDOS   =I:\WEB\HTTP\erich\Smart_TV\Data\
+20:12:25 sCurrentFldrDOS  =Other01\Other02\Other03\Other04\Other05\Other06\
+20:12:25 sFolderType=ER06
+20:12:25 function fnPictureBox - - - - - - - - - - - - - - - -*
+20:12:25 oFldCurrent.path=I:\WEB\HTTP\erich\Smart_TV\Data\Other01\Other02\Other03\Other04\Other05\Other06\
+20:12:25 sTemplateFileName=I:\WEB\HTTP\erich\Smart_TV\Data\..\ASP\fnTypeOTHER_template.html
+20:12:25 Ubound(arrSections)=6
+20:12:25 UBound=6
+20:12:25 ./Data/Other01/Other02/Other03/Other04/Other05/Other06/Docs.pdf/FolderIcon.png
+20:12:25 ./Data/Other01/Other02/Other03/Other04/Other05/Other06/Links-orig.LNK/FolderIcon.png
+20:12:25 ./Data/Other01/Other02/Other03/Other04/Other05/Other06/Links.LNK/FolderIcon.png
+20:12:25 ./Data/Other01/Other02/Other03/Other04/Other05/Other06/MOVIES.mov/FolderIcon.png
+20:12:25 ./Data/Other01/Other02/Other03/Other04/Other05/Other06/Music.m3u/FolderIcon.png
+20:12:25 ./IMG/folder-down-icon.png
+20:12:25 ./Data/Other01/Other02/Other03/Other04/Other05/Other06/Pictures.pic/FolderIcon.png
+20:19:37 0 sRootFolderDOS=I:\WEB\HTTP\erich\Smart_TV\Data\
+20:19:37 1 sUnformattedPath=Other01\Other02\Other03\Other04\Other05\
+20:19:37 2 sUnformattedPath=Other01\Other02\Other03\Other04\Other05\
+20:19:37 3 sUnformattedPath=Other01\Other02\Other03\Other04\Other05\
+20:19:37 Check folder >>>  I:\WEB\HTTP\erich\Smart_TV\Data\Other01\Other02\Other03\Other04\Other05\
+20:19:37 sRootFolderDOS   =I:\WEB\HTTP\erich\Smart_TV\Data\
+20:19:37 sCurrentFldrDOS  =Other01\Other02\Other03\Other04\Other05\
+20:19:37 sFolderType=ER05
+20:19:37 function fnPictureBox - - - - - - - - - - - - - - - -*
+20:19:37 oFldCurrent.path=I:\WEB\HTTP\erich\Smart_TV\Data\Other01\Other02\Other03\Other04\Other05\
+20:19:37 sTemplateFileName=I:\WEB\HTTP\erich\Smart_TV\Data\..\ASP\fnTypeOTHER_template.html
+20:19:37 Ubound(arrSections)=6
+20:19:37 UBound=5
+20:19:37 ./IMG/folder-down-icon.png
+20:19:38 0 sRootFolderDOS=I:\WEB\HTTP\erich\Smart_TV\Data\
+20:19:38 1 sUnformattedPath=Other01\Other02\Other03\Other04\Other05\Other06\
+20:19:38 2 sUnformattedPath=Other01\Other02\Other03\Other04\Other05\Other06\
+20:19:38 3 sUnformattedPath=Other01\Other02\Other03\Other04\Other05\Other06\
+20:19:38 Check folder >>>  I:\WEB\HTTP\erich\Smart_TV\Data\Other01\Other02\Other03\Other04\Other05\Other06\
+20:19:38 sRootFolderDOS   =I:\WEB\HTTP\erich\Smart_TV\Data\
+20:19:38 sCurrentFldrDOS  =Other01\Other02\Other03\Other04\Other05\Other06\
+20:19:38 sFolderType=ER06
+20:19:38 function fnPictureBox - - - - - - - - - - - - - - - -*
+20:19:38 oFldCurrent.path=I:\WEB\HTTP\erich\Smart_TV\Data\Other01\Other02\Other03\Other04\Other05\Other06\
+20:19:38 sTemplateFileName=I:\WEB\HTTP\erich\Smart_TV\Data\..\ASP\fnTypeOTHER_template.html
+20:19:38 Ubound(arrSections)=6
+20:19:38 UBound=6
+20:19:38 ./Data/Other01/Other02/Other03/Other04/Other05/Other06/Docs.pdf/FolderIcon.png
+20:19:38 ./Data/Other01/Other02/Other03/Other04/Other05/Other06/Links-orig.LNK/FolderIcon.png
+20:19:38 ./Data/Other01/Other02/Other03/Other04/Other05/Other06/Links.LNK/FolderIcon.png
+20:19:38 ./Data/Other01/Other02/Other03/Other04/Other05/Other06/MOVIES.mov/FolderIcon.png
+20:19:38 ./Data/Other01/Other02/Other03/Other04/Other05/Other06/Music.m3u/FolderIcon.png
+20:19:38 ./IMG/folder-down-icon.png
+20:19:38 ./Data/Other01/Other02/Other03/Other04/Other05/Other06/Pictures.pic/FolderIcon.png
+20:19:40 0 sRootFolderDOS=I:\WEB\HTTP\erich\Smart_TV\Data\
+20:19:40 1 sUnformattedPath=Other01\Other02\Other03\Other04\Other05\Other06\Music.m3u\
+20:19:40 2 sUnformattedPath=Other01\Other02\Other03\Other04\Other05\Other06\Music.m3u\
+20:19:40 3 sUnformattedPath=Other01\Other02\Other03\Other04\Other05\Other06\Music.m3u\
+20:19:40 Check folder >>>  I:\WEB\HTTP\erich\Smart_TV\Data\Other01\Other02\Other03\Other04\Other05\Other06\Music.m3u\
+20:19:40 sRootFolderDOS   =I:\WEB\HTTP\erich\Smart_TV\Data\
+20:19:40 sCurrentFldrDOS  =Other01\Other02\Other03\Other04\Other05\Other06\Music.m3u\
+20:19:40 sFolderType=.M3U
+20:19:40 function fnPictureBox - - - - - - - - - - - - - - - -*
+20:19:40 oFldCurrent.path=I:\WEB\HTTP\erich\Smart_TV\Data\Other01\Other02\Other03\Other04\Other05\Other06\Music.m3u\
+20:19:40 sTemplateFileName=I:\WEB\HTTP\erich\Smart_TV\Data\..\ASP\fnTypeM3U_template.html
+20:19:40 Ubound(arrSections)=8
+20:19:40 UBound=7
+20:19:40 
+20:19:40 sBreadCrumbsRelPathDOS=Other01\
+20:19:40 sBreadCrumbsRelPathDOS=Other01\Other02\
+20:19:40 sBreadCrumbsRelPathDOS=Other01\Other02\Other03\
+20:19:40 sBreadCrumbsRelPathDOS=Other01\Other02\Other03\Other04\
+20:19:40 sBreadCrumbsRelPathDOS=Other01\Other02\Other03\Other04\Other05\
+20:19:40 sBreadCrumbsRelPathDOS=Other01\Other02\Other03\Other04\Other05\Other06\
+20:19:40 sBreadCrumbsRelPathDOS=Other01\Other02\Other03\Other04\Other05\Other06\Music.m3u\
+20:19:40 ./Data/Other01/Other02/Other03/Other04/Other05/Other06/Music.m3u/AAABBBCCC/FolderIcon.png
+20:19:40 @@@@@@@@@@ a-beep's.mp3 @@@@@@@@@@@@@@
+20:19:40 @@@@@@@@@@ Beethoven-MoonlightSonata.mp3 @@@@@@@@@@@@@@
+20:19:40 @@@@@@@@@@ chopin_nocturne_no20_in_c_sharp_minor_opposth.mp3 @@@@@@@@@@@@@@
+20:19:40 @@@@@@@@@@ joshua_bell_voice_of_the_violin_una_furtiva_lagrima.mp3 @@@@@@@@@@@@@@
+20:19:44 0 sRootFolderDOS=I:\WEB\HTTP\erich\Smart_TV\Data\
+20:19:44 1 sUnformattedPath=Other01\Other02\Other03\Other04\Other05\Other06\
+20:19:44 2 sUnformattedPath=Other01\Other02\Other03\Other04\Other05\Other06\
+20:19:44 3 sUnformattedPath=Other01\Other02\Other03\Other04\Other05\Other06\
+20:19:44 Check folder >>>  I:\WEB\HTTP\erich\Smart_TV\Data\Other01\Other02\Other03\Other04\Other05\Other06\
+20:19:44 sRootFolderDOS   =I:\WEB\HTTP\erich\Smart_TV\Data\
+20:19:44 sCurrentFldrDOS  =Other01\Other02\Other03\Other04\Other05\Other06\
+20:19:44 sFolderType=ER06
+20:19:44 function fnPictureBox - - - - - - - - - - - - - - - -*
+20:19:44 oFldCurrent.path=I:\WEB\HTTP\erich\Smart_TV\Data\Other01\Other02\Other03\Other04\Other05\Other06\
+20:19:44 sTemplateFileName=I:\WEB\HTTP\erich\Smart_TV\Data\..\ASP\fnTypeOTHER_template.html
+20:19:44 Ubound(arrSections)=6
+20:19:44 UBound=6
+20:19:44 ./Data/Other01/Other02/Other03/Other04/Other05/Other06/Docs.pdf/FolderIcon.png
+20:19:44 ./Data/Other01/Other02/Other03/Other04/Other05/Other06/Links-orig.LNK/FolderIcon.png
+20:19:44 ./Data/Other01/Other02/Other03/Other04/Other05/Other06/Links.LNK/FolderIcon.png
+20:19:44 ./Data/Other01/Other02/Other03/Other04/Other05/Other06/MOVIES.mov/FolderIcon.png
+20:19:44 ./Data/Other01/Other02/Other03/Other04/Other05/Other06/Music.m3u/FolderIcon.png
+20:19:44 ./IMG/folder-down-icon.png
+20:19:44 ./Data/Other01/Other02/Other03/Other04/Other05/Other06/Pictures.pic/FolderIcon.png
+20:19:46 0 sRootFolderDOS=I:\WEB\HTTP\erich\Smart_TV\Data\
+20:19:46 1 sUnformattedPath=Other01\Other02\Other03\Other04\Other05\Other06\MOVIES.mov\
+20:19:46 2 sUnformattedPath=Other01\Other02\Other03\Other04\Other05\Other06\MOVIES.mov\
+20:19:46 3 sUnformattedPath=Other01\Other02\Other03\Other04\Other05\Other06\MOVIES.mov\
+20:19:46 Check folder >>>  I:\WEB\HTTP\erich\Smart_TV\Data\Other01\Other02\Other03\Other04\Other05\Other06\MOVIES.mov\
+20:19:46 sRootFolderDOS   =I:\WEB\HTTP\erich\Smart_TV\Data\
+20:19:46 sCurrentFldrDOS  =Other01\Other02\Other03\Other04\Other05\Other06\MOVIES.mov\
+20:19:46 sFolderType=.MOV
+20:19:46 function fnPictureBox - - - - - - - - - - - - - - - -*
+20:19:46 oFldCurrent.path=I:\WEB\HTTP\erich\Smart_TV\Data\Other01\Other02\Other03\Other04\Other05\Other06\MOVIES.mov\
+20:19:46 sTemplateFileName=I:\WEB\HTTP\erich\Smart_TV\Data\..\ASP\fnTypeMOVIE_template.html
+20:19:46 Ubound(arrSections)=8
+20:19:46 UBound=7
+20:19:46 
+20:19:46 ./Data/Other01/Other02/Other03/Other04/Other05/Other06/MOVIES.mov/AAABBBCCC/FolderIcon.png
+20:19:49 0 sRootFolderDOS=I:\WEB\HTTP\erich\Smart_TV\Data\
+20:19:49 1 sUnformattedPath=Other01\Other02\Other03\Other04\Other05\Other06\MOVIES.mov\AAABBBCCC\
+20:19:49 2 sUnformattedPath=Other01\Other02\Other03\Other04\Other05\Other06\MOVIES.mov\AAABBBCCC\
+20:19:49 3 sUnformattedPath=Other01\Other02\Other03\Other04\Other05\Other06\MOVIES.mov\AAABBBCCC\
+20:19:49 Check folder >>>  I:\WEB\HTTP\erich\Smart_TV\Data\Other01\Other02\Other03\Other04\Other05\Other06\MOVIES.mov\AAABBBCCC\
+20:19:49 sRootFolderDOS   =I:\WEB\HTTP\erich\Smart_TV\Data\
+20:19:49 sCurrentFldrDOS  =Other01\Other02\Other03\Other04\Other05\Other06\MOVIES.mov\AAABBBCCC\
+20:19:49 sFolderType=BCCC
+20:19:49 function fnPictureBox - - - - - - - - - - - - - - - -*
+20:19:49 oFldCurrent.path=I:\WEB\HTTP\erich\Smart_TV\Data\Other01\Other02\Other03\Other04\Other05\Other06\MOVIES.mov\AAABBBCCC\
+20:19:49 sTemplateFileName=I:\WEB\HTTP\erich\Smart_TV\Data\..\ASP\fnTypeOTHER_template.html
+20:19:49 Ubound(arrSections)=6
+20:19:49 UBound=8
+22:1:18 0 sRootFolderDOS=I:\WEB\HTTP\erich\Smart_TV\Data\
+22:1:18 1 sUnformattedPath=Other01\Other02\Other03\Other04\Other05\Other06\MOVIES.mov\AAABBBCCC\
+22:1:18 2 sUnformattedPath=Other01\Other02\Other03\Other04\Other05\Other06\MOVIES.mov\AAABBBCCC\
+22:1:18 3 sUnformattedPath=Other01\Other02\Other03\Other04\Other05\Other06\MOVIES.mov\AAABBBCCC\
+22:1:18 Check folder >>>  I:\WEB\HTTP\erich\Smart_TV\Data\Other01\Other02\Other03\Other04\Other05\Other06\MOVIES.mov\AAABBBCCC\
+22:1:18 sRootFolderDOS   =I:\WEB\HTTP\erich\Smart_TV\Data\
+22:1:18 sCurrentFldrDOS  =Other01\Other02\Other03\Other04\Other05\Other06\MOVIES.mov\AAABBBCCC\
+22:1:18 sFolderType=BCCC
+22:1:18 function fnPictureBox - - - - - - - - - - - - - - - -*
+22:1:18 oFldCurrent.path=I:\WEB\HTTP\erich\Smart_TV\Data\Other01\Other02\Other03\Other04\Other05\Other06\MOVIES.mov\AAABBBCCC\
+22:1:18 sTemplateFileName=I:\WEB\HTTP\erich\Smart_TV\Data\..\ASP\fnTypeOTHER_template.html
+22:1:18 Ubound(arrSections)=6
+22:1:18 UBound=8
+22:1:19 0 sRootFolderDOS=I:\WEB\HTTP\erich\Smart_TV\Data\
+22:1:19 1 sUnformattedPath=Other01\Other02\Other03\Other04\Other05\Other06\MOVIES.mov\
+22:1:19 2 sUnformattedPath=Other01\Other02\Other03\Other04\Other05\Other06\MOVIES.mov\
+22:1:19 3 sUnformattedPath=Other01\Other02\Other03\Other04\Other05\Other06\MOVIES.mov\
+22:1:19 Check folder >>>  I:\WEB\HTTP\erich\Smart_TV\Data\Other01\Other02\Other03\Other04\Other05\Other06\MOVIES.mov\
+22:1:19 sRootFolderDOS   =I:\WEB\HTTP\erich\Smart_TV\Data\
+22:1:19 sCurrentFldrDOS  =Other01\Other02\Other03\Other04\Other05\Other06\MOVIES.mov\
+22:1:19 sFolderType=.MOV
+22:1:19 function fnPictureBox - - - - - - - - - - - - - - - -*
+22:1:19 oFldCurrent.path=I:\WEB\HTTP\erich\Smart_TV\Data\Other01\Other02\Other03\Other04\Other05\Other06\MOVIES.mov\
+22:1:19 sTemplateFileName=I:\WEB\HTTP\erich\Smart_TV\Data\..\ASP\fnTypeMOVIE_template.html
+22:1:19 Ubound(arrSections)=8
+22:1:19 UBound=7
+22:1:19 
+22:1:19 ./Data/Other01/Other02/Other03/Other04/Other05/Other06/MOVIES.mov/AAABBBCCC/FolderIcon.png
+22:1:20 0 sRootFolderDOS=I:\WEB\HTTP\erich\Smart_TV\Data\
+22:1:20 1 sUnformattedPath=Other01\Other02\Other03\Other04\Other05\Other06\MOVIES.mov\AAABBBCCC\
+22:1:20 2 sUnformattedPath=Other01\Other02\Other03\Other04\Other05\Other06\MOVIES.mov\AAABBBCCC\
+22:1:20 3 sUnformattedPath=Other01\Other02\Other03\Other04\Other05\Other06\MOVIES.mov\AAABBBCCC\
+22:1:20 Check folder >>>  I:\WEB\HTTP\erich\Smart_TV\Data\Other01\Other02\Other03\Other04\Other05\Other06\MOVIES.mov\AAABBBCCC\
+22:1:20 sRootFolderDOS   =I:\WEB\HTTP\erich\Smart_TV\Data\
+22:1:20 sCurrentFldrDOS  =Other01\Other02\Other03\Other04\Other05\Other06\MOVIES.mov\AAABBBCCC\
+22:1:20 sFolderType=BCCC
+22:1:20 function fnPictureBox - - - - - - - - - - - - - - - -*
+22:1:20 oFldCurrent.path=I:\WEB\HTTP\erich\Smart_TV\Data\Other01\Other02\Other03\Other04\Other05\Other06\MOVIES.mov\AAABBBCCC\
+22:1:20 sTemplateFileName=I:\WEB\HTTP\erich\Smart_TV\Data\..\ASP\fnTypeOTHER_template.html
+22:1:20 Ubound(arrSections)=6
+22:1:20 UBound=8
+22:1:22 0 sRootFolderDOS=I:\WEB\HTTP\erich\Smart_TV\Data\
+22:1:22 1 sUnformattedPath=Other01\Other02\Other03\Other04\Other05\Other06\
+22:1:22 2 sUnformattedPath=Other01\Other02\Other03\Other04\Other05\Other06\
+22:1:22 3 sUnformattedPath=Other01\Other02\Other03\Other04\Other05\Other06\
+22:1:22 Check folder >>>  I:\WEB\HTTP\erich\Smart_TV\Data\Other01\Other02\Other03\Other04\Other05\Other06\
+22:1:22 sRootFolderDOS   =I:\WEB\HTTP\erich\Smart_TV\Data\
+22:1:22 sCurrentFldrDOS  =Other01\Other02\Other03\Other04\Other05\Other06\
+22:1:22 sFolderType=ER06
+22:1:22 function fnPictureBox - - - - - - - - - - - - - - - -*
+22:1:22 oFldCurrent.path=I:\WEB\HTTP\erich\Smart_TV\Data\Other01\Other02\Other03\Other04\Other05\Other06\
+22:1:22 sTemplateFileName=I:\WEB\HTTP\erich\Smart_TV\Data\..\ASP\fnTypeOTHER_template.html
+22:1:22 Ubound(arrSections)=6
+22:1:22 UBound=6
+22:1:22 ./Data/Other01/Other02/Other03/Other04/Other05/Other06/Docs.pdf/FolderIcon.png
+22:1:22 ./Data/Other01/Other02/Other03/Other04/Other05/Other06/Links-orig.LNK/FolderIcon.png
+22:1:22 ./Data/Other01/Other02/Other03/Other04/Other05/Other06/Links.LNK/FolderIcon.png
+22:1:22 ./Data/Other01/Other02/Other03/Other04/Other05/Other06/MOVIES.mov/FolderIcon.png
+22:1:22 ./Data/Other01/Other02/Other03/Other04/Other05/Other06/Music.m3u/FolderIcon.png
+22:1:22 ./IMG/folder-down-icon.png
+22:1:22 ./Data/Other01/Other02/Other03/Other04/Other05/Other06/Pictures.pic/FolderIcon.png
+9:13:31 0 sRootFolderDOS=I:\WEB\HTTP\erich\Smart_TV\Data\
+9:13:31 1 sUnformattedPath=Other01\Other02\Other03\Other04\Other05\Other06\MOVIES.mov\
+9:13:31 2 sUnformattedPath=Other01\Other02\Other03\Other04\Other05\Other06\MOVIES.mov\
+9:13:31 3 sUnformattedPath=Other01\Other02\Other03\Other04\Other05\Other06\MOVIES.mov\
+9:13:31 Check folder >>>  I:\WEB\HTTP\erich\Smart_TV\Data\Other01\Other02\Other03\Other04\Other05\Other06\MOVIES.mov\
+9:13:31 sRootFolderDOS   =I:\WEB\HTTP\erich\Smart_TV\Data\
+9:13:31 sCurrentFldrDOS  =Other01\Other02\Other03\Other04\Other05\Other06\MOVIES.mov\
+9:13:31 sFolderType=.MOV
+9:13:31 function fnPictureBox - - - - - - - - - - - - - - - -*
+9:13:31 oFldCurrent.path=I:\WEB\HTTP\erich\Smart_TV\Data\Other01\Other02\Other03\Other04\Other05\Other06\MOVIES.mov\
+9:13:31 sTemplateFileName=I:\WEB\HTTP\erich\Smart_TV\Data\..\ASP\fnTypeMOVIE_template.html
+9:13:31 Ubound(arrSections)=8
+9:13:31 UBound=7
+9:13:31 
+9:13:31 ./Data/Other01/Other02/Other03/Other04/Other05/Other06/MOVIES.mov/AAABBBCCC/FolderIcon.png
+9:13:33 0 sRootFolderDOS=I:\WEB\HTTP\erich\Smart_TV\Data\
+9:13:33 1 sUnformattedPath=Other01\Other02\Other03\Other04\Other05\Other06\MOVIES.mov\AAABBBCCC\
+9:13:33 2 sUnformattedPath=Other01\Other02\Other03\Other04\Other05\Other06\MOVIES.mov\AAABBBCCC\
+9:13:33 3 sUnformattedPath=Other01\Other02\Other03\Other04\Other05\Other06\MOVIES.mov\AAABBBCCC\
+9:13:33 Check folder >>>  I:\WEB\HTTP\erich\Smart_TV\Data\Other01\Other02\Other03\Other04\Other05\Other06\MOVIES.mov\AAABBBCCC\
+9:13:33 sRootFolderDOS   =I:\WEB\HTTP\erich\Smart_TV\Data\
+9:13:33 sCurrentFldrDOS  =Other01\Other02\Other03\Other04\Other05\Other06\MOVIES.mov\AAABBBCCC\
+9:13:33 sFolderType=BCCC
+9:13:33 function fnPictureBox - - - - - - - - - - - - - - - -*
+9:13:33 oFldCurrent.path=I:\WEB\HTTP\erich\Smart_TV\Data\Other01\Other02\Other03\Other04\Other05\Other06\MOVIES.mov\AAABBBCCC\
+9:13:33 sTemplateFileName=I:\WEB\HTTP\erich\Smart_TV\Data\..\ASP\fnTypeOTHER_template.html
+9:13:33 Ubound(arrSections)=6
+9:13:33 UBound=8
+9:13:36 0 sRootFolderDOS=I:\WEB\HTTP\erich\Smart_TV\Data\
+9:13:36 1 sUnformattedPath=Other01\Other02\Other03\Other04\Other05\Other06\MOVIES.mov\
+9:13:36 2 sUnformattedPath=Other01\Other02\Other03\Other04\Other05\Other06\MOVIES.mov\
+9:13:36 3 sUnformattedPath=Other01\Other02\Other03\Other04\Other05\Other06\MOVIES.mov\
+9:13:36 Check folder >>>  I:\WEB\HTTP\erich\Smart_TV\Data\Other01\Other02\Other03\Other04\Other05\Other06\MOVIES.mov\
+9:13:36 sRootFolderDOS   =I:\WEB\HTTP\erich\Smart_TV\Data\
+9:13:36 sCurrentFldrDOS  =Other01\Other02\Other03\Other04\Other05\Other06\MOVIES.mov\
+9:13:36 sFolderType=.MOV
+9:13:36 function fnPictureBox - - - - - - - - - - - - - - - -*
+9:13:36 oFldCurrent.path=I:\WEB\HTTP\erich\Smart_TV\Data\Other01\Other02\Other03\Other04\Other05\Other06\MOVIES.mov\
+9:13:36 sTemplateFileName=I:\WEB\HTTP\erich\Smart_TV\Data\..\ASP\fnTypeMOVIE_template.html
+9:13:36 Ubound(arrSections)=8
+9:13:36 UBound=7
+9:13:36 
+9:13:36 ./Data/Other01/Other02/Other03/Other04/Other05/Other06/MOVIES.mov/AAABBBCCC/FolderIcon.png
+10:7:30 0 sRootFolderDOS=I:\WEB\HTTP\erich\Smart_TV\Data\
+10:7:30 1 sUnformattedPath=Other01\Other02\Other03\Other04\Other05\Other06\
+10:7:30 2 sUnformattedPath=Other01\Other02\Other03\Other04\Other05\Other06\
+10:7:30 3 sUnformattedPath=Other01\Other02\Other03\Other04\Other05\Other06\
+10:7:30 Check folder >>>  I:\WEB\HTTP\erich\Smart_TV\Data\Other01\Other02\Other03\Other04\Other05\Other06\
+10:7:30 sRootFolderDOS   =I:\WEB\HTTP\erich\Smart_TV\Data\
+10:7:30 sCurrentFldrDOS  =Other01\Other02\Other03\Other04\Other05\Other06\
+10:7:30 sFolderType=ER06
+10:7:30 function fnPictureBox - - - - - - - - - - - - - - - -*
+10:7:30 oFldCurrent.path=I:\WEB\HTTP\erich\Smart_TV\Data\Other01\Other02\Other03\Other04\Other05\Other06\
+10:7:30 sTemplateFileName=I:\WEB\HTTP\erich\Smart_TV\Data\..\ASP\fnTypeOTHER_template.html
+10:7:30 Ubound(arrSections)=6
+10:7:30 UBound=6
+10:7:30 ./Data/Other01/Other02/Other03/Other04/Other05/Other06/Docs.pdf/FolderIcon.png
+10:7:30 ./Data/Other01/Other02/Other03/Other04/Other05/Other06/Links-orig.LNK/FolderIcon.png
+10:7:30 ./Data/Other01/Other02/Other03/Other04/Other05/Other06/Links.LNK/FolderIcon.png
+10:7:30 ./Data/Other01/Other02/Other03/Other04/Other05/Other06/MOVIES.mov/FolderIcon.png
+10:7:30 ./Data/Other01/Other02/Other03/Other04/Other05/Other06/Music.m3u/FolderIcon.png
+10:7:30 ./IMG/folder-down-icon.png
+10:7:30 ./Data/Other01/Other02/Other03/Other04/Other05/Other06/Pictures.pic/FolderIcon.png
+10:7:32 0 sRootFolderDOS=I:\WEB\HTTP\erich\Smart_TV\Data\
+10:7:32 1 sUnformattedPath=Other01\Other02\Other03\Other04\Other05\Other06\Music.m3u\
+10:7:32 2 sUnformattedPath=Other01\Other02\Other03\Other04\Other05\Other06\Music.m3u\
+10:7:32 3 sUnformattedPath=Other01\Other02\Other03\Other04\Other05\Other06\Music.m3u\
+10:7:32 Check folder >>>  I:\WEB\HTTP\erich\Smart_TV\Data\Other01\Other02\Other03\Other04\Other05\Other06\Music.m3u\
+10:7:32 sRootFolderDOS   =I:\WEB\HTTP\erich\Smart_TV\Data\
+10:7:32 sCurrentFldrDOS  =Other01\Other02\Other03\Other04\Other05\Other06\Music.m3u\
+10:7:32 sFolderType=.M3U
+10:7:32 function fnPictureBox - - - - - - - - - - - - - - - -*
+10:7:32 oFldCurrent.path=I:\WEB\HTTP\erich\Smart_TV\Data\Other01\Other02\Other03\Other04\Other05\Other06\Music.m3u\
+10:7:32 sTemplateFileName=I:\WEB\HTTP\erich\Smart_TV\Data\..\ASP\fnTypeM3U_template.html
+10:7:32 Ubound(arrSections)=8
+10:7:32 UBound=7
+10:7:32 
+10:7:32 sBreadCrumbsRelPathDOS=Other01\
+10:7:32 sBreadCrumbsRelPathDOS=Other01\Other02\
+10:7:32 sBreadCrumbsRelPathDOS=Other01\Other02\Other03\
+10:7:32 sBreadCrumbsRelPathDOS=Other01\Other02\Other03\Other04\
+10:7:32 sBreadCrumbsRelPathDOS=Other01\Other02\Other03\Other04\Other05\
+10:7:32 sBreadCrumbsRelPathDOS=Other01\Other02\Other03\Other04\Other05\Other06\
+10:7:32 sBreadCrumbsRelPathDOS=Other01\Other02\Other03\Other04\Other05\Other06\Music.m3u\
+10:7:32 ./Data/Other01/Other02/Other03/Other04/Other05/Other06/Music.m3u/AAABBBCCC/FolderIcon.png
+10:7:32 @@@@@@@@@@ a-beep's.mp3 @@@@@@@@@@@@@@
+10:7:32 @@@@@@@@@@ Beethoven-MoonlightSonata.mp3 @@@@@@@@@@@@@@
+10:7:32 @@@@@@@@@@ chopin_nocturne_no20_in_c_sharp_minor opposth.mp3 @@@@@@@@@@@@@@
+10:7:32 @@@@@@@@@@ joshua_bell_voice_of_the_violin_una_furtiva_lagrima.mp3 @@@@@@@@@@@@@@
+10:31:1 0 sRootFolderDOS=I:\WEB\HTTP\erich\Smart_TV\Data\
+10:31:1 1 sUnformattedPath=Other01\Other02\Other03\Other04\Other05\Other06\
+10:31:1 2 sUnformattedPath=Other01\Other02\Other03\Other04\Other05\Other06\
+10:31:1 3 sUnformattedPath=Other01\Other02\Other03\Other04\Other05\Other06\
+10:31:1 Check folder >>>  I:\WEB\HTTP\erich\Smart_TV\Data\Other01\Other02\Other03\Other04\Other05\Other06\
+10:31:1 sRootFolderDOS   =I:\WEB\HTTP\erich\Smart_TV\Data\
+10:31:1 sCurrentFldrDOS  =Other01\Other02\Other03\Other04\Other05\Other06\
+10:31:1 sFolderType=ER06
+10:31:1 function fnPictureBox - - - - - - - - - - - - - - - -*
+10:31:1 oFldCurrent.path=I:\WEB\HTTP\erich\Smart_TV\Data\Other01\Other02\Other03\Other04\Other05\Other06\
+10:31:1 sTemplateFileName=I:\WEB\HTTP\erich\Smart_TV\Data\..\ASP\fnTypeOTHER_template.html
+10:31:1 Ubound(arrSections)=6
+10:31:1 UBound=6
+10:31:1 ./Data/Other01/Other02/Other03/Other04/Other05/Other06/Docs.pdf/FolderIcon.png
+10:31:1 ./Data/Other01/Other02/Other03/Other04/Other05/Other06/Links-orig.LNK/FolderIcon.png
+10:31:1 ./Data/Other01/Other02/Other03/Other04/Other05/Other06/Links.LNK/FolderIcon.png
+10:31:1 ./Data/Other01/Other02/Other03/Other04/Other05/Other06/MOVIES.mov/FolderIcon.png
+10:31:1 ./Data/Other01/Other02/Other03/Other04/Other05/Other06/Music.m3u/FolderIcon.png
+10:31:1 ./IMG/folder-down-icon.png
+10:31:1 ./Data/Other01/Other02/Other03/Other04/Other05/Other06/Pictures.pic/FolderIcon.png
+10:31:4 0 sRootFolderDOS=I:\WEB\HTTP\erich\Smart_TV\Data\
+10:31:4 1 sUnformattedPath=Other01\Other02\Other03\Other04\Other05\Other06\MOVIES.mov\
+10:31:4 2 sUnformattedPath=Other01\Other02\Other03\Other04\Other05\Other06\MOVIES.mov\
+10:31:4 3 sUnformattedPath=Other01\Other02\Other03\Other04\Other05\Other06\MOVIES.mov\
+10:31:4 Check folder >>>  I:\WEB\HTTP\erich\Smart_TV\Data\Other01\Other02\Other03\Other04\Other05\Other06\MOVIES.mov\
+10:31:4 sRootFolderDOS   =I:\WEB\HTTP\erich\Smart_TV\Data\
+10:31:4 sCurrentFldrDOS  =Other01\Other02\Other03\Other04\Other05\Other06\MOVIES.mov\
+10:31:4 sFolderType=.MOV
+10:31:4 function fnPictureBox - - - - - - - - - - - - - - - -*
+10:31:4 oFldCurrent.path=I:\WEB\HTTP\erich\Smart_TV\Data\Other01\Other02\Other03\Other04\Other05\Other06\MOVIES.mov\
+10:31:4 sTemplateFileName=I:\WEB\HTTP\erich\Smart_TV\Data\..\ASP\fnTypeMOVIE_template.html
+10:31:4 Ubound(arrSections)=8
+10:31:4 UBound=7
+10:31:4 
+10:31:4 ./Data/Other01/Other02/Other03/Other04/Other05/Other06/MOVIES.mov/AAABBBCCC/FolderIcon.png
+10:31:6 0 sRootFolderDOS=I:\WEB\HTTP\erich\Smart_TV\Data\
+10:31:6 1 sUnformattedPath=Other01\Other02\Other03\Other04\Other05\Other06\
+10:31:6 2 sUnformattedPath=Other01\Other02\Other03\Other04\Other05\Other06\
+10:31:6 3 sUnformattedPath=Other01\Other02\Other03\Other04\Other05\Other06\
+10:31:6 Check folder >>>  I:\WEB\HTTP\erich\Smart_TV\Data\Other01\Other02\Other03\Other04\Other05\Other06\
+10:31:6 sRootFolderDOS   =I:\WEB\HTTP\erich\Smart_TV\Data\
+10:31:6 sCurrentFldrDOS  =Other01\Other02\Other03\Other04\Other05\Other06\
+10:31:6 sFolderType=ER06
+10:31:6 function fnPictureBox - - - - - - - - - - - - - - - -*
+10:31:6 oFldCurrent.path=I:\WEB\HTTP\erich\Smart_TV\Data\Other01\Other02\Other03\Other04\Other05\Other06\
+10:31:6 sTemplateFileName=I:\WEB\HTTP\erich\Smart_TV\Data\..\ASP\fnTypeOTHER_template.html
+10:31:6 Ubound(arrSections)=6
+10:31:6 UBound=6
+10:31:6 ./Data/Other01/Other02/Other03/Other04/Other05/Other06/Docs.pdf/FolderIcon.png
+10:31:6 ./Data/Other01/Other02/Other03/Other04/Other05/Other06/Links-orig.LNK/FolderIcon.png
+10:31:6 ./Data/Other01/Other02/Other03/Other04/Other05/Other06/Links.LNK/FolderIcon.png
+10:31:6 ./Data/Other01/Other02/Other03/Other04/Other05/Other06/MOVIES.mov/FolderIcon.png
+10:31:6 ./Data/Other01/Other02/Other03/Other04/Other05/Other06/Music.m3u/FolderIcon.png
+10:31:6 ./IMG/folder-down-icon.png
+10:31:6 ./Data/Other01/Other02/Other03/Other04/Other05/Other06/Pictures.pic/FolderIcon.png
+10:31:7 0 sRootFolderDOS=I:\WEB\HTTP\erich\Smart_TV\Data\
+10:31:7 1 sUnformattedPath=Other01\Other02\Other03\Other04\Other05\Other06\Music.m3u\
+10:31:7 2 sUnformattedPath=Other01\Other02\Other03\Other04\Other05\Other06\Music.m3u\
+10:31:7 3 sUnformattedPath=Other01\Other02\Other03\Other04\Other05\Other06\Music.m3u\
+10:31:7 Check folder >>>  I:\WEB\HTTP\erich\Smart_TV\Data\Other01\Other02\Other03\Other04\Other05\Other06\Music.m3u\
+10:31:7 sRootFolderDOS   =I:\WEB\HTTP\erich\Smart_TV\Data\
+10:31:7 sCurrentFldrDOS  =Other01\Other02\Other03\Other04\Other05\Other06\Music.m3u\
+10:31:7 sFolderType=.M3U
+10:31:7 function fnPictureBox - - - - - - - - - - - - - - - -*
+10:31:7 oFldCurrent.path=I:\WEB\HTTP\erich\Smart_TV\Data\Other01\Other02\Other03\Other04\Other05\Other06\Music.m3u\
+10:31:7 sTemplateFileName=I:\WEB\HTTP\erich\Smart_TV\Data\..\ASP\fnTypeM3U_template.html
+10:31:7 Ubound(arrSections)=8
+10:31:7 UBound=7
+10:31:7 
+10:31:7 sBreadCrumbsRelPathDOS=Other01\
+10:31:7 sBreadCrumbsRelPathDOS=Other01\Other02\
+10:31:7 sBreadCrumbsRelPathDOS=Other01\Other02\Other03\
+10:31:7 sBreadCrumbsRelPathDOS=Other01\Other02\Other03\Other04\
+10:31:7 sBreadCrumbsRelPathDOS=Other01\Other02\Other03\Other04\Other05\
+10:31:7 sBreadCrumbsRelPathDOS=Other01\Other02\Other03\Other04\Other05\Other06\
+10:31:7 sBreadCrumbsRelPathDOS=Other01\Other02\Other03\Other04\Other05\Other06\Music.m3u\
+10:31:7 ./Data/Other01/Other02/Other03/Other04/Other05/Other06/Music.m3u/AAABBBCCC/FolderIcon.png
+10:31:7 @@@@@@@@@@ a-beep's.mp3 @@@@@@@@@@@@@@
+10:31:7 @@@@@@@@@@ Beethoven-MoonlightSonata.mp3 @@@@@@@@@@@@@@
+10:31:7 @@@@@@@@@@ chopin_nocturne_no20_in_c_sharp_minor opposth.mp3 @@@@@@@@@@@@@@
+10:31:7 @@@@@@@@@@ joshua_bell_voice_of_the_violin_una_furtiva_lagrima.mp3 @@@@@@@@@@@@@@
+10:31:33 0 sRootFolderDOS=I:\WEB\HTTP\erich\Smart_TV\Data\
+10:31:33 1 sUnformattedPath=Other01\Other02\Other03\Other04\Other05\Other06\Music.m3u\
+10:31:33 2 sUnformattedPath=Other01\Other02\Other03\Other04\Other05\Other06\Music.m3u\
+10:31:33 3 sUnformattedPath=Other01\Other02\Other03\Other04\Other05\Other06\Music.m3u\
+10:31:33 Check folder >>>  I:\WEB\HTTP\erich\Smart_TV\Data\Other01\Other02\Other03\Other04\Other05\Other06\Music.m3u\
+10:31:33 sRootFolderDOS   =I:\WEB\HTTP\erich\Smart_TV\Data\
+10:31:33 sCurrentFldrDOS  =Other01\Other02\Other03\Other04\Other05\Other06\Music.m3u\
+10:31:33 sFolderType=.M3U
+10:31:33 function fnPictureBox - - - - - - - - - - - - - - - -*
+10:31:33 oFldCurrent.path=I:\WEB\HTTP\erich\Smart_TV\Data\Other01\Other02\Other03\Other04\Other05\Other06\Music.m3u\
+10:31:33 sTemplateFileName=I:\WEB\HTTP\erich\Smart_TV\Data\..\ASP\fnTypeM3U_template.html
+10:31:33 Ubound(arrSections)=8
+10:31:33 UBound=7
+10:31:33 
+10:31:33 sBreadCrumbsRelPathDOS=Other01\
+10:31:33 sBreadCrumbsRelPathDOS=Other01\Other02\
+10:31:33 sBreadCrumbsRelPathDOS=Other01\Other02\Other03\
+10:31:33 sBreadCrumbsRelPathDOS=Other01\Other02\Other03\Other04\
+10:31:33 sBreadCrumbsRelPathDOS=Other01\Other02\Other03\Other04\Other05\
+10:31:33 sBreadCrumbsRelPathDOS=Other01\Other02\Other03\Other04\Other05\Other06\
+10:31:33 sBreadCrumbsRelPathDOS=Other01\Other02\Other03\Other04\Other05\Other06\Music.m3u\
+10:31:33 ./Data/Other01/Other02/Other03/Other04/Other05/Other06/Music.m3u/AAABBBCCC/FolderIcon.png
+10:31:33 @@@@@@@@@@ a-beep's.mp3 @@@@@@@@@@@@@@
+10:31:33 @@@@@@@@@@ Beethoven-MoonlightSonata.mp3 @@@@@@@@@@@@@@
+10:31:33 @@@@@@@@@@ chopin_nocturne_no20_in_c_sharp_minor opposth.mp3 @@@@@@@@@@@@@@
+10:31:33 @@@@@@@@@@ joshua_bell_voice_of_the_violin_una_furtiva_lagrima.mp3 @@@@@@@@@@@@@@
+10:31:36 0 sRootFolderDOS=I:\WEB\HTTP\erich\Smart_TV\Data\
+10:31:36 1 sUnformattedPath=Other01\Other02\Other03\Other04\Other05\Other06\
+10:31:36 2 sUnformattedPath=Other01\Other02\Other03\Other04\Other05\Other06\
+10:31:36 3 sUnformattedPath=Other01\Other02\Other03\Other04\Other05\Other06\
+10:31:36 Check folder >>>  I:\WEB\HTTP\erich\Smart_TV\Data\Other01\Other02\Other03\Other04\Other05\Other06\
+10:31:36 sRootFolderDOS   =I:\WEB\HTTP\erich\Smart_TV\Data\
+10:31:36 sCurrentFldrDOS  =Other01\Other02\Other03\Other04\Other05\Other06\
+10:31:36 sFolderType=ER06
+10:31:36 function fnPictureBox - - - - - - - - - - - - - - - -*
+10:31:36 oFldCurrent.path=I:\WEB\HTTP\erich\Smart_TV\Data\Other01\Other02\Other03\Other04\Other05\Other06\
+10:31:36 sTemplateFileName=I:\WEB\HTTP\erich\Smart_TV\Data\..\ASP\fnTypeOTHER_template.html
+10:31:36 Ubound(arrSections)=6
+10:31:36 UBound=6
+10:31:36 ./Data/Other01/Other02/Other03/Other04/Other05/Other06/Docs.pdf/FolderIcon.png
+10:31:36 ./Data/Other01/Other02/Other03/Other04/Other05/Other06/Links-orig.LNK/FolderIcon.png
+10:31:36 ./Data/Other01/Other02/Other03/Other04/Other05/Other06/Links.LNK/FolderIcon.png
+10:31:36 ./Data/Other01/Other02/Other03/Other04/Other05/Other06/MOVIES.mov/FolderIcon.png
+10:31:36 ./Data/Other01/Other02/Other03/Other04/Other05/Other06/Music.m3u/FolderIcon.png
+10:31:36 ./IMG/folder-down-icon.png
+10:31:36 ./Data/Other01/Other02/Other03/Other04/Other05/Other06/Pictures.pic/FolderIcon.png
+10:31:38 0 sRootFolderDOS=I:\WEB\HTTP\erich\Smart_TV\Data\
+10:31:38 1 sUnformattedPath=Other01\Other02\Other03\Other04\Other05\Other06\Music.m3u\
+10:31:38 2 sUnformattedPath=Other01\Other02\Other03\Other04\Other05\Other06\Music.m3u\
+10:31:38 3 sUnformattedPath=Other01\Other02\Other03\Other04\Other05\Other06\Music.m3u\
+10:31:38 Check folder >>>  I:\WEB\HTTP\erich\Smart_TV\Data\Other01\Other02\Other03\Other04\Other05\Other06\Music.m3u\
+10:31:38 sRootFolderDOS   =I:\WEB\HTTP\erich\Smart_TV\Data\
+10:31:38 sCurrentFldrDOS  =Other01\Other02\Other03\Other04\Other05\Other06\Music.m3u\
+10:31:38 sFolderType=.M3U
+10:31:38 function fnPictureBox - - - - - - - - - - - - - - - -*
+10:31:38 oFldCurrent.path=I:\WEB\HTTP\erich\Smart_TV\Data\Other01\Other02\Other03\Other04\Other05\Other06\Music.m3u\
+10:31:38 sTemplateFileName=I:\WEB\HTTP\erich\Smart_TV\Data\..\ASP\fnTypeM3U_template.html
+10:31:38 Ubound(arrSections)=8
+10:31:38 UBound=7
+10:31:38 
+10:31:38 sBreadCrumbsRelPathDOS=Other01\
+10:31:38 sBreadCrumbsRelPathDOS=Other01\Other02\
+10:31:38 sBreadCrumbsRelPathDOS=Other01\Other02\Other03\
+10:31:38 sBreadCrumbsRelPathDOS=Other01\Other02\Other03\Other04\
+10:31:38 sBreadCrumbsRelPathDOS=Other01\Other02\Other03\Other04\Other05\
+10:31:38 sBreadCrumbsRelPathDOS=Other01\Other02\Other03\Other04\Other05\Other06\
+10:31:38 sBreadCrumbsRelPathDOS=Other01\Other02\Other03\Other04\Other05\Other06\Music.m3u\
+10:31:38 ./Data/Other01/Other02/Other03/Other04/Other05/Other06/Music.m3u/AAABBBCCC/FolderIcon.png
+10:31:38 @@@@@@@@@@ a-beep's.mp3 @@@@@@@@@@@@@@
+10:31:38 @@@@@@@@@@ Beethoven-MoonlightSonata.mp3 @@@@@@@@@@@@@@
+10:31:38 @@@@@@@@@@ chopin_nocturne_no20_in_c_sharp_minor opposth.mp3 @@@@@@@@@@@@@@
+10:31:38 @@@@@@@@@@ joshua_bell_voice_of_the_violin_una_furtiva_lagrima.mp3 @@@@@@@@@@@@@@
+10:32:19 0 sRootFolderDOS=I:\WEB\HTTP\erich\Smart_TV\Data\
+10:32:19 1 sUnformattedPath=Other01\Other02\Other03\Other04\Other05\Other06\Music.m3u\
+10:32:19 2 sUnformattedPath=Other01\Other02\Other03\Other04\Other05\Other06\Music.m3u\
+10:32:19 3 sUnformattedPath=Other01\Other02\Other03\Other04\Other05\Other06\Music.m3u\
+10:32:19 Check folder >>>  I:\WEB\HTTP\erich\Smart_TV\Data\Other01\Other02\Other03\Other04\Other05\Other06\Music.m3u\
+10:32:19 sRootFolderDOS   =I:\WEB\HTTP\erich\Smart_TV\Data\
+10:32:19 sCurrentFldrDOS  =Other01\Other02\Other03\Other04\Other05\Other06\Music.m3u\
+10:32:19 sFolderType=.M3U
+10:32:19 function fnPictureBox - - - - - - - - - - - - - - - -*
+10:32:19 oFldCurrent.path=I:\WEB\HTTP\erich\Smart_TV\Data\Other01\Other02\Other03\Other04\Other05\Other06\Music.m3u\
+10:32:19 sTemplateFileName=I:\WEB\HTTP\erich\Smart_TV\Data\..\ASP\fnTypeM3U_template.html
+10:32:19 Ubound(arrSections)=8
+10:32:19 UBound=7
+10:32:19 
+10:32:19 sBreadCrumbsRelPathDOS=Other01\
+10:32:19 sBreadCrumbsRelPathDOS=Other01\Other02\
+10:32:19 sBreadCrumbsRelPathDOS=Other01\Other02\Other03\
+10:32:19 sBreadCrumbsRelPathDOS=Other01\Other02\Other03\Other04\
+10:32:19 sBreadCrumbsRelPathDOS=Other01\Other02\Other03\Other04\Other05\
+10:32:19 sBreadCrumbsRelPathDOS=Other01\Other02\Other03\Other04\Other05\Other06\
+10:32:19 sBreadCrumbsRelPathDOS=Other01\Other02\Other03\Other04\Other05\Other06\Music.m3u\
+10:32:19 ./Data/Other01/Other02/Other03/Other04/Other05/Other06/Music.m3u/AAABBBCCC/FolderIcon.png
+10:32:19 @@@@@@@@@@ a-beep's.mp3 @@@@@@@@@@@@@@
+10:32:19 @@@@@@@@@@ Beethoven-MoonlightSonata.mp3 @@@@@@@@@@@@@@
+10:32:19 @@@@@@@@@@ chopin_nocturne_no20_in_c_sharp_minor opposth.mp3 @@@@@@@@@@@@@@
+10:32:19 @@@@@@@@@@ joshua_bell_voice_of_the_violin_una_furtiva_lagrima.mp3 @@@@@@@@@@@@@@
+10:32:22 0 sRootFolderDOS=I:\WEB\HTTP\erich\Smart_TV\Data\
+10:32:22 1 sUnformattedPath=Other01\Other02\Other03\Other04\Other05\Other06\Music.m3u\AAABBBCCC\
+10:32:22 2 sUnformattedPath=Other01\Other02\Other03\Other04\Other05\Other06\Music.m3u\AAABBBCCC\
+10:32:22 3 sUnformattedPath=Other01\Other02\Other03\Other04\Other05\Other06\Music.m3u\AAABBBCCC\
+10:32:22 Check folder >>>  I:\WEB\HTTP\erich\Smart_TV\Data\Other01\Other02\Other03\Other04\Other05\Other06\Music.m3u\AAABBBCCC\
+10:32:22 sRootFolderDOS   =I:\WEB\HTTP\erich\Smart_TV\Data\
+10:32:22 sCurrentFldrDOS  =Other01\Other02\Other03\Other04\Other05\Other06\Music.m3u\AAABBBCCC\
+10:32:22 sFolderType=BCCC
+10:32:22 function fnPictureBox - - - - - - - - - - - - - - - -*
+10:32:22 oFldCurrent.path=I:\WEB\HTTP\erich\Smart_TV\Data\Other01\Other02\Other03\Other04\Other05\Other06\Music.m3u\AAABBBCCC\
+10:32:22 sTemplateFileName=I:\WEB\HTTP\erich\Smart_TV\Data\..\ASP\fnTypeOTHER_template.html
+10:32:22 Ubound(arrSections)=6
+10:32:22 UBound=8
+10:32:23 0 sRootFolderDOS=I:\WEB\HTTP\erich\Smart_TV\Data\
+10:32:23 1 sUnformattedPath=Other01\Other02\Other03\Other04\Other05\Other06\Music.m3u\
+10:32:23 2 sUnformattedPath=Other01\Other02\Other03\Other04\Other05\Other06\Music.m3u\
+10:32:23 3 sUnformattedPath=Other01\Other02\Other03\Other04\Other05\Other06\Music.m3u\
+10:32:23 Check folder >>>  I:\WEB\HTTP\erich\Smart_TV\Data\Other01\Other02\Other03\Other04\Other05\Other06\Music.m3u\
+10:32:23 sRootFolderDOS   =I:\WEB\HTTP\erich\Smart_TV\Data\
+10:32:23 sCurrentFldrDOS  =Other01\Other02\Other03\Other04\Other05\Other06\Music.m3u\
+10:32:23 sFolderType=.M3U
+10:32:23 function fnPictureBox - - - - - - - - - - - - - - - -*
+10:32:23 oFldCurrent.path=I:\WEB\HTTP\erich\Smart_TV\Data\Other01\Other02\Other03\Other04\Other05\Other06\Music.m3u\
+10:32:23 sTemplateFileName=I:\WEB\HTTP\erich\Smart_TV\Data\..\ASP\fnTypeM3U_template.html
+10:32:23 Ubound(arrSections)=8
+10:32:23 UBound=7
+10:32:23 
+10:32:23 sBreadCrumbsRelPathDOS=Other01\
+10:32:23 sBreadCrumbsRelPathDOS=Other01\Other02\
+10:32:23 sBreadCrumbsRelPathDOS=Other01\Other02\Other03\
+10:32:23 sBreadCrumbsRelPathDOS=Other01\Other02\Other03\Other04\
+10:32:23 sBreadCrumbsRelPathDOS=Other01\Other02\Other03\Other04\Other05\
+10:32:23 sBreadCrumbsRelPathDOS=Other01\Other02\Other03\Other04\Other05\Other06\
+10:32:23 sBreadCrumbsRelPathDOS=Other01\Other02\Other03\Other04\Other05\Other06\Music.m3u\
+10:32:23 ./Data/Other01/Other02/Other03/Other04/Other05/Other06/Music.m3u/AAABBBCCC/FolderIcon.png
+10:32:23 @@@@@@@@@@ a-beep's.mp3 @@@@@@@@@@@@@@
+10:32:23 @@@@@@@@@@ Beethoven-MoonlightSonata.mp3 @@@@@@@@@@@@@@
+10:32:23 @@@@@@@@@@ chopin_nocturne_no20_in_c_sharp_minor opposth.mp3 @@@@@@@@@@@@@@
+10:32:23 @@@@@@@@@@ joshua_bell_voice_of_the_violin_una_furtiva_lagrima.mp3 @@@@@@@@@@@@@@
+10:32:45 0 sRootFolderDOS=I:\WEB\HTTP\erich\Smart_TV\Data\
+10:32:45 1 sUnformattedPath=Other01\Other02\Other03\Other04\Other05\Other06\
+10:32:45 2 sUnformattedPath=Other01\Other02\Other03\Other04\Other05\Other06\
+10:32:45 3 sUnformattedPath=Other01\Other02\Other03\Other04\Other05\Other06\
+10:32:45 Check folder >>>  I:\WEB\HTTP\erich\Smart_TV\Data\Other01\Other02\Other03\Other04\Other05\Other06\
+10:32:45 sRootFolderDOS   =I:\WEB\HTTP\erich\Smart_TV\Data\
+10:32:45 sCurrentFldrDOS  =Other01\Other02\Other03\Other04\Other05\Other06\
+10:32:45 sFolderType=ER06
+10:32:45 function fnPictureBox - - - - - - - - - - - - - - - -*
+10:32:45 oFldCurrent.path=I:\WEB\HTTP\erich\Smart_TV\Data\Other01\Other02\Other03\Other04\Other05\Other06\
+10:32:45 sTemplateFileName=I:\WEB\HTTP\erich\Smart_TV\Data\..\ASP\fnTypeOTHER_template.html
+10:32:45 Ubound(arrSections)=6
+10:32:45 UBound=6
+10:32:45 ./Data/Other01/Other02/Other03/Other04/Other05/Other06/Docs.pdf/FolderIcon.png
+10:32:45 ./Data/Other01/Other02/Other03/Other04/Other05/Other06/Links-orig.LNK/FolderIcon.png
+10:32:45 ./Data/Other01/Other02/Other03/Other04/Other05/Other06/Links.LNK/FolderIcon.png
+10:32:45 ./Data/Other01/Other02/Other03/Other04/Other05/Other06/MOVIES.mov/FolderIcon.png
+10:32:45 ./Data/Other01/Other02/Other03/Other04/Other05/Other06/Music.m3u/FolderIcon.png
+10:32:45 ./IMG/folder-down-icon.png
+10:32:45 ./Data/Other01/Other02/Other03/Other04/Other05/Other06/Pictures.pic/FolderIcon.png
+10:32:47 0 sRootFolderDOS=I:\WEB\HTTP\erich\Smart_TV\Data\
+10:32:47 1 sUnformattedPath=Other01\Other02\Other03\Other04\Other05\Other06\Music.m3u\
+10:32:47 2 sUnformattedPath=Other01\Other02\Other03\Other04\Other05\Other06\Music.m3u\
+10:32:47 3 sUnformattedPath=Other01\Other02\Other03\Other04\Other05\Other06\Music.m3u\
+10:32:47 Check folder >>>  I:\WEB\HTTP\erich\Smart_TV\Data\Other01\Other02\Other03\Other04\Other05\Other06\Music.m3u\
+10:32:47 sRootFolderDOS   =I:\WEB\HTTP\erich\Smart_TV\Data\
+10:32:47 sCurrentFldrDOS  =Other01\Other02\Other03\Other04\Other05\Other06\Music.m3u\
+10:32:47 sFolderType=.M3U
+10:32:47 function fnPictureBox - - - - - - - - - - - - - - - -*
+10:32:47 oFldCurrent.path=I:\WEB\HTTP\erich\Smart_TV\Data\Other01\Other02\Other03\Other04\Other05\Other06\Music.m3u\
+10:32:47 sTemplateFileName=I:\WEB\HTTP\erich\Smart_TV\Data\..\ASP\fnTypeM3U_template.html
+10:32:47 Ubound(arrSections)=8
+10:32:47 UBound=7
+10:32:47 
+10:32:47 sBreadCrumbsRelPathDOS=Other01\
+10:32:47 sBreadCrumbsRelPathDOS=Other01\Other02\
+10:32:47 sBreadCrumbsRelPathDOS=Other01\Other02\Other03\
+10:32:47 sBreadCrumbsRelPathDOS=Other01\Other02\Other03\Other04\
+10:32:47 sBreadCrumbsRelPathDOS=Other01\Other02\Other03\Other04\Other05\
+10:32:47 sBreadCrumbsRelPathDOS=Other01\Other02\Other03\Other04\Other05\Other06\
+10:32:47 sBreadCrumbsRelPathDOS=Other01\Other02\Other03\Other04\Other05\Other06\Music.m3u\
+10:32:47 ./Data/Other01/Other02/Other03/Other04/Other05/Other06/Music.m3u/AAABBBCCC/FolderIcon.png
+10:32:47 @@@@@@@@@@ a-beep's.mp3 @@@@@@@@@@@@@@
+10:32:47 @@@@@@@@@@ Beethoven-MoonlightSonata.mp3 @@@@@@@@@@@@@@
+10:32:47 @@@@@@@@@@ chopin_nocturne_no20_in_c_sharp_minor opposth.mp3 @@@@@@@@@@@@@@
+10:32:47 @@@@@@@@@@ joshua_bell_voice_of_the_violin_una_furtiva_lagrima.mp3 @@@@@@@@@@@@@@
+10:32:59 0 sRootFolderDOS=I:\WEB\HTTP\erich\Smart_TV\Data\
+10:32:59 1 sUnformattedPath=Other01\Other02\Other03\Other04\Other05\Other06\Music.m3u\
+10:32:59 2 sUnformattedPath=Other01\Other02\Other03\Other04\Other05\Other06\Music.m3u\
+10:32:59 3 sUnformattedPath=Other01\Other02\Other03\Other04\Other05\Other06\Music.m3u\
+10:32:59 Check folder >>>  I:\WEB\HTTP\erich\Smart_TV\Data\Other01\Other02\Other03\Other04\Other05\Other06\Music.m3u\
+10:32:59 sRootFolderDOS   =I:\WEB\HTTP\erich\Smart_TV\Data\
+10:32:59 sCurrentFldrDOS  =Other01\Other02\Other03\Other04\Other05\Other06\Music.m3u\
+10:32:59 sFolderType=.M3U
+10:32:59 function fnPictureBox - - - - - - - - - - - - - - - -*
+10:32:59 oFldCurrent.path=I:\WEB\HTTP\erich\Smart_TV\Data\Other01\Other02\Other03\Other04\Other05\Other06\Music.m3u\
+10:32:59 sTemplateFileName=I:\WEB\HTTP\erich\Smart_TV\Data\..\ASP\fnTypeM3U_template.html
+10:32:59 Ubound(arrSections)=8
+10:32:59 UBound=7
+10:32:59 
+10:32:59 sBreadCrumbsRelPathDOS=Other01\
+10:32:59 sBreadCrumbsRelPathDOS=Other01\Other02\
+10:32:59 sBreadCrumbsRelPathDOS=Other01\Other02\Other03\
+10:32:59 sBreadCrumbsRelPathDOS=Other01\Other02\Other03\Other04\
+10:32:59 sBreadCrumbsRelPathDOS=Other01\Other02\Other03\Other04\Other05\
+10:32:59 sBreadCrumbsRelPathDOS=Other01\Other02\Other03\Other04\Other05\Other06\
+10:32:59 sBreadCrumbsRelPathDOS=Other01\Other02\Other03\Other04\Other05\Other06\Music.m3u\
+10:32:59 ./Data/Other01/Other02/Other03/Other04/Other05/Other06/Music.m3u/AAABBBCCC/FolderIcon.png
+10:32:59 @@@@@@@@@@ a-beep's.mp3 @@@@@@@@@@@@@@
+10:32:59 @@@@@@@@@@ Beethoven-MoonlightSonata.mp3 @@@@@@@@@@@@@@
+10:32:59 @@@@@@@@@@ chopin_nocturne_no20_in_c_sharp_minor opposth.mp3 @@@@@@@@@@@@@@
+10:32:59 @@@@@@@@@@ joshua_bell_voice_of_the_violin_una_furtiva_lagrima.mp3 @@@@@@@@@@@@@@
+10:33:35 0 sRootFolderDOS=I:\WEB\HTTP\erich\Smart_TV\Data\
+10:33:35 1 sUnformattedPath=Other01\Other02\Other03\Other04\Other05\Other06\Music.m3u\
+10:33:35 2 sUnformattedPath=Other01\Other02\Other03\Other04\Other05\Other06\Music.m3u\
+10:33:35 3 sUnformattedPath=Other01\Other02\Other03\Other04\Other05\Other06\Music.m3u\
+10:33:35 Check folder >>>  I:\WEB\HTTP\erich\Smart_TV\Data\Other01\Other02\Other03\Other04\Other05\Other06\Music.m3u\
+10:33:35 sRootFolderDOS   =I:\WEB\HTTP\erich\Smart_TV\Data\
+10:33:35 sCurrentFldrDOS  =Other01\Other02\Other03\Other04\Other05\Other06\Music.m3u\
+10:33:35 sFolderType=.M3U
+10:33:35 function fnPictureBox - - - - - - - - - - - - - - - -*
+10:33:35 oFldCurrent.path=I:\WEB\HTTP\erich\Smart_TV\Data\Other01\Other02\Other03\Other04\Other05\Other06\Music.m3u\
+10:33:35 sTemplateFileName=I:\WEB\HTTP\erich\Smart_TV\Data\..\ASP\fnTypeM3U_template.html
+10:33:35 Ubound(arrSections)=8
+10:33:35 UBound=7
+10:33:35 
+10:33:35 sBreadCrumbsRelPathDOS=Other01\
+10:33:35 sBreadCrumbsRelPathDOS=Other01\Other02\
+10:33:35 sBreadCrumbsRelPathDOS=Other01\Other02\Other03\
+10:33:35 sBreadCrumbsRelPathDOS=Other01\Other02\Other03\Other04\
+10:33:35 sBreadCrumbsRelPathDOS=Other01\Other02\Other03\Other04\Other05\
+10:33:35 sBreadCrumbsRelPathDOS=Other01\Other02\Other03\Other04\Other05\Other06\
+10:33:35 sBreadCrumbsRelPathDOS=Other01\Other02\Other03\Other04\Other05\Other06\Music.m3u\
+10:33:35 ./Data/Other01/Other02/Other03/Other04/Other05/Other06/Music.m3u/AAABBBCCC/FolderIcon.png
+10:33:35 @@@@@@@@@@ a-beep's.mp3 @@@@@@@@@@@@@@
+10:33:35 @@@@@@@@@@ Beethoven-MoonlightSonata.mp3 @@@@@@@@@@@@@@
+10:33:35 @@@@@@@@@@ chopin_nocturne_no20_in_c_sharp_minor opposth.mp3 @@@@@@@@@@@@@@
+10:33:35 @@@@@@@@@@ joshua_bell_voice_of_the_violin_una_furtiva_lagrima.mp3 @@@@@@@@@@@@@@
+10:33:53 0 sRootFolderDOS=I:\WEB\HTTP\erich\Smart_TV\Data\
+10:33:53 1 sUnformattedPath=Other01\Other02\Other03\Other04\Other05\Other06\Music.m3u\
+10:33:53 2 sUnformattedPath=Other01\Other02\Other03\Other04\Other05\Other06\Music.m3u\
+10:33:53 3 sUnformattedPath=Other01\Other02\Other03\Other04\Other05\Other06\Music.m3u\
+10:33:53 Check folder >>>  I:\WEB\HTTP\erich\Smart_TV\Data\Other01\Other02\Other03\Other04\Other05\Other06\Music.m3u\
+10:33:53 sRootFolderDOS   =I:\WEB\HTTP\erich\Smart_TV\Data\
+10:33:53 sCurrentFldrDOS  =Other01\Other02\Other03\Other04\Other05\Other06\Music.m3u\
+10:33:53 sFolderType=.M3U
+10:33:53 function fnPictureBox - - - - - - - - - - - - - - - -*
+10:33:53 oFldCurrent.path=I:\WEB\HTTP\erich\Smart_TV\Data\Other01\Other02\Other03\Other04\Other05\Other06\Music.m3u\
+10:33:53 sTemplateFileName=I:\WEB\HTTP\erich\Smart_TV\Data\..\ASP\fnTypeM3U_template.html
+10:33:53 Ubound(arrSections)=8
+10:33:53 UBound=7
+10:33:53 
+10:33:53 sBreadCrumbsRelPathDOS=Other01\
+10:33:53 sBreadCrumbsRelPathDOS=Other01\Other02\
+10:33:53 sBreadCrumbsRelPathDOS=Other01\Other02\Other03\
+10:33:53 sBreadCrumbsRelPathDOS=Other01\Other02\Other03\Other04\
+10:33:53 sBreadCrumbsRelPathDOS=Other01\Other02\Other03\Other04\Other05\
+10:33:53 sBreadCrumbsRelPathDOS=Other01\Other02\Other03\Other04\Other05\Other06\
+10:33:53 sBreadCrumbsRelPathDOS=Other01\Other02\Other03\Other04\Other05\Other06\Music.m3u\
+10:33:53 ./Data/Other01/Other02/Other03/Other04/Other05/Other06/Music.m3u/AAABBBCCC/FolderIcon.png
+10:33:53 @@@@@@@@@@ a-beep's.mp3 @@@@@@@@@@@@@@
+10:33:53 @@@@@@@@@@ Beethoven-MoonlightSonata.mp3 @@@@@@@@@@@@@@
+10:33:53 @@@@@@@@@@ chopin_nocturne_no20_in_c_sharp_minor opposth.mp3 @@@@@@@@@@@@@@
+10:33:53 @@@@@@@@@@ joshua_bell_voice_of_the_violin_una_furtiva_lagrima.mp3 @@@@@@@@@@@@@@
+10:34:11 0 sRootFolderDOS=I:\WEB\HTTP\erich\Smart_TV\Data\
+10:34:11 1 sUnformattedPath=Other01\Other02\Other03\Other04\Other05\Other06\Music.m3u\
+10:34:11 2 sUnformattedPath=Other01\Other02\Other03\Other04\Other05\Other06\Music.m3u\
+10:34:11 3 sUnformattedPath=Other01\Other02\Other03\Other04\Other05\Other06\Music.m3u\
+10:34:11 Check folder >>>  I:\WEB\HTTP\erich\Smart_TV\Data\Other01\Other02\Other03\Other04\Other05\Other06\Music.m3u\
+10:34:11 sRootFolderDOS   =I:\WEB\HTTP\erich\Smart_TV\Data\
+10:34:11 sCurrentFldrDOS  =Other01\Other02\Other03\Other04\Other05\Other06\Music.m3u\
+10:34:11 sFolderType=.M3U
+10:34:11 function fnPictureBox - - - - - - - - - - - - - - - -*
+10:34:11 oFldCurrent.path=I:\WEB\HTTP\erich\Smart_TV\Data\Other01\Other02\Other03\Other04\Other05\Other06\Music.m3u\
+10:34:11 sTemplateFileName=I:\WEB\HTTP\erich\Smart_TV\Data\..\ASP\fnTypeM3U_template.html
+10:34:11 Ubound(arrSections)=8
+10:34:11 UBound=7
+10:34:11 
+10:34:11 sBreadCrumbsRelPathDOS=Other01\
+10:34:11 sBreadCrumbsRelPathDOS=Other01\Other02\
+10:34:11 sBreadCrumbsRelPathDOS=Other01\Other02\Other03\
+10:34:11 sBreadCrumbsRelPathDOS=Other01\Other02\Other03\Other04\
+10:34:11 sBreadCrumbsRelPathDOS=Other01\Other02\Other03\Other04\Other05\
+10:34:11 sBreadCrumbsRelPathDOS=Other01\Other02\Other03\Other04\Other05\Other06\
+10:34:11 sBreadCrumbsRelPathDOS=Other01\Other02\Other03\Other04\Other05\Other06\Music.m3u\
+10:34:11 ./Data/Other01/Other02/Other03/Other04/Other05/Other06/Music.m3u/AAABBBCCC/FolderIcon.png
+10:34:11 @@@@@@@@@@ a-beep's.mp3 @@@@@@@@@@@@@@
+10:34:11 @@@@@@@@@@ Beethoven-MoonlightSonata.mp3 @@@@@@@@@@@@@@
+10:34:11 @@@@@@@@@@ chopin_nocturne_no20_in_c_sharp_minor opposth.mp3 @@@@@@@@@@@@@@
+10:34:11 @@@@@@@@@@ joshua_bell_voice_of_the_violin_una_furtiva_lagrima.mp3 @@@@@@@@@@@@@@
+10:34:12 0 sRootFolderDOS=I:\WEB\HTTP\erich\Smart_TV\Data\
+10:34:12 1 sUnformattedPath=Other01\Other02\Other03\Other04\Other05\Other06\Music.m3u\
+10:34:12 2 sUnformattedPath=Other01\Other02\Other03\Other04\Other05\Other06\Music.m3u\
+10:34:12 3 sUnformattedPath=Other01\Other02\Other03\Other04\Other05\Other06\Music.m3u\
+10:34:12 Check folder >>>  I:\WEB\HTTP\erich\Smart_TV\Data\Other01\Other02\Other03\Other04\Other05\Other06\Music.m3u\
+10:34:12 sRootFolderDOS   =I:\WEB\HTTP\erich\Smart_TV\Data\
+10:34:12 sCurrentFldrDOS  =Other01\Other02\Other03\Other04\Other05\Other06\Music.m3u\
+10:34:12 sFolderType=.M3U
+10:34:12 function fnPictureBox - - - - - - - - - - - - - - - -*
+10:34:12 oFldCurrent.path=I:\WEB\HTTP\erich\Smart_TV\Data\Other01\Other02\Other03\Other04\Other05\Other06\Music.m3u\
+10:34:12 sTemplateFileName=I:\WEB\HTTP\erich\Smart_TV\Data\..\ASP\fnTypeM3U_template.html
+10:34:12 Ubound(arrSections)=8
+10:34:12 UBound=7
+10:34:12 
+10:34:12 sBreadCrumbsRelPathDOS=Other01\
+10:34:12 sBreadCrumbsRelPathDOS=Other01\Other02\
+10:34:12 sBreadCrumbsRelPathDOS=Other01\Other02\Other03\
+10:34:12 sBreadCrumbsRelPathDOS=Other01\Other02\Other03\Other04\
+10:34:12 sBreadCrumbsRelPathDOS=Other01\Other02\Other03\Other04\Other05\
+10:34:12 sBreadCrumbsRelPathDOS=Other01\Other02\Other03\Other04\Other05\Other06\
+10:34:12 sBreadCrumbsRelPathDOS=Other01\Other02\Other03\Other04\Other05\Other06\Music.m3u\
+10:34:12 ./Data/Other01/Other02/Other03/Other04/Other05/Other06/Music.m3u/AAABBBCCC/FolderIcon.png
+10:34:12 @@@@@@@@@@ a-beep's.mp3 @@@@@@@@@@@@@@
+10:34:12 @@@@@@@@@@ Beethoven-MoonlightSonata.mp3 @@@@@@@@@@@@@@
+10:34:12 @@@@@@@@@@ chopin_nocturne_no20_in_c_sharp_minor opposth.mp3 @@@@@@@@@@@@@@
+10:34:12 @@@@@@@@@@ joshua_bell_voice_of_the_violin_una_furtiva_lagrima.mp3 @@@@@@@@@@@@@@
+10:37:24 0 sRootFolderDOS=I:\WEB\HTTP\erich\Smart_TV\Data\
+10:37:24 1 sUnformattedPath=Other01\Other02\Other03\Other04\Other05\Other06\Music.m3u\
+10:37:24 2 sUnformattedPath=Other01\Other02\Other03\Other04\Other05\Other06\Music.m3u\
+10:37:24 3 sUnformattedPath=Other01\Other02\Other03\Other04\Other05\Other06\Music.m3u\
+10:37:24 Check folder >>>  I:\WEB\HTTP\erich\Smart_TV\Data\Other01\Other02\Other03\Other04\Other05\Other06\Music.m3u\
+10:37:24 sRootFolderDOS   =I:\WEB\HTTP\erich\Smart_TV\Data\
+10:37:24 sCurrentFldrDOS  =Other01\Other02\Other03\Other04\Other05\Other06\Music.m3u\
+10:37:25 sFolderType=.M3U
+10:37:25 function fnPictureBox - - - - - - - - - - - - - - - -*
+10:37:25 oFldCurrent.path=I:\WEB\HTTP\erich\Smart_TV\Data\Other01\Other02\Other03\Other04\Other05\Other06\Music.m3u\
+10:37:25 sTemplateFileName=I:\WEB\HTTP\erich\Smart_TV\Data\..\ASP\fnTypeM3U_template.html
+10:37:25 Ubound(arrSections)=8
+10:37:25 UBound=7
+10:37:25 
+10:37:25 sBreadCrumbsRelPathDOS=Other01\
+10:37:25 sBreadCrumbsRelPathDOS=Other01\Other02\
+10:37:25 sBreadCrumbsRelPathDOS=Other01\Other02\Other03\
+10:37:25 sBreadCrumbsRelPathDOS=Other01\Other02\Other03\Other04\
+10:37:25 sBreadCrumbsRelPathDOS=Other01\Other02\Other03\Other04\Other05\
+10:37:25 sBreadCrumbsRelPathDOS=Other01\Other02\Other03\Other04\Other05\Other06\
+10:37:25 sBreadCrumbsRelPathDOS=Other01\Other02\Other03\Other04\Other05\Other06\Music.m3u\
+10:37:25 ./Data/Other01/Other02/Other03/Other04/Other05/Other06/Music.m3u/AAABBBCCC/FolderIcon.png
+10:37:25 @@@@@@@@@@ a-beep's.mp3 @@@@@@@@@@@@@@
+10:37:25 @@@@@@@@@@ Beethoven-MoonlightSonata.mp3 @@@@@@@@@@@@@@
+10:37:25 @@@@@@@@@@ chopin_nocturne_no20_in_c_sharp_minor opposth.mp3 @@@@@@@@@@@@@@
+10:37:25 @@@@@@@@@@ joshua_bell_voice_of_the_violin_una_furtiva_lagrima.mp3 @@@@@@@@@@@@@@
+10:37:35 0 sRootFolderDOS=I:\WEB\HTTP\erich\Smart_TV\Data\
+10:37:35 1 sUnformattedPath=Other01\Other02\Other03\Other04\Other05\Other06\Music.m3u\
+10:37:35 2 sUnformattedPath=Other01\Other02\Other03\Other04\Other05\Other06\Music.m3u\
+10:37:35 3 sUnformattedPath=Other01\Other02\Other03\Other04\Other05\Other06\Music.m3u\
+10:37:35 Check folder >>>  I:\WEB\HTTP\erich\Smart_TV\Data\Other01\Other02\Other03\Other04\Other05\Other06\Music.m3u\
+10:37:35 sRootFolderDOS   =I:\WEB\HTTP\erich\Smart_TV\Data\
+10:37:35 sCurrentFldrDOS  =Other01\Other02\Other03\Other04\Other05\Other06\Music.m3u\
+10:37:35 sFolderType=.M3U
+10:37:35 function fnPictureBox - - - - - - - - - - - - - - - -*
+10:37:35 oFldCurrent.path=I:\WEB\HTTP\erich\Smart_TV\Data\Other01\Other02\Other03\Other04\Other05\Other06\Music.m3u\
+10:37:35 sTemplateFileName=I:\WEB\HTTP\erich\Smart_TV\Data\..\ASP\fnTypeM3U_template.html
+10:37:35 Ubound(arrSections)=8
+10:37:35 UBound=7
+10:37:35 
+10:37:35 sBreadCrumbsRelPathDOS=Other01\
+10:37:35 sBreadCrumbsRelPathDOS=Other01\Other02\
+10:37:35 sBreadCrumbsRelPathDOS=Other01\Other02\Other03\
+10:37:35 sBreadCrumbsRelPathDOS=Other01\Other02\Other03\Other04\
+10:37:35 sBreadCrumbsRelPathDOS=Other01\Other02\Other03\Other04\Other05\
+10:37:35 sBreadCrumbsRelPathDOS=Other01\Other02\Other03\Other04\Other05\Other06\
+10:37:35 sBreadCrumbsRelPathDOS=Other01\Other02\Other03\Other04\Other05\Other06\Music.m3u\
+10:37:35 ./Data/Other01/Other02/Other03/Other04/Other05/Other06/Music.m3u/AAABBBCCC/FolderIcon.png
+10:37:35 @@@@@@@@@@ a-beep's.mp3 @@@@@@@@@@@@@@
+10:37:35 @@@@@@@@@@ Beethoven-MoonlightSonata.mp3 @@@@@@@@@@@@@@
+10:37:35 @@@@@@@@@@ chopin_nocturne_no20_in_c_sharp_minor opposth.mp3 @@@@@@@@@@@@@@
+10:37:35 @@@@@@@@@@ joshua_bell_voice_of_the_violin_una_furtiva_lagrima.mp3 @@@@@@@@@@@@@@
+10:37:49 0 sRootFolderDOS=I:\WEB\HTTP\erich\Smart_TV\Data\
+10:37:49 1 sUnformattedPath=Other01\Other02\Other03\Other04\Other05\Other06\Music.m3u\
+10:37:49 2 sUnformattedPath=Other01\Other02\Other03\Other04\Other05\Other06\Music.m3u\
+10:37:49 3 sUnformattedPath=Other01\Other02\Other03\Other04\Other05\Other06\Music.m3u\
+10:37:49 Check folder >>>  I:\WEB\HTTP\erich\Smart_TV\Data\Other01\Other02\Other03\Other04\Other05\Other06\Music.m3u\
+10:37:49 sRootFolderDOS   =I:\WEB\HTTP\erich\Smart_TV\Data\
+10:37:49 sCurrentFldrDOS  =Other01\Other02\Other03\Other04\Other05\Other06\Music.m3u\
+10:37:49 sFolderType=.M3U
+10:37:49 function fnPictureBox - - - - - - - - - - - - - - - -*
+10:37:49 oFldCurrent.path=I:\WEB\HTTP\erich\Smart_TV\Data\Other01\Other02\Other03\Other04\Other05\Other06\Music.m3u\
+10:37:49 sTemplateFileName=I:\WEB\HTTP\erich\Smart_TV\Data\..\ASP\fnTypeM3U_template.html
+10:37:49 Ubound(arrSections)=8
+10:37:49 UBound=7
+10:37:49 
+10:37:49 sBreadCrumbsRelPathDOS=Other01\
+10:37:49 sBreadCrumbsRelPathDOS=Other01\Other02\
+10:37:49 sBreadCrumbsRelPathDOS=Other01\Other02\Other03\
+10:37:49 sBreadCrumbsRelPathDOS=Other01\Other02\Other03\Other04\
+10:37:49 sBreadCrumbsRelPathDOS=Other01\Other02\Other03\Other04\Other05\
+10:37:49 sBreadCrumbsRelPathDOS=Other01\Other02\Other03\Other04\Other05\Other06\
+10:37:49 sBreadCrumbsRelPathDOS=Other01\Other02\Other03\Other04\Other05\Other06\Music.m3u\
+10:37:49 ./Data/Other01/Other02/Other03/Other04/Other05/Other06/Music.m3u/AAABBBCCC/FolderIcon.png
+10:37:49 @@@@@@@@@@ a-beep's.mp3 @@@@@@@@@@@@@@
+10:37:49 @@@@@@@@@@ Beethoven-MoonlightSonata.mp3 @@@@@@@@@@@@@@
+10:37:49 @@@@@@@@@@ chopin_nocturne_no20_in_c_sharp_minor opposth.mp3 @@@@@@@@@@@@@@
+10:37:49 @@@@@@@@@@ joshua_bell_voice_of_the_violin_una_furtiva_lagrima.mp3 @@@@@@@@@@@@@@
