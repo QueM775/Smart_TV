@@ -1,7 +1,7 @@
+<!-- Section 00 -->
 <!DOCTYPE html>
 <html lang="en">
 <!-- fnTypePdf_template.html START -->
-<!-- This is our Pdf Page -->
 <html>
 <head>
   <meta charset="utf-8">
@@ -10,93 +10,103 @@
   <link rel="stylesheet" type="text/css" href="CSS/jquery.fancybox.min.css">
   <script src="JS/jquery-3.2.1.min.js"></script>  
 </head>
-<body class="clsBodyOther">
 
+<body class="clsBodyOther">
    <div class="clsLeft"> <!-- clsLeft Begins -->
-       <div class='clsSectionBorder'><!-- BreadCrumb SECTION Begin -->
-           <a href="default.asp?fld=\" class="clsBreadCrumbs">ROOT </a>
+
+
+
+
+       <div class='clsSectionBorder clsSectionBorder_decor' style='background:url(./IMG/christmas-tree-icon.png) no-repeat top right -200px; height:480px; overflow: auto;'>
+        <!-- BreadCrumb SECTION Begin -->
+           <a href="default.asp?fld=\" class="clsBreadCrumbs">ROOT </a><br/>
             <!-- SplitMarker -->
-            <!-- Section 01 begin -->
-            <a href="default.asp?fld=@BreadCrumbHref" class="clsBreadCrumbs">@BreadCrumbTitle </a>
-            <!-- Section 01 end -->
+<!-- Section 01 -->
+           <a href="default.asp?fld=@BreadCrumbHref" class="clsBreadCrumbs" title='@BreadCrumbPipUp'>
+           <img src='./IMG/folder-up-icon.png' style='width:40px;height:40px;'>
+                @BreadCrumbText
+          </a>
             <!-- SplitMarker -->
+<!-- Section 02 -->
        </div><!-- BreadCrumb SECTION End -->
+
+
+            <!-- SplitMarker -->
+<!-- Section 03 -->
+
+
+
        <div class='clsSectionBorder'><!-- SubFolder SECTION Begin -->
            <!-- SplitMarker -->
-           <!-- Section 02 begin -->
-           <a href='?fld=@FldName'>
-           <div class="clsFolderMedalion">
-               <img src='../IMG/FolderIcon.png' width='90'>
-               <p class='clsFolderTitle'>@FldTitle</p>
-           </div>
-           </a>
-           <!-- Section 02 End -->
+<!-- Section 04 begin -->
+<a href="?fld=@FldName\" style="text-decoration: none;">
+    <span class="clsSubFolderListItem">
+        <img src="@SubFolderIcon" class='clsSubFolderIcon'>
+        <span class='clsFolderTitle'>
+          @FldTitle
+        </span>
+        <br/>
+    </span>
+   </a>
            <!-- SplitMarker -->
+<!-- Section 05 -->
        </div><!-- SubFolder SECTION End -->
+
+
+            <!-- SplitMarker -->
+<!-- Section 06 begin -->
+
+
+
+
+
    </div><!-- clsLeft End -->
+
+
+
+
+
+
+
+
+
+
 
 <div class="clsRight"> <!-- clsRight Begins --> 
     <div class='clsSectionBorder'><!-- PDF SECTION Begin -->
         <!-- SplitMarker -->
-        <a data-fancybox data-width='1280' href='Data\@PdfName'>
+
+
+<!-- Section 07 -->
+   <a data-fancybox data-width='480' href='Data\@PdfName'>
         <div class='clsPdfContainer'>
             <div class='clsPdfPosterBox'>
                 <img src='IMG\pdf-logo.png' class='clsPdfPosterPic'>
             </div>
-             <span class='clsPdfTitle'>
-                 <h1>@PdfTitle</h1>
-             </span>
+             <div class='clsPdfTitle'>
+                @PdfTitle
+             </div>
         </div>
         </a>
         <!-- SplitMarker -->
-     </div><!-- PDF SECTION End -->
+
+
+
+<!-- Section 08 -->
+    </div><!-- PDF SECTION End -->
 </div><!-- clsRight End -->
+
+
+
+
+
+
+
 <!-- SplitMarker -->
-   <script src="JS/jquery.fancybox.min.js"></script>
+<!-- Section 09 -->
+<script src="JS/jquery.fancybox.min.js"></script>
    <!-- Keep these so the gradient displays properly -->
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
+
 </body>
 </html>
 <!-- fnTypePdf_template.html END -->

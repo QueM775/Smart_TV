@@ -133,10 +133,10 @@
     border-color: #7e947d;
     background-color: #ecde55;
     box-shadow: 5px 5px 5px grey;
-    padding-left: 5px;
+   /* padding-left: 5px;
     padding-top: 5px;
     margin-left: 15px;
-    margin-bottom: 15px;
+    margin-bottom: 15px;*/  /* rem'd out EQ Dec18*/
     text-align: center;
   }
 
@@ -175,7 +175,7 @@
     font-family: Arial;
     text-decoration: none;
     line-height: 1.6; /*Mike 2019-12-08@20:45:19 */
-    /* float: left; */ /* Mike 2019-12-08@20:40:39 */
+    /*float: left;*/ /* Mike 2019-12-08@20:40:39*/
     background-color: #62d8f3;
   }
   
@@ -229,33 +229,33 @@
   }
 
   .clsPdfContainer {
-    display: block;
-    width:  150px;
-    height: 250px;
-    border:solid 3px #ff0000; 
-    border-radius:10px;
-    padding: 10px;
-    margin: 5px;
-    background-color: #ffc4ce;
-    float: left;
-    box-shadow: 5px 5px 5px grey;
+    border: solid #2f9fff 5px;
+    border-radius: 12px;
+    font-size: 33px;
+    vertical-align: middle;
+    margin: 20px 5px 10px 5px;
+    padding: 7px;
   }
 
   .clsPdfPosterBox{
-    width: 98%;
+    width: 20%;
     border-radius: 5px;
     margin: 0px;
     padding: 0px;
   }
+  .clsPdfTitle{
+    display: table-cell;
+    height: 120px;
+    vertical-align: middle;
+  }
 
   .clsPdfPosterPic{
-    /* height: 310px; */
-    max-height: 180px; 
-    max-width: 145px;
-    border-radius: 5px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+    float: left;
+    /* border:  solid green 2px; */
+    border-radius: 10px;
+    display: box;
+    height: 120px;
+    margin-right: 25px;
   }
 
   .clsMovieContainer{

@@ -33,32 +33,65 @@ function fnListOfPDF(sRootFldrDOS, sCurrentFldrDOS)
 
   sDynamicBreadCrumbs = ""
   arrBreadCrumbs = Split(sCurrentFldrDOS, "\")
-  LW ("UBound=" & UBound(arrBreadCrumbs))
+  LW (" EQ UBound=" & UBound(arrBreadCrumbs))
+  sHtmlLeftHeader = arrSections(0)
+  sHtmlLeftTopLoop = arrSections(1)
+  sHtmlLeftTopClose = arrSections(2) 
+  sHtmlLeftBottomOpen = arrSections(3)
+  sHtmlLeftBottomLoop = arrSections(4)
+  sHtmlLeftBottomClose = arrSections(5) 
+  sHtmlLeftClose = arrSections(6)
+  sHtmlRightLoop = arrSections(7)
+  sHtmlRightClose = arrSections(8)
+  sHtmlPageClose = arrSections(9)
+  ' 
+  '
+  ' Show uppaer folders list
+  '
   sBreadCrumbsRelPathDOS = ""
   For iIdx=0 To UBound(arrBreadCrumbs) - 1
     sBreadCrumbsRelPathDOS = sBreadCrumbsRelPathDOS & arrBreadCrumbs(iIdx) & "\"
+    sDynamicAlignment = "<br/>"
+    ' I added the line above Dec 19. Erich 
+
     LW("sBreadCrumbsRelPathDOS=" & sBreadCrumbsRelPathDOS)
-    sBrCru = arrSections(1)
+    sBrCru = sHtmlLeftTopLoop
     sBrCru = Replace(sBrCru, "@BreadCrumbHref", sBreadCrumbsRelPathDOS)
-    sBrCru = Replace(sBrCru, "@BreadCrumbTitle", arrBreadCrumbs(iIdx))
-    sDynamicBreadCrumbs = sDynamicBreadCrumbs & sBrCru
+   'sBrCru = Replace(sBrCru, "@BreadCrumbTitle", arrBreadCrumbs(iIdx))
+    sBrCru = Replace(sBrCru, "@BreadCrumbText", left(arrBreadCrumbs(iIdx), 30))
+    sBrCru = Replace(sBrCru, "@BreadCrumbPipUp", arrBreadCrumbs(iIdx))
+    ' I changed the 2 lines above Dec 19. Erich
+    sDynamicBreadCrumbs = sDynamicBreadCrumbs & sBrCru & sDynamicAlignment
   Next
 
 
   sDynaHtmlFolder = ""
   For Each oSubFolderCurr in oFldCurrent.SubFolders
+  sFolderIcon = fnCheckFolderIcon(sRootFldrDOS, sCurrentFldrDOS, oSubFolderCurr.Name)
     'Response.Write(oSubFolderCurr.Name & oSubFolderCurr.Name & "</br>")
     '
     ' Create current chunk of HTML code based on the template and current file name
-    sCurrentHtml = Replace(arrSections(3), "@FldName", sCurrentFldrDOS & oSubFolderCurr.Name)
-    sCurrentHtml = Replace(sCurrentHtml,   "@FldTitle", oSubFolderCurr.Name)
+    'sCurrentHtml = Replace(sHtmlBottomOpen, "@FldName", sCurrentFldrDOS & oSubFolderCurr.Name)
+    'sCurrentHtml = Replace(sCurrentHtml,   "@FldTitle", oSubFolderCurr.Name)
+    'sCurrentHtml = Replace(sCurrentHtml, "@SubFolderIcon", sFolderIcon)
+    sHtmlLeftBottomCurrent = Replace(sHtmlLeftBottomLoop, "@FldName",  sCurrentFldrDOS & oSubFolderCurr.Name)
+    sHtmlLeftBottomCurrent = Replace(sHtmlLeftBottomCurrent,   "@FldTitle", oSubFolderCurr.Name)
+    sHtmlLeftBottomCurrent = Replace(sHtmlLeftBottomCurrent, "@SubFolderIcon", sFolderIcon)
+    '
+    ' I added the line above Dec 18. Erich
     '
     ' Add dynamically created HTML code to the rest of the HTML page
     'Response.Write("<b>AAAA</b></br>")
-    sDynaHtmlFolder = sDynaHtmlFolder & sCurrentHtml
+    'sDynaHtmlFolder = sDynaHtmlFolder & sCurrentHtml EQ
+    sDynaHtmlFolder = sDynaHtmlFolder & sHtmlLeftBottomCurrent
   Next
-  '
-  '
+  ' Erich  Dec. 19 
+  ' Do not show LEFT-BOTTOM DIV with subfolders if it is empty
+    If sDynaHtmlFolder = "" Then
+       sHtmlLeftBottomOpen = ""
+       sHtmlLeftBottomClose = ""
+    End If
+
   sDynaHtmlPDF = ""
   For Each oFileCurr in oFldCurrent.Files
     'Response.Write ("oFileCurr.Name=" & oFileCurr.Name & "</br>")
@@ -66,7 +99,7 @@ function fnListOfPDF(sRootFldrDOS, sCurrentFldrDOS)
     If UCase(sFileExt) = ".PDF" Then
       '
       ' Create current chunk of HTML code based on the template and current file name
-      sCurrentHtml = Replace(arrSections(5), "@PdfName",  sCurrentFldrDOS & oFileCurr.Name)
+      sCurrentHtml = Replace(sHtmlRightLoop, "@PdfName",  sCurrentFldrDOS & oFileCurr.Name)
       sCurrentHtml = Replace(sCurrentHtml,   "@PdfTitle", oFileCurr.Name)
       '
       ' Add dynamically created HTML code to the rest of the HTML page
@@ -75,7 +108,19 @@ function fnListOfPDF(sRootFldrDOS, sCurrentFldrDOS)
     End If
   Next
   'response.write("</br>")
-  '              http-header         BreadCrumbs           buffer          Sub-Folders       buffer           PDF-icons        Suffix
-  fnListOfPDF = arrSections(0) &  sDynamicBreadCrumbs & arrSections(2) & sDynaHtmlFolder & arrSections(4) & sDynaHtmlPDF & arrSections(6) & arrSections(UBound(arrSections))
+  
+  
+  fnListOfPDF = sHtmlLeftHeader & _
+                sDynamicBreadCrumbs & _ 
+                sHtmlLeftTopClose & _ 
+                sHtmlLeftBottomOpen & _
+                sDynaHtmlFolder & _ 
+                sHtmlLeftBottomClose & _ 
+                sHtmlLeftClose & _
+                sDynaHtmlPDF & _ 
+                sHtmlRightClose & _
+                sHtmlPageClose
 end function
+
+
 %>
