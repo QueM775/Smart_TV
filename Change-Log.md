@@ -83,3 +83,6 @@ template file, just temporary link ```"music.css"``` and ```"AudioPlayerA.js"```
 
 Getting ready for the Christmas release v1.0.
 Only one folder type (PDF) left untouched.
+
+I have updated all the files that were modified to create Release V1.0. Thanks Mike for all the code you developed to  make this possible.
+
