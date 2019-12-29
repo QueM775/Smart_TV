@@ -85,7 +85,7 @@
      border-color: #ff0000;
      margin: auto;
      margin-bottom: 25px;
-     padding: 10px 0px 10px 25px ;
+     padding: 10px 0px 10px 10px ;
      box-shadow: 5px 5px 15px 5px rgba(204,0,0,0.64);
      }
 
@@ -217,15 +217,38 @@
     padding-right: 25px;
     padding-top: 35px;
     padding-bottom: 10px;
+    margin-left: 15px;
     /* background-image: linear-gradient(#7e947d,#bbc58c); */ 
     background-image: url(../IMG/xmass-player-background.jpg);
-    width: 600px;
+    display: inline-block;
+    width: 98%;
+  }
+
+  .clsPlayerLeft{
+    border:solid orange 0px; /* this is for debug purpose, change 0px to 3px to see the border */
+    margin-right:5px;
+    display: block;
+    width:59%;
+    float: left;
+  }
+
+  .clsPlayerRight{
+    border:dotted pink 0px; /* this is for debug purpose, change 0px to 3px to see the border */ 
+    margin-right:5px;
+    display: block;
+    width:25%
+    float: left;
+  }
+
+  .clsAlbumCoverImage{
+    width:39%;
+    border-radius:10px;
   }
 
   .clsAudioTitle{
     padding-left: 25px;
     font-size: 40px;
-    display: flex;
+    display: block;
   }
 
   .clsPdfContainer {

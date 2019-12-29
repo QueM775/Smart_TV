@@ -52,14 +52,19 @@
         
         <!-- M3U SECTION Begin -->
         <div ID="MainPly" class='clsSectionBorder'>
-            <div style='width: 651px; display: block; float: left;'>
+            <div id='idPlayerLeft' class='clsPlayerLeft' >
+              <div style='width: 651px; display: block; float: left;'>
                 <audio id='idAudioPlayer' preload='auto' tabindex='0' controls="controls" volume="0.7" type='audio/mpeg'>
-                    <source type='audio/mp3' src=''>
-                     Sorry, your browser does not support HTML5 audio.
+                  <source type='audio/mp3' src=''>
+                  Sorry, your browser does not support HTML5 audio.
                 </audio>
+              </div>
+              <div>
+              <span id='idCurrentSongTitle' class='clsAudioTitle'></span>
+              </div>
             </div>
-            <div>
-            <span id='idCurrentSongTitle' class='clsAudioTitle'></span>
+            <div id='idPlayerRight' class='clsPlayerRight'>
+              <img src='@AlbumCover' class='clsAlbumCoverImage'>
             </div>
         </div>
         <!-- M3U SECTION End -->

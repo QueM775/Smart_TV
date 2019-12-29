@@ -76,6 +76,22 @@ function fnListOfM3U(sRootFldrDOS, sCurrentFldrDOS)
     sHtmlLeftBottomClose = ""
   End If
   '
+  ' Show album cover
+  arrFolders = Split(sRootFldrDOS & sCurrentFldrDOS, "\")
+  sCurrentFldrShort = arrFolders(UBound(arrFolders)-1)
+  sCurrentFldrName = Left(sCurrentFldrShort, Len(sCurrentFldrShort) - 4) 'potential error if folder extention will be more/less then 4 char long
+  sCurrentAlbumCoverFileName = sRootFldrDOS & sCurrentFldrDOS & sCurrentFldrName & ".jpg" 
+  set fso=Server.CreateObject("Scripting.FileSystemObject")
+  If (fso.FileExists(sCurrentAlbumCoverFileName)) Then
+    sResult = "./Data/" & sCurrentFldrDOS & sCurrentFldrName & ".jpg"
+  Else
+    sResult = "./IMG/music-general-wallpaper.jpg"
+  End If
+  LW("%%% sResult=" & sResult)
+  set fso=Nothing
+
+  sHtmlPlayer = Replace(sHtmlPlayer, "@AlbumCover", sResult) 
+  '
   '
   ' Load list of MP3 files from current folder
   '
@@ -117,6 +133,7 @@ function fnCheckFolderIcon(sRootFldrDOS, sCurrentFldrDOS, sSubFolderName)
   End If
   sResult = Replace(sResult, "\", "/")
   LW (sResult)
+  set fso = Nothing
   fnCheckFolderIcon = sResult
 end function
 
