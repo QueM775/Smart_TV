@@ -5,7 +5,10 @@
 function LW(sMessage)
   Dim fs,f
   Const Appending=8
-
+ '
+ '
+ ' just a comment
+ '
   set fs=Server.CreateObject("Scripting.FileSystemObject")
   set f=fs.OpenTextFile(Server.MapPath("===LogFile===.log"), Appending, true)
   f.WriteLine(fnCUrrentDateTime() & " " & fnClientIP() & " " & sMessage)
