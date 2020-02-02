@@ -9,12 +9,12 @@
  }
  
  body {
-  /* background: linear-gradient(#62d8f3, #9cd8dd); */
+  /* background: linear-gradient(#AB987A, #C0B3A0); */
   /* Mike 2019-12-08@21:05:22 */
-  background: -webkit-linear-gradient(center top , #62d8f3, #9cd8dd);
-  background:    -moz-linear-gradient(center top , #62d8f3, #9cd8dd);
-  background:     -ms-linear-gradient(center top , #62d8f3, #9cd8dd);
-  background:      -o-linear-gradient(center top , #62d8f3, #9cd8dd);
+  background: -webkit-linear-gradient(center top , #AB987A, #C0B3A0);
+  background:    -moz-linear-gradient(center top , #AB987A, #C0B3A0);
+  background:     -ms-linear-gradient(center top , #AB987A, #C0B3A0);
+  background:      -o-linear-gradient(center top , #AB987A, #C0B3A0);
   font-family: Arial, Helvetica, sans-serif;
   font-size: 1.4em;
   background-attachment: fixed;
@@ -23,7 +23,7 @@
 /*Parent Div Left and Right*/
 .clsLeft{
   border: none;
-  border-color: #1e88e5;
+  border-color: #967759;
   width:33%;
   float: left;
 }
@@ -82,11 +82,11 @@
      border-width: 5px; 
      border-radius: 10px;
      overflow: hidden;
-     border-color: #ff0000;
+     border-color: #c09f80;
      margin: auto;
      margin-bottom: 25px;
      padding: 10px 0px 10px 10px ;
-     box-shadow: 5px 5px 15px 5px rgba(204,0,0,0.64);
+     box-shadow: 5px 5px 15px 5px rgba(150,119,89);
      }
 
     .clsSectionBorder_decor{ /* Mike 2019-12-09@10:33:37 */
@@ -98,12 +98,12 @@
      border-width: 5px;
      border-radius: 15px;
      overflow: auto;
-     border-color: #ff0000;
+     border-color: #c09f80;
      display: box;
      margin: auto;
      padding: 5px;
-     background: linear-gradient(#63d8f2, #9bd8dd);
-     box-shadow: 5px 5px 15px 5px rgba(204,0,0,0.64);
+     background: linear-gradient(#AB987A, #C0B3A0);
+     box-shadow: 5px 5px 15px 5px rgba(150, 119, 89);
      float: left;
    }
    
@@ -154,7 +154,7 @@
   
   .clsBodyOther{
     /* background-color: #fffbdd; */
-    background-image: linear-gradient(to bottom, #62d8f3, #9cd8dd);
+    background-image: linear-gradient(to bottom, #AB987A, #C0B3A0);
     }
   
   .clsFolderTitle{
@@ -176,19 +176,19 @@
     text-decoration: none;
     line-height: 1.6; /*Mike 2019-12-08@20:45:19 */
     /*float: left;*/ /* Mike 2019-12-08@20:40:39*/
-    background-color: #62d8f3;
+    background-color: #dbbda0;
   }
   
   .clsPicContainer {
     display: block;
     width:  150px;
     height: 250px;
-    border:solid 3px #00ff71; 
+    border:solid 3px #967759; 
     border-radius:10px;
     overflow: hidden;
     padding: 10px;
     margin: 5px;
-    background-image: url(../IMG/xmass-player-background.jpg);
+    background-image: url(../IMG/Bckgrd2.png);
     float: left;
     box-shadow: 5px 5px 5px grey;
   }
@@ -201,6 +201,9 @@
     -moz-transform: scale(1.05);
     transform: scale(1.05);
   }
+#idAudioPlayer{
+    
+}
 
   audio{
     -webkit-transition:all 0.5s linear;
@@ -215,18 +218,18 @@
     border-radius:7px 7px 7px 7px ;
     padding-left: 25px;
     padding-right: 25px;
-    padding-top: 35px;
+    padding-top: 10px;
     padding-bottom: 10px;
     margin-left: 15px;
     /* background-image: linear-gradient(#7e947d,#bbc58c); */ 
-    background-image: url(../IMG/xmass-player-background.jpg);
+    background-image: url(../IMG/bkgrd2.png);
     display: inline-block;
     width: 98%;
   }
 
   .clsPlayerLeft{
     border:solid orange 0px; /* this is for debug purpose, change 0px to 3px to see the border */
-    margin-right:5px;
+    margin:0px;
     display: block;
     width:59%;
     float: left;
@@ -234,25 +237,27 @@
 
   .clsPlayerRight{
     border:dotted pink 0px; /* this is for debug purpose, change 0px to 3px to see the border */ 
-    margin-right:5px;
+    margin:5px;
     display: block;
-    width:25%
-    float: left;
+    width:15%
+    float: right;
   }
 
   .clsAlbumCoverImage{
-    width:39%;
-    border-radius:10px;
+    width:20%;
+    margin-right:25px;
+    float:right;
   }
 
   .clsAudioTitle{
+    padding-top: 15px;
     padding-left: 25px;
     font-size: 40px;
     display: block;
   }
 
   .clsPdfContainer {
-    border: solid #2f9fff 5px;
+    border: solid #967759 5px;
     border-radius: 12px;
     font-size: 33px;
     vertical-align: middle;
@@ -282,7 +287,7 @@
   }
 
   .clsMovieContainer{
-    border: solid #2f9fff 5px;
+    border: solid #967759 5px;
     border-radius: 12px;
     font-size: 33px;
     vertical-align: middle;

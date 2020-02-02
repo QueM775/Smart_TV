@@ -15,7 +15,7 @@
 <body class="clsBodyOther" onload='fnPageOnLoad()'>
     <div class="clsLeft"> <!-- clsLeft Begins -->
 
-         <div class='clsSectionBorder clsSectionBorder_decor' style='background:url(./IMG/christmas-tree-icon.png) no-repeat top right -200px; height:480px; overflow: auto;'>
+         <div class='clsSectionBorder clsSectionBorder_decor' style='background:url(./IMG/bkgrnd.png) no-repeat top right -200px; height:480px; overflow: auto;'>
           <!--BreadCrumb SECTION Begin  -->
             <a href="default.asp?fld=\" class="clsBreadCrumbs">ROOT</a><br />
             <!-- SplitMarker -->
@@ -53,18 +53,16 @@
         <!-- M3U SECTION Begin -->
         <div ID="MainPly" class='clsSectionBorder'>
             <div id='idPlayerLeft' class='clsPlayerLeft' >
-              <div style='width: 651px; display: block; float: left;'>
                 <audio id='idAudioPlayer' preload='auto' tabindex='0' controls="controls" volume="0.7" type='audio/mpeg'>
                   <source type='audio/mp3' src=''>
                   Sorry, your browser does not support HTML5 audio.
                 </audio>
-              </div>
               <div>
-              <span id='idCurrentSongTitle' class='clsAudioTitle'></span>
+              <span id='idCurrentSongTitle' class='clsAudioTitle'></span> <!-- The song being played -->
               </div>
             </div>
             <div id='idPlayerRight' class='clsPlayerRight'>
-              <img src='@AlbumCover' class='clsAlbumCoverImage'>
+              <img src='@AlbumCover' class='clsAlbumCoverImage'> <!-- This is the album image -->
             </div>
         </div>
         <!-- M3U SECTION End -->
